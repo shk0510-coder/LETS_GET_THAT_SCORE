@@ -1,0 +1,358 @@
+{
+  "testId": "test5",
+  "title": "TOEFL Reading Practice — Test 5",
+  "modules": [
+    {
+      "title": "Public Health Messaging and Vaccine Uptake",
+      "completeWords": {
+        "paragraph": "Public health campaigns often assume that providing facts will automatically change behavior, but vaccine uptake is shaped by trust and perceived risk. Messages that simply repeat myths can backf___ (1) by increasing familiarity, so communicators recommend ‘truth sandwiches’ that lead with accurate information. Another factor is message sou___ (2): people weigh claims differently depending on whether they come from a clinician, a community leader, or social media. Risk perception is also asymm___ (3); rare side effects may feel more sali___ (4) than common benefits. To address this, campaigns may use comparative framing and emphasize social n___ (5), showing that most neighbors are vaccinated. However, heavy-handed tactics can trigger reac___ (6), a pushback against perceived coercion. Effective outreach therefore involves dial___ (7), listening, and acknowledging uncertainty while explaining why the overall evidence is robust. Researchers also analyze access barriers: even willing individuals may face logistical obst___ (8) such as limited clinic hours or transportation. In many studies, reducing fri___ (9)—through reminders, mobile clinics, and default appointments—improves uptake more than persuasive slogans. Ultimately, programs that combine credible mess___ (10), respectful communication, and convenient delivery tend to perform best.",
+        "answers": [
+          "backfire",
+          "source",
+          "asymmetric",
+          "salient",
+          "norms",
+          "reactance",
+          "dialogue",
+          "obstacles",
+          "friction",
+          "messengers"
+        ],
+        "explanations": [
+          "Repeating myths can backfire; ‘backf___’ completes the common verb.\nCommon wrong: backfill (wrong)",
+          "‘Message source’ refers to who delivers the information.\nCommon wrong: sour (spelling/meaning)",
+          "Risk perception is not balanced; ‘asymm___’ completes asymmetric.\nCommon wrong: symmetry (wrong form)",
+          "Salient means especially noticeable; side effects can feel salient.\nCommon wrong: silent (opposite)",
+          "Social norms refer to what most people do.\nCommon wrong: names (wrong)",
+          "Reactance is the psychological pushback against coercion.\nCommon wrong: reaction (too general)",
+          "Dialogue implies two-way conversation, not lecturing.\nCommon wrong: dialect (wrong)",
+          "Logistical obstacles hinder access even when willingness exists.\nCommon wrong: obstetrics (different)",
+          "Friction refers to small hassles that reduce follow-through.\nCommon wrong: fiction (wrong)",
+          "Credible messengers are trusted sources delivering messages.\nCommon wrong: messages (different)"
+        ]
+      },
+      "dailyLife": {
+        "notice": {
+          "label": "NOTICE",
+          "text": "Community Clinic Update: Walk-in vaccinations are available Saturdays 10 a.m.–2 p.m. To reduce wait times, patients may book a 15-minute window online. Please bring an ID if you have one, but lack of identification will not prevent service. After vaccination, remain in the observation area for 15 minutes.",
+          "questions": [
+            {
+              "number": 11,
+              "question": "What is one purpose of booking a window online?",
+              "choices": [
+                "To limit service to weekdays",
+                "To make ID mandatory",
+                "To reduce wait times",
+                "To avoid the observation period"
+              ],
+              "answerIndex": 2,
+              "explanation": "It says booking online reduces wait times.\nWhy (D) is wrong: Observation is still required.\nWhy (B) is wrong: It says ID is not required.\nWhy (A) is wrong: Service is on Saturdays."
+            },
+            {
+              "number": 12,
+              "question": "What does the notice say about identification?",
+              "choices": [
+                "ID is helpful but not required",
+                "ID is required or service is denied",
+                "ID must be uploaded 24 hours early",
+                "Only students can be vaccinated"
+              ],
+              "answerIndex": 0,
+              "explanation": "It states ‘bring an ID if you have one’ but lack of ID will not prevent service.\nWhy (B) is wrong: Contradicts notice.\nWhy (D) is wrong: No student-only rule.\nWhy (C) is wrong: No upload requirement."
+            }
+          ]
+        },
+        "post": {
+          "label": "POST",
+          "text": "@HealthDept: If you’re unsure about a vaccine, talk to someone you trust—your doctor, a pharmacist, or a community nurse. Online rumors spread fast, but your questions deserve real answers. Mobile clinic schedule posted on our page.",
+          "questions": [
+            {
+              "number": 13,
+              "question": "What is the main purpose of the post?",
+              "choices": [
+                "To argue that vaccines should be optional only for athletes",
+                "To encourage people to consult trusted professionals and share clinic info",
+                "To announce that rumors are always true",
+                "To discourage people from asking questions"
+              ],
+              "answerIndex": 1,
+              "explanation": "It encourages consulting trusted professionals and provides access information (mobile schedule).\nWhy (D) is wrong: It encourages questions.\nWhy (C) is wrong: It calls rumors unreliable.\nWhy (A) is wrong: Athletes are not mentioned."
+            },
+            {
+              "number": 14,
+              "question": "Why does the post mention mobile clinic schedules?",
+              "choices": [
+                "To suggest people should avoid clinics",
+                "To replace professional advice with schedules",
+                "To imply clinics are closing",
+                "To show that access is available and convenient"
+              ],
+              "answerIndex": 3,
+              "explanation": "Mentioning schedules supports reducing access barriers by showing where/when to get vaccinated.\nWhy (C) is wrong: It says schedules are posted, not closures.\nWhy (A) is wrong: It promotes clinics, not avoidance.\nWhy (B) is wrong: It pairs advice with access, not replacing it."
+            }
+          ]
+        },
+        "message": {
+          "label": "MESSAGE",
+          "text": "Hi Auntie—thanks for sharing your concerns. I read the official guidance and asked my pharmacist. The serious side effects are very rare, but the risk from the illness is higher for older adults. If you want, I can go with you to the mobile clinic on Saturday so you don’t have to go alone.",
+          "questions": [
+            {
+              "number": 15,
+              "question": "What is the writer mainly trying to do?",
+              "choices": [
+                "Claim side effects are impossible",
+                "Provide reassurance with credible sources and offer practical help",
+                "Pressure the reader by mocking them",
+                "Refuse to discuss vaccines"
+              ],
+              "answerIndex": 1,
+              "explanation": "They cite official guidance and a pharmacist, compare risks, and offer to accompany them.\nWhy (C) is wrong: The tone is supportive, not mocking.\nWhy (D) is wrong: They discuss it directly.\nWhy (A) is wrong: They say rare, not impossible."
+            }
+          ]
+        }
+      },
+      "academicPassage": {
+        "title": "Why Access and Trust Often Matter More Than Arguments",
+        "passage": "Attempts to increase vaccination rates frequently focus on persuasion: providing statistics, correcting misinformation, or emphasizing moral responsibility. These strategies can help, but they often underperform when mistrust and access barriers are the primary obstacles. Surveys show that some hesitant individuals are not strongly opposed; instead, they are uncertain, busy, or disconnected from reliable health services.\n\nResearch on behavioral ‘friction’ suggests that small hassles can have large effects. Complicated appointment systems, limited clinic hours, and confusing eligibility rules reduce follow-through even among people who intend to get vaccinated. Interventions such as reminders, walk-in options, and default appointments have repeatedly improved uptake by simplifying the last step.\n\nTrust operates similarly. People evaluate claims partly based on who delivers them. A message from a distant authority may be ignored, while a conversation with a local clinician or community leader can change perceived risk. Importantly, heavy-handed mandates can backfire by triggering reactance, especially in communities with a history of negative institutional experiences.\n\nEffective programs therefore combine convenient delivery with respectful communication. The goal is not to ‘win’ an argument, but to make the healthy choice easy, credible, and socially supported.",
+        "questions": [
+          {
+            "number": 16,
+            "question": "What does the passage suggest about persuasion-focused strategies?",
+            "choices": [
+              "They always work when statistics are provided",
+              "They are unnecessary because mandates solve everything",
+              "They can help but may fail when mistrust and access are the bigger issues",
+              "They are illegal in public health"
+            ],
+            "answerIndex": 2,
+            "explanation": "It says persuasion can help but often underperforms when mistrust/access barriers dominate.\nWhy (A) is wrong: It does not claim always.\nWhy (D) is wrong: No illegality claim.\nWhy (B) is wrong: It warns mandates can backfire."
+          },
+          {
+            "number": 17,
+            "question": "What does ‘friction’ refer to in the passage?",
+            "choices": [
+              "Physical rubbing between surfaces",
+              "A legal restriction on clinic hours",
+              "A type of vaccine ingredient",
+              "Small hassles that reduce follow-through"
+            ],
+            "answerIndex": 3,
+            "explanation": "Friction is defined as small hassles that reduce follow-through.\nWhy (A) is wrong: Not literal physics here.\nWhy (C) is wrong: No ingredient discussed.\nWhy (B) is wrong: Not a legal term here."
+          },
+          {
+            "number": 18,
+            "question": "Which intervention is presented as reducing friction?",
+            "choices": [
+              "Making appointment systems more complex",
+              "Providing reminders and walk-in options",
+              "Avoiding conversations with clinicians",
+              "Eliminating clinic hours"
+            ],
+            "answerIndex": 1,
+            "explanation": "Reminders, walk-ins, and default appointments are cited as simplifying the last step.\nWhy (A) is wrong: Opposite of reducing friction.\nWhy (D) is wrong: Clinic hours are expanded/simplified, not eliminated.\nWhy (C) is wrong: Conversations are encouraged via trusted messengers."
+          },
+          {
+            "number": 19,
+            "question": "Why might mandates backfire, according to the passage?",
+            "choices": [
+              "They can trigger reactance in some communities",
+              "They reduce access to clinics",
+              "They make vaccines less effective",
+              "They increase trust automatically"
+            ],
+            "answerIndex": 0,
+            "explanation": "It says heavy-handed mandates can trigger reactance, especially with negative institutional histories.\nWhy (D) is wrong: It says mandates may reduce trust, not increase it.\nWhy (B) is wrong: Not about reducing access.\nWhy (C) is wrong: Effectiveness is not changed; behavior is."
+          },
+          {
+            "number": 20,
+            "question": "What is the author’s main point?",
+            "choices": [
+              "Programs work best when they combine access improvements with trusted communication",
+              "Local clinicians should replace all public health agencies",
+              "Winning arguments is the best strategy",
+              "Misinformation is the only cause of hesitancy"
+            ],
+            "answerIndex": 0,
+            "explanation": "The passage concludes that combining convenience with credible, respectful communication is most effective.\nWhy (C) is wrong: It rejects ‘win an argument’ framing.\nWhy (D) is wrong: It presents multiple causes.\nWhy (B) is wrong: It does not advocate replacing agencies entirely."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Biodegradable Polymers and Performance Limits",
+      "completeWords": {
+        "paragraph": "Biodegradable plastics are often presented as a simple rem___ (1) for pollution, but their impact depends on conditions and end-of-life handling. Many items labeled ‘compostable’ require indus___ (2) facilities with high temperature and controlled humidity; in landfills, degrad___ (3) may be extremely slow. Polylactic acid (PLA) is derived from renewable feedstocks, yet it can be brit___ (4) and may deform under heat. To improve toughness, engineers blend polymers or add plast___ (5), but additives can alter degradation pathways and raise toxicity concerns. Researchers also test how materials frag___ (6): if a product breaks into micro-sized pieces without fully miner___ (7), it may still contribute to microplastic burdens. Therefore, standards increasingly demand evidence of complete biodeg___ (8) to CO2, water, and biomass under specified conditions. A central trade-off is between durab___ (9) during use and reactivity after disposal. Ultimately, biodegradable materials can help in targeted applications, but they are not a substitute for reducing overall cons___ (10).",
+        "answers": [
+          "remedy",
+          "industrial",
+          "degradation",
+          "brittle",
+          "plasticizers",
+          "fragment",
+          "mineralizing",
+          "biodegradation",
+          "durability",
+          "consumption"
+        ],
+        "explanations": [
+          "Means solution; fits ‘simple remedy for pollution’.\nCommon wrong: remedying (wrong form)",
+          "Industrial composting facilities; standard requirement.\nCommon wrong: industry (wrong form)",
+          "Process of breaking down; landfills slow degradation.\nCommon wrong: degrade (verb)",
+          "PLA can be brittle; describes fragility.\nCommon wrong: brutal (wrong)",
+          "Additives that increase flexibility; common term.\nCommon wrong: plastics (too general)",
+          "Verb meaning break into pieces; describes what materials do.\nCommon wrong: fragrant (wrong)",
+          "Full mineralization means to CO2/water/biomass; key concept.\nCommon wrong: minimizing (wrong)",
+          "Complete biodegradation to basic products; required by standards.\nCommon wrong: biodegrade (verb)",
+          "Ability to last during use; trade-off with disposal reactivity.\nCommon wrong: durable (adj)",
+          "Overall plastic consumption; final claim.\nCommon wrong: consummation (wrong)"
+        ]
+      },
+      "dailyLife": {
+        "notice": {
+          "label": "NOTICE",
+          "text": "Materials Lab Notice: Samples labeled ‘compostable’ must not be placed in regular trash bins. Use the designated collection container so the disposal conditions can be documented. Unlabeled or mixed samples will be treated as conventional plastics and sent to general waste.",
+          "questions": [
+            {
+              "number": 11,
+              "question": "Why must compostable samples use the designated container?",
+              "choices": [
+                "To increase brittleness",
+                "To document disposal conditions",
+                "To avoid all documentation",
+                "To make the lab smell better"
+              ],
+              "answerIndex": 1,
+              "explanation": "The notice says the container is used so disposal conditions can be documented.\nWhy (D) is wrong: Odor is not mentioned.\nWhy (A) is wrong: Brittleness is unrelated.\nWhy (C) is wrong: It emphasizes documentation."
+            },
+            {
+              "number": 12,
+              "question": "What happens to unlabeled or mixed samples?",
+              "choices": [
+                "They are automatically recycled",
+                "They are composted in the lab sink",
+                "They are stored indefinitely",
+                "They are treated as conventional plastics and sent to general waste"
+              ],
+              "answerIndex": 3,
+              "explanation": "It states unlabeled/mixed samples will be treated as conventional plastics and sent to general waste.\nWhy (A) is wrong: Automatic recycling is not stated.\nWhy (B) is wrong: No sink composting.\nWhy (C) is wrong: No indefinite storage."
+            }
+          ]
+        },
+        "post": {
+          "label": "POST",
+          "text": "@SustainabilityDept: ‘Compostable’ doesn’t mean ‘disappears anywhere.’ If your city doesn’t have industrial composting, these items may behave like regular plastic. Check local facilities before switching packaging materials.",
+          "questions": [
+            {
+              "number": 13,
+              "question": "What is the main message of the post?",
+              "choices": [
+                "Compostable items may require industrial facilities and local infrastructure matters",
+                "All packaging should be banned",
+                "Industrial composting is harmful",
+                "Compostable items always biodegrade quickly in landfills"
+              ],
+              "answerIndex": 0,
+              "explanation": "It clarifies that compostable depends on industrial processing and infrastructure.\nWhy (D) is wrong: It says the opposite—doesn’t disappear anywhere.\nWhy (B) is wrong: No ban is proposed.\nWhy (C) is wrong: It does not claim industrial composting is harmful."
+            },
+            {
+              "number": 14,
+              "question": "Why does the post tell readers to check local facilities?",
+              "choices": [
+                "Because compostable labels are illegal",
+                "Because packaging has no environmental impact",
+                "Because biodegradation depends on available end-of-life processing",
+                "Because local facilities can prevent heat deformation"
+              ],
+              "answerIndex": 2,
+              "explanation": "It emphasizes that outcomes depend on whether industrial composting exists locally.\nWhy (A) is wrong: No illegality claim.\nWhy (B) is wrong: It says packaging choices matter.\nWhy (D) is wrong: Heat deformation is a material property, not the reason to check facilities."
+            }
+          ]
+        },
+        "message": {
+          "label": "MESSAGE",
+          "text": "Hi team—marketing wants to label the new cup ‘eco-friendly,’ but our PLA blend only meets composting standards under industrial conditions. Can we adjust the claim to specify ‘industrial composting required’ and avoid implying it biodegrades in nature?",
+          "questions": [
+            {
+              "number": 15,
+              "question": "What is the writer mainly requesting?",
+              "choices": [
+                "To make the marketing claim more accurate and specific",
+                "To switch to glass immediately",
+                "To remove all labels from products",
+                "To claim the cup biodegrades in the ocean"
+              ],
+              "answerIndex": 0,
+              "explanation": "They want labeling that specifies industrial composting requirements and avoids misleading claims.\nWhy (C) is wrong: They are not removing all labels.\nWhy (B) is wrong: No immediate switch to glass is requested.\nWhy (D) is wrong: They explicitly want to avoid implying biodegradation in nature."
+            }
+          ]
+        }
+      },
+      "academicPassage": {
+        "title": "Why ‘Biodegradable’ Is Not a Single Property",
+        "passage": "Consumers often interpret ‘biodegradable’ as a guarantee that a product will safely vanish in any environment. In materials science, however, biodegradation is defined by specific chemical endpoints—typically conversion to CO2, water, and biomass—under specified conditions. A polymer that breaks into small fragments may look degraded, yet still persist as microplastics if mineralization does not occur.\n\nThese distinctions are crucial because biodegradable polymers must satisfy conflicting design goals. Packaging should remain stable during shipping, storage, and use, resisting heat and moisture. After disposal, the same material must become reactive enough for microbes or enzymes to break it down efficiently. Engineers address this tension by blending polymers, adding plasticizers, or embedding catalysts that activate only in composting environments. Each strategy introduces trade-offs: additives can leach, blends can complicate recycling streams, and specialized disposal requirements can fail when infrastructure is absent.\n\nTherefore, experts argue that biodegradable plastics should be deployed selectively, where collection and processing are realistic and where they clearly replace harder-to-manage waste. Even then, they caution that material innovation cannot substitute for reducing overall consumption and improving waste management systems.",
+        "questions": [
+          {
+            "number": 16,
+            "question": "Why does the author say ‘biodegradable’ is not a guarantee?",
+            "choices": [
+              "Because microplastics are never formed",
+              "Because consumers always read standards",
+              "Because all biodegradable plastics are toxic",
+              "Because biodegradation has specific endpoints and conditions"
+            ],
+            "answerIndex": 3,
+            "explanation": "It explains biodegradation is defined by chemical endpoints under specified conditions, not everywhere.\nWhy (C) is wrong: Toxicity is not universally claimed.\nWhy (A) is wrong: It says microplastics can be formed.\nWhy (B) is wrong: It implies consumers often misunderstand."
+          },
+          {
+            "number": 17,
+            "question": "What problem does fragmentation without mineralization create?",
+            "choices": [
+              "It guarantees composting success",
+              "It improves recycling streams",
+              "It can leave persistent microplastics despite visible breakdown",
+              "It eliminates microplastics"
+            ],
+            "answerIndex": 2,
+            "explanation": "Visible fragmentation can still leave microplastics if full mineralization does not occur.\nWhy (D) is wrong: It says the opposite.\nWhy (A) is wrong: It does not guarantee composting success.\nWhy (B) is wrong: It says blends can complicate recycling."
+          },
+          {
+            "number": 18,
+            "question": "What tension in design goals is described?",
+            "choices": [
+              "Materials must be heavier to biodegrade",
+              "Materials must be stable during use but reactive after disposal",
+              "Materials must be unstable during use but stable after disposal",
+              "Materials must avoid microbes entirely"
+            ],
+            "answerIndex": 1,
+            "explanation": "Packaging must resist heat/moisture during use, then become reactive after disposal—conflicting goals.\nWhy (C) is wrong: Reversed.\nWhy (A) is wrong: Weight is not central.\nWhy (D) is wrong: It requires microbes/enzymes after disposal, not avoidance."
+          },
+          {
+            "number": 19,
+            "question": "Which challenge is mentioned when disposal infrastructure is absent?",
+            "choices": [
+              "Specialized requirements may fail, limiting biodegradation",
+              "Recycling becomes simpler",
+              "Additives become free energy sources",
+              "Microbes stop existing"
+            ],
+            "answerIndex": 0,
+            "explanation": "It says specialized disposal requirements can fail when infrastructure is absent.\nWhy (C) is wrong: No claim about free energy sources.\nWhy (B) is wrong: It says recycling can be complicated.\nWhy (D) is wrong: Microbes are not eliminated."
+          },
+          {
+            "number": 20,
+            "question": "What is the author’s overall recommendation?",
+            "choices": [
+              "Focus only on labeling, not systems",
+              "Deploy biodegradable plastics selectively and still reduce overall consumption",
+              "Use biodegradable plastics everywhere immediately",
+              "Stop all materials research"
+            ],
+            "answerIndex": 1,
+            "explanation": "The passage recommends selective deployment plus reducing consumption and improving systems.\nWhy (C) is wrong: It argues against universal deployment.\nWhy (D) is wrong: It supports research with caution.\nWhy (A) is wrong: It emphasizes systems, not just labeling."
+          }
+        ]
+      }
+    }
+  ]
+}

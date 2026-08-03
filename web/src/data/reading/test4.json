@@ -1,0 +1,358 @@
+{
+  "testId": "test4",
+  "title": "TOEFL Reading Practice — Test 4",
+  "modules": [
+    {
+      "title": "Sleep, Memory Consolidation, and Interference",
+      "completeWords": {
+        "paragraph": "Sleep researchers distinguish between memory encoding, consoli___ (1), and retrieval. During certain sleep stages, the brain replays neural patterns associated with recent learning, which may strengthen syna___ (2) connections. Slow-wave sleep is often linked to declarative memory, whereas REM sleep may support emotional processing and creat___ (3) integration. However, findings are not always consistent, partly because experiments differ in task design and in how they control for prior sleep debt. One challenge is interfe___ (4): new information learned after training can compete with earlier traces. Studies that reduce interference—by limiting additional study or by using targeted memory reacti___ (5) cues—sometimes show larger sleep benefits. Researchers also note that naps can improve performance, but effects depend on nap length and on whether the nap includes slow-wave activity. From a practical perspective, sleep quality may matter as much as duration, since frequent awakenings can frag___ (6) sleep architecture. Thus, claims about ‘sleep boosting learning’ should specify which memory type, which sleep stage, and which measu___ (7) was used. In applied settings like classrooms, interventions must also be feasible and ethically acc___ (8). Overall, the evidence supports a role for sleep in consolidation, but the magnitude varies with context and indivi___ (9) differences. Future work aims to clarify mechanisms using wearable sensors and more ecologically vali___ (10) tasks.",
+        "answers": [
+          "consolidation",
+          "synaptic",
+          "creative",
+          "interference",
+          "reactivation",
+          "fragment",
+          "measure",
+          "acceptable",
+          "individual",
+          "valid"
+        ],
+        "explanations": [
+          "Standard term; fits triad encoding-consolidation-retrieval.\nCommon wrong: consolation (different word)",
+          "Describes connections between neurons; synaptic connections.\nCommon wrong: synoptic (wrong)",
+          "REM linked to creative integration.\nCommon wrong: creation (noun)",
+          "Competition between memories; key concept.\nCommon wrong: interfering (verb)",
+          "Targeted memory reactivation is a known method.\nCommon wrong: re-activity (wrong)",
+          "Frequent awakenings can fragment sleep architecture.\nCommon wrong: fragrant (wrong)",
+          "Refers to metric used; ‘which measure’.\nCommon wrong: measurement (could fit but blank cues shorter)",
+          "Ethically acceptable; fits applied interventions.\nCommon wrong: accessible (different meaning)",
+          "Individual differences; standard phrase.\nCommon wrong: individually (adv)",
+          "Ecologically valid tasks; standard phrase.\nCommon wrong: vivid (different)"
+        ]
+      },
+      "dailyLife": {
+        "notice": {
+          "label": "NOTICE",
+          "text": "Participant Reminder: For the sleep study, avoid caffeine after 2 p.m. on recording days. Also, do not nap on the afternoon of your lab visit, since naps can change slow-wave activity. If you accidentally nap, report it on the compliance form rather than leaving the item blank.",
+          "questions": [
+            {
+              "number": 11,
+              "question": "Why are participants told not to nap before the lab visit?",
+              "choices": [
+                "Naps increase equipment noise",
+                "Naps can change slow-wave activity",
+                "Naps are required for the study",
+                "Naps make caffeine ineffective"
+              ],
+              "answerIndex": 1,
+              "explanation": "The notice states naps can alter slow-wave activity, affecting results.\nWhy (D) is wrong: Caffeine is addressed separately.\nWhy (C) is wrong: It says do not nap, not that naps are required.\nWhy (A) is wrong: Noise is not mentioned."
+            },
+            {
+              "number": 12,
+              "question": "What should participants do if they accidentally nap?",
+              "choices": [
+                "Drink coffee to compensate",
+                "Cancel participation immediately",
+                "Report it on the compliance form",
+                "Hide it to avoid being removed"
+              ],
+              "answerIndex": 2,
+              "explanation": "It says to report accidental naps rather than leaving the item blank.\nWhy (B) is wrong: Cancellation is not required.\nWhy (D) is wrong: It encourages honest reporting, not hiding.\nWhy (A) is wrong: Drinking coffee is not suggested."
+            }
+          ]
+        },
+        "post": {
+          "label": "POST",
+          "text": "@NeuroStudyTips: If you want to remember what you study, stop ‘cramming and scrolling’ right afterward. Interference matters. Even a short break—walk, shower, quiet music—can protect new memories before sleep.",
+          "questions": [
+            {
+              "number": 13,
+              "question": "What is the main advice in the post?",
+              "choices": [
+                "Use social media to reinforce learning",
+                "Avoid interference after studying to protect memory",
+                "Sleep is irrelevant to memory",
+                "Study only at night"
+              ],
+              "answerIndex": 1,
+              "explanation": "It warns against immediate distractions and emphasizes interference.\nWhy (D) is wrong: It does not restrict study time to night.\nWhy (A) is wrong: Scrolling is discouraged.\nWhy (C) is wrong: Sleep is implied as important."
+            },
+            {
+              "number": 14,
+              "question": "Why does the post mention a short break after studying?",
+              "choices": [
+                "To increase interference",
+                "To replace sleep",
+                "To encourage multitasking",
+                "To reduce competing information and protect new memories"
+              ],
+              "answerIndex": 3,
+              "explanation": "A break reduces competing inputs, making consolidation more likely.\nWhy (A) is wrong: Opposite of stated purpose.\nWhy (B) is wrong: Breaks complement, not replace, sleep.\nWhy (C) is wrong: It discourages multitasking."
+            }
+          ]
+        },
+        "message": {
+          "label": "MESSAGE",
+          "text": "Hi Dr. Cho—after the vocabulary session, half the class did a second lesson on similar words. Could that have reduced the sleep benefit by increasing interference? If so, I’ll redesign the schedule to separate topics.",
+          "questions": [
+            {
+              "number": 15,
+              "question": "What is the writer asking about?",
+              "choices": [
+                "Whether vocabulary is too easy",
+                "Whether similar words are illegal to teach",
+                "Whether sleep studies require caffeine",
+                "Whether interference from a second lesson reduced sleep benefits"
+              ],
+              "answerIndex": 3,
+              "explanation": "They suspect the second lesson created interference that reduced sleep-related gains.\nWhy (A) is wrong: Difficulty is not asked about.\nWhy (C) is wrong: Caffeine is not mentioned.\nWhy (B) is wrong: Nothing about illegality."
+            }
+          ]
+        }
+      },
+      "academicPassage": {
+        "title": "When Sleep Helps—and When It Doesn’t",
+        "passage": "Popular articles often claim that sleeping after studying ‘locks in’ learning, but the research is more conditional. Many experiments show that performance improves after sleep compared with an equal period awake, suggesting a role for consolidation. Yet the size of the benefit depends on what happens before and after sleep.\n\nOne major factor is interference. If participants learn new, similar material soon after training, the original memory trace can be weakened. Sleep may protect memories partly by reducing exposure to competing information. Accordingly, studies that control participants’ post-learning activities often find stronger effects than studies conducted in realistic settings where people continue to work, socialize, and use digital media.\n\nAnother factor is sleep architecture. Fragmented sleep can reduce slow-wave activity, which is associated with stabilizing certain kinds of declarative memories. Short naps sometimes help, but only when they contain sufficient slow-wave sleep. Finally, individual differences matter: stress, chronotype, and prior sleep debt can all influence outcomes.\n\nTaken together, the evidence supports a genuine contribution of sleep to memory, while also explaining why some individuals experience little improvement. Rather than promising guaranteed gains, scientists increasingly emphasize designing schedules that minimize interference and support consistent sleep quality.",
+        "questions": [
+          {
+            "number": 16,
+            "question": "What does the passage claim about sleep and learning?",
+            "choices": [
+              "Sleep can help, but the benefit depends on conditions",
+              "Sleep always guarantees improvement",
+              "Only naps affect learning",
+              "Sleep harms memory in most cases"
+            ],
+            "answerIndex": 0,
+            "explanation": "It says benefits exist but are conditional on interference, sleep architecture, and individual differences.\nWhy (B) is wrong: It rejects guaranteed gains.\nWhy (D) is wrong: It does not say sleep harms memory in most cases.\nWhy (C) is wrong: It discusses nighttime sleep and naps."
+          },
+          {
+            "number": 17,
+            "question": "Why does the author emphasize interference?",
+            "choices": [
+              "Because interference increases slow-wave sleep",
+              "Because interference is the same as sleep debt",
+              "Because interference can weaken memory traces and reduce apparent sleep benefits",
+              "Because interference is irrelevant in real life"
+            ],
+            "answerIndex": 2,
+            "explanation": "Interference from similar learning can weaken traces; sleep may help partly by reducing competing input.\nWhy (B) is wrong: They are different concepts.\nWhy (A) is wrong: Interference does not increase slow-wave sleep per se.\nWhy (D) is wrong: It says real life has more interference, which can reduce effects."
+          },
+          {
+            "number": 18,
+            "question": "What is suggested about fragmented sleep?",
+            "choices": [
+              "It has no effect on memory",
+              "It can reduce slow-wave activity linked to stabilizing some memories",
+              "It increases consolidation by adding more REM",
+              "It eliminates individual differences"
+            ],
+            "answerIndex": 1,
+            "explanation": "It states fragmented sleep can reduce slow-wave activity tied to stabilizing declarative memories.\nWhy (C) is wrong: It says fragmentation reduces slow-wave, not increases consolidation.\nWhy (A) is wrong: It explicitly says it can influence outcomes.\nWhy (D) is wrong: It says individual differences still matter."
+          },
+          {
+            "number": 19,
+            "question": "Which statement about naps is supported?",
+            "choices": [
+              "Naps help only if they include enough slow-wave sleep",
+              "Naps replace the need for nighttime sleep",
+              "Naps work only for emotional memories",
+              "Any nap improves memory equally"
+            ],
+            "answerIndex": 0,
+            "explanation": "It notes short naps help only when they contain sufficient slow-wave sleep.\nWhy (D) is wrong: It rejects ‘any nap equally’.\nWhy (C) is wrong: Emotional memories are not the only case mentioned.\nWhy (B) is wrong: Naps complement but do not replace night sleep."
+          },
+          {
+            "number": 20,
+            "question": "What is the main purpose of the final paragraph?",
+            "choices": [
+              "To summarize why results vary and recommend practical scheduling principles",
+              "To argue that guarantees are possible",
+              "To criticize digital media companies",
+              "To claim consolidation is a myth"
+            ],
+            "answerIndex": 0,
+            "explanation": "It synthesizes reasons for variability and recommends minimizing interference and maintaining sleep quality.\nWhy (B) is wrong: It rejects guarantees.\nWhy (C) is wrong: Digital media is only an example, not the focus.\nWhy (D) is wrong: It affirms consolidation is genuine."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Grid-Scale Energy Storage and Trade-offs",
+      "completeWords": {
+        "paragraph": "As renewable generation expands, grid operators must manage variability and maintain frequency stab___ (1). Because solar and wind output can fluctuate, storage can buffer supply and reduce reliance on peaking plants. Yet technologies differ in round-trip eff___ (2), capital cost, and lifecycle emissions. Lithium-ion systems respond quickly but degr___ (3) with temperature and repeated cycling, leading to capacity fade. Flow batteries separate power from energy, enabling longer dur___ (4), although they may require larger physical footp___ (5) and specialized electrolytes. Pumped-hydro storage is mature and can deliver multi-hour output, but it depends on suitable geog___ (6) and can face permitting del___ (7). To compare options, planners evaluate levelized cost and the value of ancillary ser___ (8) such as voltage support. Since no single solution fits every grid, many regions pursue a portf___ (9) approach. Policy incentives can speed deployment, but supply-chain constraints and recycling infra___ (10) must also be considered.",
+        "answers": [
+          "stability",
+          "efficiency",
+          "degrade",
+          "duration",
+          "footprints",
+          "geography",
+          "delays",
+          "services",
+          "portfolio",
+          "infrastructure"
+        ],
+        "explanations": [
+          "‘Frequency stability’ is a standard grid requirement; the sentence pairs it with variability management.\nCommon wrong: stabilty (spelling)",
+          "Round-trip efficiency is a key metric for storage losses.\nCommon wrong: efficacy (different meaning)",
+          "Batteries degrade with heat and cycling; verb fits the sentence.\nCommon wrong: degenerate (wrong nuance)",
+          "Flow batteries support longer duration; common planning term.\nCommon wrong: durability (different)",
+          "Physical footprint refers to land/space requirements.\nCommon wrong: footprints (missing s)",
+          "Pumped hydro depends on terrain/water elevation differences.\nCommon wrong: geometry (wrong)",
+          "Permitting delays are common barriers.\nCommon wrong: delights (wrong)",
+          "Ancillary services include voltage/frequency support.\nCommon wrong: servants (wrong)",
+          "Portfolio approach means mix of technologies.\nCommon wrong: portfolia (wrong)",
+          "Recycling infrastructure supports end-of-life handling.\nCommon wrong: infra (too vague)"
+        ]
+      },
+      "dailyLife": {
+        "notice": {
+          "label": "NOTICE",
+          "text": "Energy Lab Safety Notice: The battery testing room will be offline Thursday for ventilation maintenance. All charging cycles must be paused by 5 p.m. Wednesday. Samples left connected overnight will be disconnected by staff, and any automated scripts may be terminated without saving logs.",
+          "questions": [
+            {
+              "number": 11,
+              "question": "What must researchers do by 5 p.m. Wednesday?",
+              "choices": [
+                "Pause all charging cycles",
+                "Move the ventilation system",
+                "Delete their scripts",
+                "Start new charging cycles"
+              ],
+              "answerIndex": 0,
+              "explanation": "It says all charging cycles must be paused by that time.\nWhy (D) is wrong: Starting new cycles is the opposite.\nWhy (B) is wrong: Maintenance is done by staff.\nWhy (C) is wrong: Deleting scripts is not required."
+            },
+            {
+              "number": 12,
+              "question": "What could happen to automated scripts left running?",
+              "choices": [
+                "They will run faster",
+                "They may be terminated without saving logs",
+                "They will be printed for review",
+                "They will be upgraded automatically"
+              ],
+              "answerIndex": 1,
+              "explanation": "The notice warns scripts may be terminated without saving logs.\nWhy (D) is wrong: No upgrade is mentioned.\nWhy (A) is wrong: No speed increase is promised.\nWhy (C) is wrong: Printing is not mentioned."
+            }
+          ]
+        },
+        "post": {
+          "label": "POST",
+          "text": "@GridExplained: ‘More batteries’ isn’t the whole story. A 2-hour system helps with short peaks, but it won’t cover multi-day wind lulls. Matching duration to the problem is everything.",
+          "questions": [
+            {
+              "number": 13,
+              "question": "What is the post mainly emphasizing?",
+              "choices": [
+                "All storage problems are solved by 2-hour batteries",
+                "Wind power is unreliable and should be banned",
+                "Batteries are useless for short peaks",
+                "Storage duration should match the type of grid challenge"
+              ],
+              "answerIndex": 3,
+              "explanation": "It contrasts short peaks with multi-day lulls to argue duration must fit the need.\nWhy (A) is wrong: It explicitly says 2-hour systems are limited.\nWhy (B) is wrong: No ban is proposed.\nWhy (C) is wrong: It says 2-hour systems *do* help with short peaks."
+            },
+            {
+              "number": 14,
+              "question": "Why does the post mention ‘multi-day wind lulls’?",
+              "choices": [
+                "To explain how to recycle batteries",
+                "To suggest batteries increase wind speed",
+                "To show some shortages last longer than short-duration storage can handle",
+                "To argue wind always stops for days"
+              ],
+              "answerIndex": 2,
+              "explanation": "Multi-day lulls illustrate long-duration deficits that 2-hour batteries cannot cover.\nWhy (D) is wrong: It says ‘won’t cover’ lulls, not that they always happen.\nWhy (B) is wrong: Wind speed is unrelated.\nWhy (A) is wrong: Recycling is unrelated."
+            }
+          ]
+        },
+        "message": {
+          "label": "MESSAGE",
+          "text": "Hi Mina—our proposal assumes lithium-ion for frequency response, but the client also wants 8-hour coverage for evening peaks. Should we model a hybrid system (Li-ion + pumped hydro or flow) and compare levelized cost under different curtailment scenarios?",
+          "questions": [
+            {
+              "number": 15,
+              "question": "What is the writer mainly suggesting?",
+              "choices": [
+                "Focusing only on recycling policies",
+                "Replacing renewables with fossil fuels",
+                "Ignoring the client’s request",
+                "Modeling a hybrid storage system to meet different needs"
+              ],
+              "answerIndex": 3,
+              "explanation": "They propose modeling a hybrid system to provide both fast response and long-duration coverage.\nWhy (C) is wrong: They are addressing the request, not ignoring it.\nWhy (B) is wrong: No replacement with fossil fuels is suggested.\nWhy (A) is wrong: Recycling is mentioned as a constraint elsewhere, not the main suggestion."
+            }
+          ]
+        }
+      },
+      "academicPassage": {
+        "title": "Why Storage Planning Is a Matching Problem",
+        "passage": "Energy storage is often discussed as a single solution for renewable integration, but the grid uses storage for multiple functions. Short-duration systems can respond within seconds, stabilizing frequency and smoothing brief ramps in solar output. Longer-duration systems, in contrast, address sustained mismatches between supply and demand, such as evening peaks or extended periods of low wind.\n\nBecause these functions differ, the ‘best’ technology depends on local constraints. Lithium-ion batteries are well suited to fast response, yet repeated deep cycling and high temperatures accelerate degradation. Flow batteries can provide long duration with less cycle-related wear, but they require more space and careful handling of electrolytes. Pumped hydro offers large capacity and long lifetimes, but it is geographically limited and can take years to permit.\n\nPlanning therefore involves trade-offs rather than universal rankings. Engineers evaluate not only cost per kilowatt-hour stored, but also reliability benefits and ancillary services. A portfolio that mixes technologies can reduce risk, especially when future demand patterns and supply chains are uncertain. In this sense, storage planning resembles insurance: decision-makers pay for flexibility today to avoid expensive failures tomorrow.",
+        "questions": [
+          {
+            "number": 16,
+            "question": "What distinction does the passage make about storage functions?",
+            "choices": [
+              "Storage can serve both short-duration and long-duration needs",
+              "Storage is unnecessary when renewables grow",
+              "Storage is used only for frequency control",
+              "All storage technologies provide the same duration"
+            ],
+            "answerIndex": 0,
+            "explanation": "It contrasts short functions (seconds/minutes) with long functions (hours/days).\nWhy (C) is wrong: It says storage has multiple functions.\nWhy (D) is wrong: It explains technologies differ.\nWhy (B) is wrong: It presents storage as useful, not unnecessary."
+          },
+          {
+            "number": 17,
+            "question": "Why might lithium-ion be less ideal for long-duration daily cycling?",
+            "choices": [
+              "It degrades faster with deep cycling and heat",
+              "It cannot provide any ancillary services",
+              "It requires unusual geography",
+              "It cannot respond quickly"
+            ],
+            "answerIndex": 0,
+            "explanation": "It notes degradation accelerates with deep cycling and high temperatures, which long-duration use can involve.\nWhy (D) is wrong: Li-ion responds quickly; speed is a strength.\nWhy (C) is wrong: Geography is for pumped hydro.\nWhy (B) is wrong: Ancillary services can be provided; degradation is the issue."
+          },
+          {
+            "number": 18,
+            "question": "What limitation of pumped hydro is emphasized?",
+            "choices": [
+              "It cannot provide multi-hour capacity",
+              "It is geographically limited and can face long permitting",
+              "It has low efficiency compared with all batteries",
+              "It is illegal in most countries"
+            ],
+            "answerIndex": 1,
+            "explanation": "It says pumped hydro depends on suitable geography and can take years to permit.\nWhy (C) is wrong: Efficiency is not the main limitation described.\nWhy (A) is wrong: It explicitly provides multi-hour capacity.\nWhy (D) is wrong: No legality claim is made."
+          },
+          {
+            "number": 19,
+            "question": "In paragraph 3, the phrase ‘universal rankings’ most nearly means",
+            "choices": [
+              "a rating system for student grades",
+              "a list of renewable energy sources",
+              "a single best order that applies everywhere",
+              "international laws about storage"
+            ],
+            "answerIndex": 2,
+            "explanation": "Universal rankings means one best list that fits all locations, which the passage rejects.\nWhy (D) is wrong: Not about laws.\nWhy (A) is wrong: Not about grades.\nWhy (B) is wrong: Not a list of sources."
+          },
+          {
+            "number": 20,
+            "question": "What is the author’s purpose in comparing storage planning to insurance?",
+            "choices": [
+              "To argue engineers should work in finance",
+              "To illustrate paying for flexibility to reduce future risk",
+              "To claim failures are inevitable",
+              "To suggest storage is a waste of money"
+            ],
+            "answerIndex": 1,
+            "explanation": "The analogy explains why planners may pay now for flexibility to avoid costly failures later.\nWhy (D) is wrong: It does not call it a waste; it justifies it.\nWhy (A) is wrong: No career advice.\nWhy (C) is wrong: It suggests failures can be avoided/reduced with planning."
+          }
+        ]
+      }
+    }
+  ]
+}

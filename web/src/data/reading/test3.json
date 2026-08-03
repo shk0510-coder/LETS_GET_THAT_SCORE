@@ -1,0 +1,358 @@
+{
+  "testId": "test3",
+  "title": "TOEFL Reading Practice — Test 3",
+  "modules": [
+    {
+      "title": "Exoplanet Detection and False Positives",
+      "completeWords": {
+        "paragraph": "The transit method detects an exoplanet when it passes in front of its host star, causing a brief dip in bright___ (1). Because the signal can be tiny, astronomers apply detre___ (2) techniques to remove instrumental noise and stellar variability. Even so, some events are false positives, such as eclipsing binaries in the backg___ (3) that mimic a planet’s light curve. To confirm candidates, researchers often use radial velocity measurements, which detect star wobble through Doppler sh___ (4). Combining methods can constrain a planet’s mass and radius, allowing scientists to infer dens___ (5) and likely composition. However, stellar activity can still conf___ (6) interpretation if starspots distort spectral lines. Large surveys therefore rely on statistical vali___ (7), vetting pipelines, and follow-up observations with higher resolution. As detection improves, attention has shifted toward smaller planets in hab___ (8) zones, though ‘habitability’ also depends on atmosphere retention and magnetic sh___ (9). Ultimately, conclusions must be framed with appropriate unc___ (10) rather than certainty.",
+        "answers": [
+          "brightness",
+          "detrending",
+          "background",
+          "shifts",
+          "density",
+          "confound",
+          "validation",
+          "habitable",
+          "shielding",
+          "uncertainty"
+        ],
+        "explanations": [
+          "Transit causes dip in brightness.\nCommon wrong: brightly (adverb)",
+          "Standard term for removing trends/noise.\nCommon wrong: deterring (wrong meaning)",
+          "Eclipsing binaries in background.\nCommon wrong: backyard (wrong)",
+          "Doppler shifts indicate velocity changes.\nCommon wrong: shuffles (wrong)",
+          "Mass+radius -> density.\nCommon wrong: densely (adverb)",
+          "Verb meaning confuse; star activity confounds interpretation.\nCommon wrong: conform (wrong)",
+          "Process of checking; statistical validation.\nCommon wrong: validity (different form)",
+          "Habitable zone term.\nCommon wrong: habitual (wrong)",
+          "Magnetic shielding protects atmosphere.\nCommon wrong: shining (wrong)",
+          "Science framed with uncertainty.\nCommon wrong: uncertain (adj)"
+        ]
+      },
+      "dailyLife": {
+        "notice": {
+          "label": "NOTICE",
+          "text": "Observatory Night Access: Due to a software upgrade, the main telescope control room will be unavailable Friday 6–10 p.m. Observers scheduled in that window must use the secondary console in Lab 3 and should arrive 20 minutes early for a brief orientation. Data files saved locally on the secondary console will be deleted at midnight.",
+          "questions": [
+            {
+              "number": 11,
+              "question": "What must observers do if they are scheduled Friday 6–10 p.m.?",
+              "choices": [
+                "Save files locally for long-term storage",
+                "Bring their own telescope",
+                "Cancel their session",
+                "Use the secondary console in Lab 3"
+              ],
+              "answerIndex": 3,
+              "explanation": "The notice says they must use the secondary console in Lab 3 during the outage.\nWhy (C) is wrong: No cancellation is required.\nWhy (B) is wrong: Bringing a telescope is impossible and not stated.\nWhy (A) is wrong: Local saving is discouraged since files will be deleted."
+            },
+            {
+              "number": 12,
+              "question": "What will happen to data saved locally on the secondary console?",
+              "choices": [
+                "It will be printed and archived",
+                "It will be backed up automatically",
+                "It will be deleted at midnight",
+                "It will be emailed to all users"
+              ],
+              "answerIndex": 2,
+              "explanation": "It explicitly states local files will be deleted at midnight.\nWhy (B) is wrong: No automatic backup is promised.\nWhy (A) is wrong: Printing is not mentioned.\nWhy (D) is wrong: Email distribution is not mentioned."
+            }
+          ]
+        },
+        "post": {
+          "label": "POST",
+          "text": "@AstroLabNotes: Reminder: a ‘confirmed planet’ usually means the false-positive probability is extremely low, not zero. Nature loves to imitate signals—especially in crowded star fields. Healthy skepticism is part of the job.",
+          "questions": [
+            {
+              "number": 13,
+              "question": "What point is the post making about confirmation?",
+              "choices": [
+                "Confirmation guarantees absolute certainty",
+                "Astronomers should avoid skepticism",
+                "Confirmation reduces, but does not eliminate, the chance of error",
+                "Crowded star fields make detection impossible"
+              ],
+              "answerIndex": 2,
+              "explanation": "It says false-positive probability becomes very low, not zero.\nWhy (A) is wrong: It explicitly rejects absolute certainty.\nWhy (D) is wrong: It does not say impossible, only tricky.\nWhy (B) is wrong: It argues skepticism is necessary."
+            },
+            {
+              "number": 14,
+              "question": "Why does the post mention ‘crowded star fields’?",
+              "choices": [
+                "They reduce the need for follow-up observations",
+                "They increase the chance of false positives that mimic signals",
+                "They prevent radial velocity measurements",
+                "They make stars brighter"
+              ],
+              "answerIndex": 1,
+              "explanation": "Crowded fields increase blending/background binaries that can mimic transits.\nWhy (D) is wrong: Brightness increase is not the point.\nWhy (A) is wrong: It implies follow-up is still needed.\nWhy (C) is wrong: Radial velocity is not said to be prevented."
+            }
+          ]
+        },
+        "message": {
+          "label": "MESSAGE",
+          "text": "Hi—my light curve shows a transit-like dip, but it occurs only every other rotation period of the star. Could starspots be creating a quasi-periodic signal? If so, I’ll schedule radial-velocity follow-up before writing it up.",
+          "questions": [
+            {
+              "number": 15,
+              "question": "What is the writer concerned about?",
+              "choices": [
+                "That the signal may be caused by stellar activity rather than a planet",
+                "That the star is too bright to observe",
+                "That radial velocity cannot be used",
+                "That all planets transit every rotation period"
+              ],
+              "answerIndex": 0,
+              "explanation": "They suspect starspots could mimic a transit-like dip and want follow-up confirmation.\nWhy (B) is wrong: Brightness is not a problem stated.\nWhy (C) is wrong: They plan to schedule radial velocity, so it can be used.\nWhy (D) is wrong: They do not claim all planets transit every rotation."
+            }
+          ]
+        }
+      },
+      "academicPassage": {
+        "title": "Why Multiple Lines of Evidence Matter in Exoplanet Science",
+        "passage": "Modern planet surveys have discovered thousands of candidates, but discovery is not the same as confirmation. A transit signal indicates that something periodically blocks a fraction of starlight, yet several astrophysical scenarios can produce similar patterns. In crowded regions, a faint eclipsing binary aligned with the target star can create a shallow dip that looks planetary. Even when blending is ruled out, stellar activity can modulate brightness in ways that resemble transits.\n\nFor these reasons, teams combine detection methods. Radial velocity measurements can reveal whether the star’s spectrum shifts in phase with the transit, supporting the presence of an orbiting body. When both signals agree, researchers can estimate mass and radius and thus infer density, a clue to composition. However, this inference is statistical: measurement uncertainties and model assumptions remain.\n\nConsequently, confirmation is best understood as a probabilistic judgment grounded in multiple, partially independent tests. This approach does not merely reduce embarrassment from false positives. It also improves theory, because the reliability of population-level conclusions—such as how common Earth-sized planets are—depends on knowing which signals truly represent planets.",
+        "questions": [
+          {
+            "number": 16,
+            "question": "Why does the author distinguish discovery from confirmation?",
+            "choices": [
+              "Because confirmation requires ruling out non-planet explanations",
+              "Because discovery is impossible with modern surveys",
+              "Because transits always prove habitability",
+              "Because confirmation only uses photographs"
+            ],
+            "answerIndex": 0,
+            "explanation": "Discovery signals can be mimicked; confirmation requires eliminating alternative scenarios.\nWhy (B) is wrong: Surveys do discover candidates; not impossible.\nWhy (D) is wrong: Methods include spectra, not only photos.\nWhy (C) is wrong: Transits do not prove habitability."
+          },
+          {
+            "number": 17,
+            "question": "What example of a false positive is given in paragraph 1?",
+            "choices": [
+              "A comet passing near the star",
+              "A faint eclipsing binary aligned with the target star",
+              "A star with a magnetic field",
+              "A planet with rings"
+            ],
+            "answerIndex": 1,
+            "explanation": "It explicitly mentions a faint eclipsing binary aligned with the target star.\nWhy (A) is wrong: Comets are not mentioned.\nWhy (D) is wrong: Rings are not discussed.\nWhy (C) is wrong: Magnetic fields are not presented as the example."
+          },
+          {
+            "number": 18,
+            "question": "What does the passage imply about density estimates?",
+            "choices": [
+              "They are unrelated to mass and radius",
+              "They can be computed without radial velocity data",
+              "They provide absolute proof of composition",
+              "They are informative but depend on uncertainties and assumptions"
+            ],
+            "answerIndex": 3,
+            "explanation": "It says density is a clue but inference is statistical with uncertainties and model assumptions.\nWhy (C) is wrong: No absolute proof is claimed.\nWhy (A) is wrong: Density comes from mass and radius.\nWhy (B) is wrong: Radial velocity helps mass; without it, density is limited."
+          },
+          {
+            "number": 19,
+            "question": "In paragraph 3, ‘probabilistic judgment’ suggests that confirmation",
+            "choices": [
+              "is purely subjective opinion",
+              "is based on likelihood, not certainty",
+              "is the same as guessing",
+              "requires no measurements"
+            ],
+            "answerIndex": 1,
+            "explanation": "Probabilistic means based on likelihood rather than certainty.\nWhy (D) is wrong: Measurements are central.\nWhy (A) is wrong: It is grounded in tests, not pure opinion.\nWhy (C) is wrong: It is not the same as guessing because evidence is used."
+          },
+          {
+            "number": 20,
+            "question": "What is the main point of the final sentence?",
+            "choices": [
+              "Reliable confirmation is necessary for accurate statistics about planet populations",
+              "Population studies should ignore uncertainty",
+              "False positives are embarrassing but harmless",
+              "Earth-sized planets do not exist"
+            ],
+            "answerIndex": 0,
+            "explanation": "It links confirmation reliability to population-level conclusions like how common Earth-sized planets are.\nWhy (C) is wrong: The passage says it improves theory, not that it is harmless.\nWhy (D) is wrong: It does not deny existence.\nWhy (B) is wrong: It argues uncertainty must be handled, not ignored."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Language Change and Social Meaning",
+      "completeWords": {
+        "paragraph": "Languages change through countless small innovations that spread unevenly across a speech comm___ (1). Some shifts begin as informal variants and later become standard, while others remain stigmat___ (2). Linguists study these patterns using corpora, which are large, searchable collec___ (3) of spoken or written texts. By tracking frequency over time, researchers can identify whether a form is diffu___ (4) or receding. Yet frequency alone cannot explain change, because forms also carry social meaning tied to identity and reg___ (5). For example, a pronunciation feature may index local belonging, so speakers adopt it strategically depending on audience. Such style-shifting reveals that variation is not random but syste___ (6). Change can also be accelerated by contact between groups, leading to borrowing and code-sw___ (7). However, not all borrowed items survive; many are replaced when social pres___ (8) shifts. Overall, language evolution reflects both cognitive constraints and socio___ (9) dynamics, making it difficult to predict precisely which variants will ultimat___ (10) dominate.",
+        "answers": [
+          "community",
+          "stigmatized",
+          "collections",
+          "diffusing",
+          "register",
+          "systematic",
+          "switching",
+          "prestige",
+          "sociocultural",
+          "ultimately"
+        ],
+        "explanations": [
+          "Speech community term.\nCommon wrong: commune (different meaning)",
+          "Means socially disapproved.\nCommon wrong: stigmatic (wrong)",
+          "Corpora are collections.\nCommon wrong: collectives (different)",
+          "Spreading through group.\nCommon wrong: defusing (wrong)",
+          "Register is style level/formality.\nCommon wrong: registry (wrong)",
+          "Not random; systematic.\nCommon wrong: systemic (different nuance)",
+          "Code-switching term.\nCommon wrong: swishing (wrong)",
+          "Social prestige affects adoption.\nCommon wrong: pressure (related but not same)",
+          "Matches social dynamics phrase.\nCommon wrong: social (too general)",
+          "Adverb meaning in the end.\nCommon wrong: ultimate (adj)"
+        ]
+      },
+      "dailyLife": {
+        "notice": {
+          "label": "NOTICE",
+          "text": "Writing Center Policy Update: Beginning this term, appointment slots are categorized as ‘draft review’ or ‘sentence-level support.’ Students requesting sentence-level support must upload a draft at least 12 hours in advance so tutors can prepare targeted feedback. Walk-in sessions remain available, but walk-ins will not receive grammar-only editing.",
+          "questions": [
+            {
+              "number": 11,
+              "question": "Why must students upload a draft 12 hours early for sentence-level support?",
+              "choices": [
+                "To guarantee grammar-only editing",
+                "To prevent students from visiting the center",
+                "To replace walk-in sessions",
+                "To allow tutors to prepare targeted feedback"
+              ],
+              "answerIndex": 3,
+              "explanation": "It says tutors need time to prepare targeted feedback for sentence-level support.\nWhy (B) is wrong: The policy does not discourage visits.\nWhy (A) is wrong: It explicitly says walk-ins will not get grammar-only editing.\nWhy (C) is wrong: Walk-ins remain available."
+            },
+            {
+              "number": 12,
+              "question": "What does the notice imply about walk-in sessions?",
+              "choices": [
+                "They are available but won’t provide grammar-only editing",
+                "They require a draft upload 24 hours in advance",
+                "They will be eliminated",
+                "They are only for faculty"
+              ],
+              "answerIndex": 0,
+              "explanation": "Walk-ins continue, but grammar-only editing is not offered for walk-ins.\nWhy (C) is wrong: Not eliminated.\nWhy (B) is wrong: 12 hours applies to sentence-level appointments, not 24.\nWhy (D) is wrong: No faculty-only restriction is stated."
+            }
+          ]
+        },
+        "post": {
+          "label": "POST",
+          "text": "@LingLab: Ever notice how you speak differently in a job interview vs with close friends? That’s register shifting—not ‘being fake.’ Share an example of a word or phrase you only use in one setting.",
+          "questions": [
+            {
+              "number": 13,
+              "question": "What is the post mainly doing?",
+              "choices": [
+                "Announcing a new interview policy",
+                "Explaining register shifting and inviting examples",
+                "Teaching pronunciation rules for interviews",
+                "Accusing people of dishonesty"
+              ],
+              "answerIndex": 1,
+              "explanation": "It defines register shifting and invites people to share examples.\nWhy (D) is wrong: It explicitly rejects the accusation.\nWhy (A) is wrong: No policy is announced.\nWhy (C) is wrong: Pronunciation rules are not taught."
+            },
+            {
+              "number": 14,
+              "question": "Why does the post say register shifting is not ‘being fake’?",
+              "choices": [
+                "To argue variation is normal and context-dependent",
+                "To suggest interviews should be informal",
+                "To claim people never change their speech",
+                "To say close friends use formal language"
+              ],
+              "answerIndex": 0,
+              "explanation": "It frames shifting as normal adaptation to context rather than deception.\nWhy (C) is wrong: It says people do change speech.\nWhy (B) is wrong: It does not argue interviews should be informal.\nWhy (D) is wrong: It does not claim friends use formal language."
+            }
+          ]
+        },
+        "message": {
+          "label": "MESSAGE",
+          "text": "Hey, could you skim my presentation script? I tried to avoid slang because my audience is the department chair. If any phrasing sounds too casual, mark it—I don’t want the register to undermine the argument.",
+          "questions": [
+            {
+              "number": 15,
+              "question": "What is the writer worried about?",
+              "choices": [
+                "The department chair dislikes arguments",
+                "Register shifting is impossible",
+                "Slang may sound inappropriate for the audience",
+                "The presentation is too short"
+              ],
+              "answerIndex": 2,
+              "explanation": "They want to avoid slang and keep an appropriate register for the chair.\nWhy (D) is wrong: Length is not mentioned.\nWhy (A) is wrong: No claim about the chair’s preferences beyond formality.\nWhy (B) is wrong: They acknowledge register matters."
+            }
+          ]
+        }
+      },
+      "academicPassage": {
+        "title": "Variation as a Resource, Not a Defect",
+        "passage": "For much of the twentieth century, public discussions of language treated variation as a problem to be corrected. Nonstandard forms were labeled ‘errors,’ and speakers who used them were often judged as careless or uneducated. Contemporary sociolinguistics challenges this view by showing that variation is patterned and meaningful.\n\nOne source of evidence comes from corpus studies that track how forms spread across time and regions. Another comes from ethnographic observation, which reveals how speakers select variants to signal affiliation, authority, or intimacy. In many communities, a feature that outsiders criticize can function internally as a marker of belonging. Speakers may also shift registers within a single conversation, adjusting to topic or audience. Such flexibility suggests linguistic competence, not deficiency.\n\nRecognizing variation as a resource does not imply that teaching standard forms is pointless. Rather, it reframes instruction: the goal becomes expanding a speaker’s repertoire so they can choose appropriately across contexts. This approach also reduces stigma by separating social judgments from linguistic structure, allowing educators to address inequality without portraying students’ home varieties as broken.",
+        "questions": [
+          {
+            "number": 16,
+            "question": "What misconception about nonstandard forms does the passage describe?",
+            "choices": [
+              "They cannot be studied scientifically",
+              "They are merely errors reflecting ignorance",
+              "They are identical across regions",
+              "They are always meaningless"
+            ],
+            "answerIndex": 1,
+            "explanation": "It says nonstandard forms were labeled errors and users judged as careless/uneducated.\nWhy (D) is wrong: It argues variation is meaningful.\nWhy (C) is wrong: It does not claim identical across regions.\nWhy (A) is wrong: It shows they can be studied with corpora/ethnography."
+          },
+          {
+            "number": 17,
+            "question": "Which two types of evidence are mentioned as supporting sociolinguistic claims?",
+            "choices": [
+              "Laboratory chemistry and field geology",
+              "Economic surveys and medical trials",
+              "Satellite images and interviews",
+              "Corpus studies and ethnographic observation"
+            ],
+            "answerIndex": 3,
+            "explanation": "It explicitly mentions corpus studies and ethnographic observation.\nWhy (C) is wrong: Satellite images are not mentioned.\nWhy (A) is wrong: Unrelated disciplines.\nWhy (B) is wrong: Not mentioned."
+          },
+          {
+            "number": 18,
+            "question": "What does the author imply about register shifting?",
+            "choices": [
+              "It indicates deception",
+              "It can show linguistic competence and adaptability",
+              "It eliminates the need for standard forms",
+              "It happens only in formal writing"
+            ],
+            "answerIndex": 1,
+            "explanation": "It describes shifting as flexible adaptation, implying competence, not deficiency.\nWhy (A) is wrong: It rejects ‘being fake’ framing elsewhere; here too it implies competence.\nWhy (D) is wrong: It says within a single conversation, not just writing.\nWhy (C) is wrong: It says standards still matter."
+          },
+          {
+            "number": 19,
+            "question": "Why does the author say teaching standard forms is not pointless?",
+            "choices": [
+              "Because it expands speakers’ ability to choose forms for different contexts",
+              "Because it prevents language change",
+              "Because it replaces home varieties",
+              "Because it increases stigma"
+            ],
+            "answerIndex": 0,
+            "explanation": "Instruction expands a speaker’s repertoire for context-appropriate choices.\nWhy (D) is wrong: It aims to reduce stigma, not increase it.\nWhy (B) is wrong: No claim about preventing change.\nWhy (C) is wrong: It does not replace home varieties; it avoids calling them broken."
+          },
+          {
+            "number": 20,
+            "question": "What is the main purpose of the passage?",
+            "choices": [
+              "To argue that only standard language should be used",
+              "To list slang terms used by students",
+              "To explain that variation is systematic and socially meaningful, and to suggest a constructive approach to instruction",
+              "To claim that stigma is unrelated to education"
+            ],
+            "answerIndex": 2,
+            "explanation": "The passage’s goal is to reframe variation as systematic/meaningful and propose repertoire-based teaching.\nWhy (A) is wrong: Opposite of argument.\nWhy (B) is wrong: Not a list of slang.\nWhy (D) is wrong: It connects stigma to inequality and education."
+          }
+        ]
+      }
+    }
+  ]
+}

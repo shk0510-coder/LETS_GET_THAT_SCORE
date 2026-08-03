@@ -1,0 +1,358 @@
+{
+  "testId": "test1",
+  "title": "TOEFL Reading Practice — Test 1",
+  "modules": [
+    {
+      "title": "Urban Microclimates and Equity",
+      "completeWords": {
+        "paragraph": "Cities often develop microclim___ (1) that differ from nearby rural areas. One driver is the abs___ (2) of solar energy by low-albedo materials. Heat stored in pavement and facades is rele___ (3) gradually after sunset, leading to elev___ (4) nighttime temperatures. Under weak winds, this pattern can intens___ (5), raising cooling demand and stressing power systems. To counter it, planners promote high-reflectance surfaces and evapotransp___ (6) through trees. Green roofs may also reduce run___ (7) during storms and improve insulation, but benefits depend on maint___ (8) and local humidity. Importantly, interventions can unint___ (9) widen inequality when cooling upgrades are not equit___ (10) distributed.",
+        "answers": [
+          "microclimates",
+          "absorption",
+          "released",
+          "elevated",
+          "intensify",
+          "evapotranspiration",
+          "runoff",
+          "maintenance",
+          "unintentionally",
+          "equitably"
+        ],
+        "explanations": [
+          "A plural noun meaning small-scale climate patterns; the sentence contrasts city vs rural conditions.\nCommon wrong: microclimats (misspelling)",
+          "The process of taking in energy; fits the cause of heating by surfaces.\nCommon wrong: adsorption (different meaning)",
+          "Past participle describing heat emitted after sunset.\nCommon wrong: relieved (wrong meaning)",
+          "Adjective meaning higher than normal; modifies nighttime temperatures.\nCommon wrong: elated (wrong meaning)",
+          "Verb meaning become stronger; matches ‘under weak winds’.\nCommon wrong: intensivate (nonword)",
+          "Technical term for water loss from soil and plants; trees cool air this way.\nCommon wrong: evaporization (too general)",
+          "Water flowing over surfaces after rain; green roofs can reduce it.\nCommon wrong: run-on (wrong concept)",
+          "Ongoing care; benefits depend on upkeep.\nCommon wrong: maintainance (common spelling error)",
+          "Adverb indicating an unexpected side effect; modifies widen inequality.\nCommon wrong: intentionally (opposite)",
+          "Adverb meaning fairly; distributed equitably.\nCommon wrong: equally (not always same as fair)"
+        ]
+      },
+      "dailyLife": {
+        "notice": {
+          "label": "NOTICE",
+          "text": "Facilities will replace the main library HVAC filters on Tuesday and Wednesday. During this work, the west wing reading room will be closed, and noise levels may be higher on the second floor. Students needing quiet space should use the Graduate Study Annex. Book returns will remain open, but requested holds will be delayed by up to 24 hours.",
+          "questions": [
+            {
+              "number": 11,
+              "question": "Which area will be closed during the work?",
+              "choices": [
+                "All second-floor areas",
+                "The Graduate Study Annex",
+                "The west wing reading room",
+                "The book return desk"
+              ],
+              "answerIndex": 2,
+              "explanation": "Because the notice states the west wing reading room will be closed during the filter replacement.\nWhy (D) is wrong: The notice says book returns remain open.\nWhy (B) is wrong: The Annex is recommended as an alternative, not closed.\nWhy (A) is wrong: Only ‘noise may be higher’ on the second floor; it is not fully closed."
+            },
+            {
+              "number": 12,
+              "question": "What should students expect about requested holds?",
+              "choices": [
+                "They will be moved to the west wing",
+                "They will be delayed up to one day",
+                "They will be processed faster",
+                "They will be cancelled automatically"
+              ],
+              "answerIndex": 1,
+              "explanation": "It explicitly says requested holds will be delayed by up to 24 hours.\nWhy (D) is wrong: No cancellation is mentioned.\nWhy (C) is wrong: It says delayed, not faster.\nWhy (A) is wrong: It does not say holds will be moved to the west wing."
+            }
+          ]
+        },
+        "post": {
+          "label": "POST",
+          "text": "@CampusSustainability: We’re piloting ‘cool corridor’ signage to map shaded walking routes between buildings. Try Route 3 at midday and tell us if the temperature difference feels noticeable. Survey link in bio—data will help us decide where to add trees next semester.",
+          "questions": [
+            {
+              "number": 13,
+              "question": "What is the main purpose of the post?",
+              "choices": [
+                "To recruit participants for a survey about shaded routes",
+                "To announce a new rule about walking between buildings",
+                "To advertise discounted transit passes",
+                "To report final results from a tree-planting program"
+              ],
+              "answerIndex": 0,
+              "explanation": "The post invites students to try a route and complete a survey; it is requesting input.\nWhy (B) is wrong: No rule or restriction is announced.\nWhy (D) is wrong: It says ‘piloting,’ so results are not final.\nWhy (C) is wrong: Transit passes are not mentioned."
+            },
+            {
+              "number": 14,
+              "question": "Why does the post mention ‘data will help us decide’?",
+              "choices": [
+                "To explain that signage will be removed immediately",
+                "To warn students not to use Route 3",
+                "To suggest the project is already finished",
+                "To show feedback will influence future planning"
+              ],
+              "answerIndex": 3,
+              "explanation": "It indicates survey responses will guide where trees are added next semester.\nWhy (C) is wrong: ‘Piloting’ implies it is not finished.\nWhy (B) is wrong: Route 3 is encouraged, not discouraged.\nWhy (A) is wrong: No immediate removal is mentioned."
+            }
+          ]
+        },
+        "message": {
+          "label": "MESSAGE",
+          "text": "Hi Sam—could you swap our lab meeting to 3:30? The guest speaker’s train arrives late, and I’m the one picking them up. If 3:30 conflicts with your seminar, I can record the talk and send notes.",
+          "questions": [
+            {
+              "number": 15,
+              "question": "What is the writer mainly trying to do?",
+              "choices": [
+                "Complain about a guest speaker",
+                "Ask to reschedule a meeting and offer an alternative",
+                "Confirm that the talk will be recorded",
+                "Apologize for missing a seminar"
+              ],
+              "answerIndex": 1,
+              "explanation": "The writer requests a time change and offers to record/send notes if there is a conflict.\nWhy (D) is wrong: They are not apologizing for missing a seminar.\nWhy (A) is wrong: No complaint is made.\nWhy (C) is wrong: Recording is presented as a fallback, not confirmed."
+            }
+          ]
+        }
+      },
+      "academicPassage": {
+        "title": "Urban Cooling Strategies and Unintended Consequences",
+        "passage": "Municipal governments increasingly treat extreme heat as an infrastructure problem rather than a purely meteorological one. Because buildings and roads can trap heat, cities invest in reflective coatings, tree canopies, and redesigned public spaces that reduce direct sun exposure. Yet the effectiveness of these strategies depends on context. For example, reflective roofs may lower indoor temperatures, but in dense districts they can increase glare and shift heat toward pedestrians if not paired with shading. Similarly, trees cool streets through evapotranspiration, but they also require irrigation, which can be difficult in drought-prone regions.\n\nAnother complication is distribution. Heat-mitigation projects are often implemented first where political support is strong or where property values are high, producing faster improvements in wealthier neighborhoods. As a result, the residents most vulnerable to heat—those with limited access to air conditioning, higher exposure to outdoor work, or preexisting health conditions—may benefit later or not at all. Recent studies therefore recommend that cities combine thermal maps with demographic indicators when prioritizing investments. Such targeting does not guarantee equality, but it makes trade-offs explicit and can reduce the risk that a well-intended program amplifies existing disparities.",
+        "questions": [
+          {
+            "number": 16,
+            "question": "According to the passage, why might reflective roofs be problematic in dense districts?",
+            "choices": [
+              "They prevent irrigation systems from functioning",
+              "They always raise indoor temperatures",
+              "They can create glare and shift heat toward pedestrians",
+              "They eliminate the need for shade trees"
+            ],
+            "answerIndex": 2,
+            "explanation": "It notes reflective roofs can increase glare and redirect heat toward pedestrians if not paired with shade.\nWhy (A) is wrong: Irrigation is discussed for trees, not roofs.\nWhy (B) is wrong: The passage says roofs may lower indoor temperatures.\nWhy (D) is wrong: Shade trees are presented as complementary, not unnecessary."
+          },
+          {
+            "number": 17,
+            "question": "What does the passage suggest about tree planting as a cooling strategy?",
+            "choices": [
+              "It is ineffective compared with reflective coatings",
+              "It works only in rural areas",
+              "It increases heat by trapping sunlight",
+              "It is effective but may be limited by water availability"
+            ],
+            "answerIndex": 3,
+            "explanation": "The passage says trees cool via evapotranspiration but require irrigation, which is hard in drought-prone regions.\nWhy (A) is wrong: It does not rank trees as ineffective.\nWhy (B) is wrong: No rural-only limitation is stated.\nWhy (C) is wrong: Trees are described as cooling, not heating."
+          },
+          {
+            "number": 18,
+            "question": "In paragraph 2, the word ‘distribution’ most nearly means",
+            "choices": [
+              "the delivery schedule of construction materials",
+              "the way benefits are allocated across groups",
+              "the scattering of heat into the atmosphere",
+              "the marketing of new building technologies"
+            ],
+            "answerIndex": 1,
+            "explanation": "‘Distribution’ refers to where projects are implemented and who receives benefits first.\nWhy (A) is wrong: No delivery schedule is discussed.\nWhy (C) is wrong: Not about atmospheric scattering.\nWhy (D) is wrong: Marketing is unrelated."
+          },
+          {
+            "number": 19,
+            "question": "Why do studies recommend combining thermal maps with demographic indicators?",
+            "choices": [
+              "To prioritize investments and reduce inequitable outcomes",
+              "To replace city planning with automated decisions",
+              "To avoid collecting temperature data in summer",
+              "To prove that reflective roofs are cheaper than trees"
+            ],
+            "answerIndex": 0,
+            "explanation": "Combining maps helps target resources so vulnerable groups are not consistently served last.\nWhy (C) is wrong: The recommendation is not about avoiding data collection.\nWhy (D) is wrong: Cost comparison is not the focus.\nWhy (B) is wrong: It supports planning decisions, not replacing them."
+          },
+          {
+            "number": 20,
+            "question": "What is the main idea of the passage?",
+            "choices": [
+              "Urban cooling strategies have context-dependent effects and can worsen inequality if poorly targeted",
+              "Heat is primarily a meteorological issue, not an infrastructure issue",
+              "Droughts are caused by urban heat islands",
+              "Cities should stop using reflective materials"
+            ],
+            "answerIndex": 0,
+            "explanation": "The passage emphasizes trade-offs in cooling strategies and warns about unequal benefits without careful prioritization.\nWhy (D) is wrong: It does not argue to stop reflective materials.\nWhy (C) is wrong: Drought is a constraint, not the main claim.\nWhy (B) is wrong: It explicitly treats heat as an infrastructure problem too."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Behavioral Economics and Choice Architecture",
+      "completeWords": {
+        "paragraph": "In policy design, a ‘default’ option can strongly influ___ (1) behavior because many people stick with the pre-se___ (2) choice. This tendency does not always reflect genuine prefer___ (3); instead, it may arise from inat___ (4), limited attention, or the fear of making a costly mistake. Economists refer to such patterns as present-biased or status-quo-bi___ (5). When policymakers use defaults to improve outcomes, critics sometimes argue the approach is paternal___ (6). Supporters respond that some form of choice archit___ (7) is unavoidable, and the ethical issue is whether the design is transp___ (8) and easy to override. Recent research also shows that overly complex forms can deter participa___ (9), especially among people with low institutional trust. Therefore, effective nudges are typically simple, sal___ (10), and paired with clear information.",
+        "answers": [
+          "influence",
+          "selected",
+          "preferences",
+          "inattention",
+          "bias",
+          "paternalistic",
+          "architecture",
+          "transparent",
+          "participation",
+          "salient"
+        ],
+        "explanations": [
+          "Verb meaning affect; describes how defaults shape behavior.\nCommon wrong: influent (wrong form)",
+          "Adjective meaning chosen beforehand; fits ‘pre-___ choice’.\nCommon wrong: selective (wrong meaning)",
+          "Plural noun meaning choices/likes; contrasts with sticking to defaults.\nCommon wrong: preference (singular mismatch)",
+          "Noun meaning lack of attention; fits list of causes.\nCommon wrong: inattentive (adj)",
+          "Noun meaning systematic tendency; status-quo bias is standard term.\nCommon wrong: base (wrong word)",
+          "Adjective describing over-controlling policy; common critique of nudges.\nCommon wrong: parental (too general)",
+          "Noun referring to design of choices; ‘choice architecture’.\nCommon wrong: architect (person)",
+          "Adjective meaning clear/open; ethical issue about design.\nCommon wrong: translucent (wrong meaning)",
+          "Noun meaning involvement; complex forms deter it.\nCommon wrong: participant (person)",
+          "Adjective meaning noticeable; effective nudges are easy to see.\nCommon wrong: silent (opposite)"
+        ]
+      },
+      "dailyLife": {
+        "notice": {
+          "label": "NOTICE",
+          "text": "The Financial Aid Office will host a workshop on completing the new scholarship application portal. Because the system uses an auto-save feature, students should avoid submitting incomplete drafts. Staff will demonstrate how to review required fields and how to upload supporting documents in the correct format. Walk-ins are welcome, but priority seating will be given to students who register online.",
+          "questions": [
+            {
+              "number": 11,
+              "question": "What does the notice warn students to avoid?",
+              "choices": [
+                "Uploading supporting documents",
+                "Submitting an incomplete draft",
+                "Using the auto-save feature",
+                "Registering online"
+              ],
+              "answerIndex": 1,
+              "explanation": "It explicitly says students should avoid submitting incomplete drafts.\nWhy (D) is wrong: Online registration is encouraged.\nWhy (A) is wrong: Uploading documents is part of the workshop.\nWhy (C) is wrong: Auto-save is a feature of the system; it is not discouraged."
+            },
+            {
+              "number": 12,
+              "question": "Who will receive priority seating?",
+              "choices": [
+                "Students who submit drafts before the workshop",
+                "Students who register online",
+                "Students who bring printed documents",
+                "Students who arrive earliest"
+              ],
+              "answerIndex": 1,
+              "explanation": "The notice states priority seating will be given to students who register online.\nWhy (D) is wrong: Arrival time is not mentioned.\nWhy (A) is wrong: Submitting drafts beforehand is not required.\nWhy (C) is wrong: Printed documents are not referenced."
+            }
+          ]
+        },
+        "post": {
+          "label": "POST",
+          "text": "@StudentUnion: Quick poll—should the cafeteria make ‘plant-based’ the default meal combo, with an opt-out for meat? Some say it reduces waste; others say it limits choice. Vote in our story and comment why.",
+          "questions": [
+            {
+              "number": 13,
+              "question": "What is the post mainly doing?",
+              "choices": [
+                "Asking for opinions about a proposed default option",
+                "Explaining how to cook plant-based meals",
+                "Announcing that the cafeteria has already changed the menu",
+                "Promoting a discount on meat dishes"
+              ],
+              "answerIndex": 0,
+              "explanation": "It describes a proposal and asks students to vote/comment, so it is soliciting opinions.\nWhy (C) is wrong: It asks ‘should,’ so nothing is final.\nWhy (B) is wrong: Cooking instructions are not provided.\nWhy (D) is wrong: No discount is mentioned."
+            },
+            {
+              "number": 14,
+              "question": "Which concern is mentioned by people who oppose the idea?",
+              "choices": [
+                "It will increase study time",
+                "It could limit choice",
+                "It will eliminate the cafeteria",
+                "It makes voting impossible"
+              ],
+              "answerIndex": 1,
+              "explanation": "The post says ‘others say it limits choice,’ which is the opposing concern.\nWhy (A) is wrong: Study time is unrelated.\nWhy (C) is wrong: The cafeteria is not being eliminated.\nWhy (D) is wrong: Voting is explicitly invited."
+            }
+          ]
+        },
+        "message": {
+          "label": "MESSAGE",
+          "text": "Professor Lee, I realized I clicked ‘submit’ before attaching my data file. The portal shows the assignment as final, but the timestamp is still within the grace period. Could you reopen it, or should I email the attachment directly?",
+          "questions": [
+            {
+              "number": 15,
+              "question": "What is the student asking the professor to do?",
+              "choices": [
+                "Allow a late submission or accept the file another way",
+                "Cancel the assignment",
+                "Change the grading rubric",
+                "Extend the grace period for the whole class"
+              ],
+              "answerIndex": 0,
+              "explanation": "They want the portal reopened or permission to send the file by email.\nWhy (C) is wrong: No rubric change is requested.\nWhy (B) is wrong: They do not want to cancel it.\nWhy (D) is wrong: They mention the existing grace period, not extending it for everyone."
+            }
+          ]
+        }
+      },
+      "academicPassage": {
+        "title": "Defaults, Autonomy, and the Ethics of Nudging",
+        "passage": "Policies that rely on ‘nudges’ aim to steer decisions without forbidding options. A classic example is automatic enrollment in retirement savings, where employees remain free to opt out. Evidence suggests that enrollment rates rise sharply under such systems, largely because people procrastinate or interpret the default as a recommendation.\n\nWhether this approach is ethically acceptable depends on how one understands autonomy. Critics argue that nudges exploit predictable cognitive limitations and can be manipulated to serve institutional interests. Supporters counter that there is no neutral way to present choices: forms must be ordered, menus must list items in some sequence, and websites must choose a layout. From this view, the key question is not whether influence exists, but whether it is justified and accountable.\n\nMany ethicists propose practical criteria. A nudge should be transparent, easy to reverse, and aligned with the decision-maker’s own likely goals. Importantly, designers should test whether a nudge affects some groups more than others. If complexity or low trust prevents certain populations from opting out or understanding the consequences, a policy that appears harmless may become coercive in practice.",
+        "questions": [
+          {
+            "number": 16,
+            "question": "Why do enrollment rates rise under automatic enrollment systems, according to the passage?",
+            "choices": [
+              "Because opting out is illegal",
+              "Because the policy eliminates paperwork",
+              "Because employees receive higher salaries",
+              "Because people procrastinate or treat the default as advice"
+            ],
+            "answerIndex": 3,
+            "explanation": "The passage says rates rise because people procrastinate and may interpret the default as a recommendation.\nWhy (A) is wrong: Opting out remains allowed.\nWhy (C) is wrong: Salary changes are not discussed.\nWhy (B) is wrong: Paperwork is not the main mechanism described."
+          },
+          {
+            "number": 17,
+            "question": "In paragraph 2, what does the author imply by saying there is ‘no neutral way to present choices’?",
+            "choices": [
+              "All choices can be made without information",
+              "Autonomy is impossible in any society",
+              "Design inevitably influences decisions",
+              "People dislike websites and forms"
+            ],
+            "answerIndex": 2,
+            "explanation": "The author suggests influence is unavoidable because presentation requires ordering and layout decisions.\nWhy (A) is wrong: The passage emphasizes information and accountability.\nWhy (B) is wrong: It does not claim autonomy is impossible, only that design matters.\nWhy (D) is wrong: Dislike of websites is not stated."
+          },
+          {
+            "number": 18,
+            "question": "Which of the following best describes the critics’ concern?",
+            "choices": [
+              "Nudges may exploit cognitive limits and be used for institutional gain",
+              "Nudges ban too many options",
+              "Nudges always reduce savings",
+              "Nudges only work in small organizations"
+            ],
+            "answerIndex": 0,
+            "explanation": "Critics worry nudges exploit predictable biases and can be manipulated to benefit institutions.\nWhy (B) is wrong: Nudges do not forbid options by definition.\nWhy (C) is wrong: Savings outcomes are not claimed to always fall.\nWhy (D) is wrong: No size limitation is mentioned."
+          },
+          {
+            "number": 19,
+            "question": "According to the passage, which criterion is NOT recommended for ethical nudges?",
+            "choices": [
+              "They should be easy to reverse",
+              "They should be transparent",
+              "They should be impossible to opt out of",
+              "They should be aligned with likely goals"
+            ],
+            "answerIndex": 2,
+            "explanation": "‘Impossible to opt out’ would contradict the idea of preserving choice and reversibility.\nWhy (B) is wrong: Transparency is recommended.\nWhy (A) is wrong: Reversibility is recommended.\nWhy (D) is wrong: Alignment with likely goals is recommended."
+          },
+          {
+            "number": 20,
+            "question": "What is the author’s main point?",
+            "choices": [
+              "Websites should avoid influencing users at all",
+              "Automatic enrollment should be required everywhere",
+              "Retirement savings is primarily determined by salary",
+              "Nudges can be useful but must meet ethical safeguards, especially for vulnerable groups"
+            ],
+            "answerIndex": 3,
+            "explanation": "The passage balances benefits with ethical conditions and warns about unequal effects due to complexity or trust.\nWhy (B) is wrong: It does not argue for universal mandates.\nWhy (A) is wrong: It argues neutrality is impossible, not that influence should be eliminated.\nWhy (C) is wrong: Salary is not presented as the main determinant."
+          }
+        ]
+      }
+    }
+  ]
+}

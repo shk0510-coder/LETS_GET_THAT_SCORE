@@ -1,0 +1,242 @@
+<!DOCTYPE html><html class="light" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Let's get that Score | High-Stakes Exam Preparation</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "background": "#f9f9ff",
+                    "secondary-fixed-dim": "#bcc7dd",
+                    "surface-bright": "#f9f9ff",
+                    "tertiary-fixed": "#dde3eb",
+                    "on-tertiary-fixed-variant": "#41474e",
+                    "on-background": "#161c27",
+                    "primary-fixed": "#dbe1ff",
+                    "secondary-fixed": "#d8e3fa",
+                    "surface-container-lowest": "#ffffff",
+                    "on-error": "#ffffff",
+                    "outline": "#757682",
+                    "on-primary-fixed": "#00174a",
+                    "on-surface-variant": "#444650",
+                    "on-error-container": "#93000a",
+                    "surface-variant": "#dde2f3",
+                    "secondary-container": "#d5e0f7",
+                    "inverse-on-surface": "#ecf0ff",
+                    "error-container": "#ffdad6",
+                    "on-tertiary": "#ffffff",
+                    "primary": "#00113a",
+                    "on-secondary": "#ffffff",
+                    "tertiary-container": "#23292f",
+                    "surface-dim": "#d4daea",
+                    "on-secondary-fixed": "#111c2c",
+                    "on-primary-fixed-variant": "#2a4386",
+                    "surface": "#f9f9ff",
+                    "primary-container": "#002366",
+                    "on-primary-container": "#758dd5",
+                    "tertiary-fixed-dim": "#c1c7cf",
+                    "surface-container-high": "#e3e8f9",
+                    "inverse-surface": "#2a303d",
+                    "outline-variant": "#c5c6d2",
+                    "on-secondary-fixed-variant": "#3c475a",
+                    "on-secondary-container": "#586377",
+                    "surface-container-highest": "#dde2f3",
+                    "on-tertiary-fixed": "#161c22",
+                    "on-tertiary-container": "#8a9097",
+                    "tertiary": "#0e151a",
+                    "surface-container-low": "#f1f3ff",
+                    "on-primary": "#ffffff",
+                    "surface-tint": "#435b9f",
+                    "secondary": "#545f72",
+                    "inverse-primary": "#b3c5ff",
+                    "surface-container": "#e8eeff",
+                    "on-surface": "#161c27",
+                    "error": "#ba1a1a",
+                    "primary-fixed-dim": "#b3c5ff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "unit": "8px",
+                    "margin-desktop": "40px",
+                    "container-max": "1024px",
+                    "section-gap": "64px",
+                    "gutter": "24px",
+                    "margin-mobile": "16px"
+            },
+            "fontFamily": {
+                    "headline-xl": ["Inter"],
+                    "body-lg": ["Inter"],
+                    "label-md": ["Inter"],
+                    "mono-md": ["monospace"],
+                    "headline-lg-mobile": ["Inter"],
+                    "headline-lg": ["Inter"],
+                    "body-sm": ["Inter"],
+                    "body-md": ["Inter"],
+                    "headline-md": ["Inter"]
+            },
+            "fontSize": {
+                    "headline-xl": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "mono-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                    "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #FFFFFF;
+            color: #161c27;
+            -webkit-font-smoothing: antialiased;
+        }
+        .selection-card {
+            transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s ease;
+        }
+        .selection-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border-color: #00113a;
+        }
+        .section-separator {
+            width: 100%;
+            max-width: 1024px;
+            height: 1px;
+            background-color: #E2E8F0;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+<!-- TopAppBar -->
+<nav class="bg-surface border-b border-outline-variant h-16 sticky top-0 z-50">
+<div class="flex justify-between items-center w-full px-margin-desktop max-w-container-max mx-auto h-full">
+<span class="font-headline-md text-headline-md font-bold text-primary">Let's get that Score</span>
+
+
+</div>
+</nav>
+<!-- Main Canvas -->
+<main class="flex-grow">
+<!-- Hero Section -->
+<section class="py-section-gap px-margin-desktop max-w-container-max mx-auto text-center bg-surface-container-low">
+<div class="max-w-2xl mx-auto mb-12 py-8">
+<div class="inline-block px-4 py-1 mb-6 rounded-full bg-amber-100 text-amber-900 font-label-md text-label-md uppercase tracking-wider border border-amber-200">Free • ETS-format practice</div><h1 class="font-headline-xl text-headline-xl text-primary mb-4 md:text-headline-xl text-headline-lg-mobile">
+                    Choose your exam
+                </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                    Professional, authentic practice for your next milestone.
+                </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter text-left">
+<!-- TOEFL Prep Card -->
+<div class="selection-card p-10 border border-outline-variant flex flex-col justify-between cursor-pointer group bg-surface-container-lowest">
+<div>
+<span class="font-label-md text-primary-container mb-4 block tracking-widest uppercase">TOEFL Prep</span>
+<h2 class="font-headline-md text-headline-md text-primary mb-4">Let's get that 120</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                            Master the TOEFL with ETS-authentic reading, listening, speaking, and writing modules.
+                        </p>
+</div>
+<div class="mt-8 flex items-center text-primary font-label-md">
+<span>Get Started</span>
+<span class="material-symbols-outlined ml-2 group-hover:translate-x-1 transition-transform text-amber-600">arrow_forward</span>
+</div>
+</div>
+<!-- TOEIC Prep Card -->
+<div class="selection-card p-10 border border-outline-variant flex flex-col justify-between cursor-pointer group bg-surface-container-lowest">
+<div>
+<span class="font-label-md text-primary-container mb-4 block tracking-widest uppercase">TOEIC Prep</span>
+<h2 class="font-headline-md text-headline-md text-primary mb-4">Let's get that 990</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                            Prepare for the TOEIC with realistic business-context questions and official timing.
+                        </p>
+</div>
+<div class="mt-8 flex items-center text-primary font-label-md">
+<span>Get Started</span>
+<span class="material-symbols-outlined ml-2 group-hover:translate-x-1 transition-transform text-amber-600">arrow_forward</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Visual Divider -->
+<div class="section-separator"></div>
+<!-- Feature Section -->
+<section class="py-section-gap px-margin-desktop max-w-container-max mx-auto bg-white">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="flex flex-col gap-4">
+<h3 class="font-label-md text-label-md text-primary uppercase tracking-wider">Authentic ETS Format</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Every module is calibrated to match official test center conditions and timing.
+                    </p>
+</div>
+<div class="flex flex-col gap-4">
+<h3 class="font-label-md text-label-md text-primary uppercase tracking-wider">Instant Scoring</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Receive immediate feedback on multiple-choice sections to track your progress.
+                    </p>
+</div>
+<div class="flex flex-col gap-4">
+<h3 class="font-label-md text-label-md text-primary uppercase tracking-wider">Free Practice Tests</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Access high-quality study materials at no cost, designed by language experts.
+                    </p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface border-t border-outline-variant">
+<div class="flex flex-col md:flex-row justify-between items-center w-full py-8 px-margin-desktop max-w-container-max mx-auto gap-4">
+<div class="flex flex-col items-center md:items-start gap-1">
+<span class="font-headline-sm text-headline-sm font-bold text-primary">Let's get that Score</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">© 2024 Let's get that Score. All rights reserved.</p>
+</div>
+<div class="flex items-center gap-gutter">
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Contact Support</a>
+</div>
+</div>
+</footer>
+<script>
+        // Micro-interactions for cards
+        document.querySelectorAll('.selection-card').forEach(card => {
+            card.addEventListener('click', () => {
+                // Flash feedback
+                card.style.opacity = '0.7';
+                setTimeout(() => {
+                    card.style.opacity = '1';
+                }, 100);
+            });
+        });
+
+        // Sticky header opacity on scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 20) {
+                nav.classList.add('shadow-sm');
+            } else {
+                nav.classList.remove('shadow-sm');
+            }
+        });
+    </script>
+
+
+</body></html>

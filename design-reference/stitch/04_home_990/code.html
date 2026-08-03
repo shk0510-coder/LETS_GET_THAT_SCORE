@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Let's get that 990 - TOEIC Prep</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container-low": "#f1f3ff",
+                    "surface-bright": "#f9f9ff",
+                    "on-secondary-fixed": "#111c2c",
+                    "error": "#ba1a1a",
+                    "surface-container": "#e8eeff",
+                    "on-surface": "#161c27",
+                    "tertiary": "#0e151a",
+                    "surface-container-high": "#e3e8f9",
+                    "inverse-on-surface": "#ecf0ff",
+                    "on-primary-fixed": "#00174a",
+                    "on-error": "#ffffff",
+                    "on-tertiary": "#ffffff",
+                    "primary-fixed-dim": "#b3c5ff",
+                    "surface-container-highest": "#dde2f3",
+                    "secondary": "#545f72",
+                    "on-error-container": "#93000a",
+                    "on-tertiary-fixed-variant": "#41474e",
+                    "on-primary": "#ffffff",
+                    "tertiary-fixed-dim": "#c1c7cf",
+                    "on-tertiary-fixed": "#161c22",
+                    "on-secondary-fixed-variant": "#3c475a",
+                    "surface-variant": "#dde2f3",
+                    "error-container": "#ffdad6",
+                    "secondary-container": "#d5e0f7",
+                    "outline-variant": "#c5c6d2",
+                    "on-background": "#161c27",
+                    "on-surface-variant": "#444650",
+                    "primary-container": "#002366",
+                    "on-primary-container": "#758dd5",
+                    "inverse-primary": "#b3c5ff",
+                    "tertiary-container": "#23292f",
+                    "background": "#f9f9ff",
+                    "primary": "#00113a",
+                    "outline": "#757682",
+                    "on-secondary": "#ffffff",
+                    "surface-tint": "#435b9f",
+                    "surface-dim": "#d4daea",
+                    "tertiary-fixed": "#dde3eb",
+                    "surface-container-lowest": "#ffffff",
+                    "inverse-surface": "#2a303d",
+                    "primary-fixed": "#dbe1ff",
+                    "secondary-fixed-dim": "#bcc7dd",
+                    "on-primary-fixed-variant": "#2a4386",
+                    "surface": "#f9f9ff",
+                    "on-tertiary-container": "#8a9097",
+                    "secondary-fixed": "#d8e3fa",
+                    "on-secondary-container": "#586377"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "margin-mobile": "16px",
+                    "gutter": "24px",
+                    "section-gap": "64px",
+                    "container-max": "1024px",
+                    "margin-desktop": "40px",
+                    "unit": "8px"
+            },
+            "fontFamily": {
+                    "headline-lg": ["Inter"],
+                    "mono-md": ["monospace"],
+                    "headline-lg-mobile": ["Inter"],
+                    "headline-xl": ["Inter"],
+                    "body-sm": ["Inter"],
+                    "body-lg": ["Inter"],
+                    "headline-md": ["Inter"],
+                    "body-md": ["Inter"],
+                    "label-md": ["Inter"]
+            },
+            "fontSize": {
+                    "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                    "mono-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "headline-xl": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        /* Custom Gold Accent for "01" / "02" to match prestige branding */
+        .accent-gold { color: #B8860B; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface min-h-screen flex flex-col">
+<!-- TopAppBar -->
+<header class="bg-surface border-b border-outline-variant w-full fixed top-0 z-50">
+<div class="flex flex-col items-center py-section-gap px-margin-desktop w-full max-w-container-max mx-auto text-center">
+<h1 class="text-headline-lg font-headline-lg text-primary tracking-tight">Let's get that 990</h1>
+<p class="text-body-sm font-body-sm text-on-surface-variant mt-2">TOEIC practice, built like the real exam</p>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-grow flex items-center justify-center pt-48 pb-24 px-margin-mobile md:px-margin-desktop">
+<div class="w-full max-w-container-max grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Card 1: Section Practice -->
+<div class="group relative bg-surface-container-low border border-outline-variant p-10 flex flex-col justify-between transition-all duration-300 hover:border-primary">
+<div class="flex flex-col">
+<span class="accent-gold font-headline-xl text-headline-xl mb-4 opacity-80">01</span>
+<h2 class="text-headline-md font-headline-md text-primary mb-2">Section Practice</h2>
+<p class="text-body-md font-body-md text-on-surface-variant max-w-xs">Take a full Listening or Reading section under timed conditions.</p>
+</div>
+<div class="mt-16">
+<a class="inline-flex items-center text-label-md font-label-md text-primary tracking-widest hover:translate-x-2 transition-transform" href="#">
+                        VIEW TESTS <span class="material-symbols-outlined ml-2 text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 2: Practice by Type -->
+<div class="group relative bg-surface-container-low border border-outline-variant p-10 flex flex-col justify-between transition-all duration-300 hover:border-primary">
+<div class="flex flex-col">
+<span class="accent-gold font-headline-xl text-headline-xl mb-4 opacity-80">02</span>
+<h2 class="text-headline-md font-headline-md text-primary mb-2">Practice by Type</h2>
+<p class="text-body-md font-body-md text-on-surface-variant max-w-xs">Focus on specific question parts to master individual skill sets.</p>
+</div>
+<div class="mt-16">
+<a class="inline-flex items-center text-label-md font-label-md text-primary tracking-widest hover:translate-x-2 transition-transform" href="#">
+                        PRACTICE <span class="material-symbols-outlined ml-2 text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</main>
+<!-- Visual Polish: Subtle Background Ornamentation -->
+<div class="fixed inset-0 pointer-events-none -z-10 overflow-hidden">
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full opacity-[0.03]">
+<div class="w-full h-full bg-cover bg-center grayscale" data-alt="A sophisticated architectural photograph of a minimalist university library with high vaulted ceilings and clean white marble columns. The lighting is diffused and professional, creating an atmosphere of academic excellence and quiet focus. The color palette is strictly limited to shades of white, light grey, and very subtle pale blue. The mood is stoic and institutional." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCOaKqU088Ck64jV_WXA_73z0mryR9RwP2SGqMN7yp-yyYY8zdRPWy7oODi3gQnBxciwsBnt4oNan60myluSWPkjqMu6rbyJhWAR6jWF_m3eecWCgG_SCvZLrpHHCI0iaTtokgdjZ6PphJoyN2unerWBxiSB58MHKofKOe4pLdNB5_9qMdXiOyD2lVgV7vbiiQ71bFtsvdz6w2TzLrxmGhw1au1_d8lXyfypVhdyZ8ZUymRfNAeoCFN')"></div>
+</div>
+</div>
+<!-- Footer -->
+<footer class="bg-surface border-t border-outline-variant w-full">
+<div class="flex justify-center items-center py-gutter w-full max-w-container-max mx-auto">
+<span class="text-label-md font-label-md text-secondary uppercase tracking-widest">© 2024 Let's get that 990. All rights reserved.</span>
+</div>
+</footer>
+<script>
+        // Micro-interaction for cards
+        document.querySelectorAll('.group').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-4px)';
+                card.style.backgroundColor = '#e8eeff'; // surface-container
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
+                card.style.backgroundColor = '#f1f3ff'; // surface-container-low
+            });
+        });
+    </script>
+</body></html>

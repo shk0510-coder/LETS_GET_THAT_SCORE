@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Section Practice - Let's get that 990</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-low": "#f1f3ff",
+                        "surface-bright": "#f9f9ff",
+                        "on-secondary-fixed": "#111c2c",
+                        "error": "#ba1a1a",
+                        "surface-container": "#e8eeff",
+                        "on-surface": "#161c27",
+                        "tertiary": "#0e151a",
+                        "surface-container-high": "#e3e8f9",
+                        "inverse-on-surface": "#ecf0ff",
+                        "on-primary-fixed": "#00174a",
+                        "on-error": "#ffffff",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed-dim": "#b3c5ff",
+                        "surface-container-highest": "#dde2f3",
+                        "secondary": "#545f72",
+                        "on-error-container": "#93000a",
+                        "on-tertiary-fixed-variant": "#41474e",
+                        "on-primary": "#ffffff",
+                        "tertiary-fixed-dim": "#c1c7cf",
+                        "on-tertiary-fixed": "#161c22",
+                        "on-secondary-fixed-variant": "#3c475a",
+                        "surface-variant": "#dde2f3",
+                        "error-container": "#ffdad6",
+                        "secondary-container": "#d5e0f7",
+                        "outline-variant": "#c5c6d2",
+                        "on-background": "#161c27",
+                        "on-surface-variant": "#444650",
+                        "primary-container": "#002366",
+                        "on-primary-container": "#758dd5",
+                        "inverse-primary": "#b3c5ff",
+                        "tertiary-container": "#23292f",
+                        "background": "#f9f9ff",
+                        "primary": "#00113a",
+                        "outline": "#757682",
+                        "on-secondary": "#ffffff",
+                        "surface-tint": "#435b9f",
+                        "surface-dim": "#d4daea",
+                        "tertiary-fixed": "#dde3eb",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-surface": "#2a303d",
+                        "primary-fixed": "#dbe1ff",
+                        "secondary-fixed-dim": "#bcc7dd",
+                        "on-primary-fixed-variant": "#2a4386",
+                        "surface": "#f9f9ff",
+                        "on-tertiary-container": "#8a9097",
+                        "secondary-fixed": "#d8e3fa",
+                        "on-secondary-container": "#586377"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "gutter": "24px",
+                        "section-gap": "64px",
+                        "container-max": "1024px",
+                        "margin-desktop": "40px",
+                        "unit": "8px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Inter"],
+                        "mono-md": ["monospace"],
+                        "headline-lg-mobile": ["Inter"],
+                        "headline-xl": ["Inter"],
+                        "body-sm": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "headline-md": ["Inter"],
+                        "body-md": ["Inter"],
+                        "label-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                        "mono-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "headline-xl": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        /* Custom scrollbar for minimalist look */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #dde2f3; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #757682; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface min-h-screen flex flex-col">
+<!-- TopAppBar -->
+<header class="bg-surface border-b border-outline-variant fixed top-0 w-full z-50">
+<div class="flex flex-col items-center py-4 px-margin-desktop w-full max-w-container-max mx-auto">
+<div class="flex items-center justify-between w-full">
+<div class="flex items-center gap-4">
+<button aria-label="Back" class="p-2 -ml-2 text-on-surface-variant hover:text-primary transition-colors focus:outline-none">
+<span class="material-symbols-outlined text-[28px]">arrow_back</span>
+</button>
+<h1 class="text-headline-lg font-headline-lg text-primary tracking-tight">Section Practice</h1>
+</div>
+<!-- Empty div to satisfy "No wordmark/subtext on right" layout while maintaining flex balance if needed, though we only have left/center elements here -->
+<div></div>
+</div>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-grow pt-24 pb-section-gap px-margin-desktop w-full max-w-container-max mx-auto">
+<!-- Tabs -->
+<div class="flex gap-margin-mobile mb-gutter border-b border-outline-variant">
+<button class="pb-2 px-4 text-label-md font-label-md transition-all border-b-2 border-primary text-primary" id="tab-listening" onclick="switchTab('listening')">
+                Listening
+            </button>
+<button class="pb-2 px-4 text-label-md font-label-md transition-all border-b-2 border-transparent text-on-surface-variant hover:text-primary" id="tab-reading" onclick="switchTab('reading')">
+                Reading
+            </button>
+</div>
+<!-- Compact Bento/Grid Grid of Test Cards -->
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-unit" id="test-grid">
+<!-- Test Cards - Dynamically generated feel -->
+<button class="bg-surface-container border border-outline-variant rounded hover:border-primary-container hover:bg-surface-container-high transition-all py-3 px-4 flex items-center justify-center group">
+<span class="text-label-md font-label-md text-primary-container group-hover:text-primary">Test 1</span>
+</button>
+<button class="bg-surface-container border border-outline-variant rounded hover:border-primary-container hover:bg-surface-container-high transition-all py-3 px-4 flex items-center justify-center group">
+<span class="text-label-md font-label-md text-primary-container group-hover:text-primary">Test 2</span>
+</button>
+<button class="bg-surface-container border border-outline-variant rounded hover:border-primary-container hover:bg-surface-container-high transition-all py-3 px-4 flex items-center justify-center group">
+<span class="text-label-md font-label-md text-primary-container group-hover:text-primary">Test 3</span>
+</button>
+<button class="bg-surface-container border border-outline-variant rounded hover:border-primary-container hover:bg-surface-container-high transition-all py-3 px-4 flex items-center justify-center group">
+<span class="text-label-md font-label-md text-primary-container group-hover:text-primary">Test 4</span>
+</button>
+<button class="bg-surface-container border border-outline-variant rounded hover:border-primary-container hover:bg-surface-container-high transition-all py-3 px-4 flex items-center justify-center group">
+<span class="text-label-md font-label-md text-primary-container group-hover:text-primary">Test 5</span>
+</button>
+<button class="bg-surface-container border border-outline-variant rounded hover:border-primary-container hover:bg-surface-container-high transition-all py-3 px-4 flex items-center justify-center group">
+<span class="text-label-md font-label-md text-primary-container group-hover:text-primary">Test 6</span>
+</button>
+<button class="bg-surface-container border border-outline-variant rounded hover:border-primary-container hover:bg-surface-container-high transition-all py-3 px-4 flex items-center justify-center group">
+<span class="text-label-md font-label-md text-primary-container group-hover:text-primary">Test 7</span>
+</button>
+<button class="bg-surface-container border border-outline-variant rounded hover:border-primary-container hover:bg-surface-container-high transition-all py-3 px-4 flex items-center justify-center group">
+<span class="text-label-md font-label-md text-primary-container group-hover:text-primary">Test 8</span>
+</button>
+<button class="bg-surface-container border border-outline-variant rounded hover:border-primary-container hover:bg-surface-container-high transition-all py-3 px-4 flex items-center justify-center group">
+<span class="text-label-md font-label-md text-primary-container group-hover:text-primary">Test 9</span>
+</button>
+<button class="bg-surface-container border border-outline-variant rounded hover:border-primary-container hover:bg-surface-container-high transition-all py-3 px-4 flex items-center justify-center group">
+<span class="text-label-md font-label-md text-primary-container group-hover:text-primary">Test 10</span>
+</button>
+<button class="bg-surface-container border border-outline-variant rounded hover:border-primary-container hover:bg-surface-container-high transition-all py-3 px-4 flex items-center justify-center group">
+<span class="text-label-md font-label-md text-primary-container group-hover:text-primary">Test 11</span>
+</button>
+<button class="bg-surface-container border border-outline-variant rounded hover:border-primary-container hover:bg-surface-container-high transition-all py-3 px-4 flex items-center justify-center group">
+<span class="text-label-md font-label-md text-primary-container group-hover:text-primary">Test 12</span>
+</button>
+<button class="bg-surface-container border border-outline-variant rounded hover:border-primary-container hover:bg-surface-container-high transition-all py-3 px-4 flex items-center justify-center group">
+<span class="text-label-md font-label-md text-primary-container group-hover:text-primary">Test 13</span>
+</button>
+<button class="bg-surface-container border border-outline-variant rounded hover:border-primary-container hover:bg-surface-container-high transition-all py-3 px-4 flex items-center justify-center group">
+<span class="text-label-md font-label-md text-primary-container group-hover:text-primary">Test 14</span>
+</button>
+<button class="bg-surface-container border border-outline-variant rounded hover:border-primary-container hover:bg-surface-container-high transition-all py-3 px-4 flex items-center justify-center group">
+<span class="text-label-md font-label-md text-primary-container group-hover:text-primary">Test 15</span>
+</button>
+</div>
+<!-- Atmospheric Illustration (Decorative only, bottom) -->
+<div class="mt-section-gap flex justify-center opacity-10 grayscale pointer-events-none">
+<div class="w-48 h-48 bg-cover bg-center" data-alt="A minimalist architectural study of clean geometric lines and shadows in a high-prestige academic hall. The lighting is cold and focused, emphasizing stability and rigorous study. The color palette is restricted to pale blues, whites, and deep navy tones, creating a sense of stoic focus." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDiZM-pD6uOwJ0p78S874zBpkLcY8laPLDI_KTjaw4CNr1zVvqOJGavtkPK1tTUSweXO_aL_9ofqzDIGfWehE2mMT2Q2QkPGyOJbSvhA8ggqmsxUSyMmmFoLSVMWtzuIFrgV9kXxOTyrSUfV9IaIG71Tno5zIVuVLT3B32Xs64H4YqC4MdTm7glCvwCk_-2XyhdBsJH4-DJO1RLZpL_wuulgwQb0DLjGzLYvy9MS1I5FDy0PQH2eiXH')"></div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-surface border-t border-outline-variant">
+<div class="flex justify-center items-center py-gutter w-full max-w-container-max mx-auto">
+<p class="text-label-md font-label-md text-secondary tracking-wider">© 2024 Let's get that 990. All rights reserved.</p>
+</div>
+</footer>
+<script>
+        function switchTab(tab) {
+            const listeningBtn = document.getElementById('tab-listening');
+            const readingBtn = document.getElementById('tab-reading');
+            const grid = document.getElementById('test-grid');
+
+            if (tab === 'listening') {
+                listeningBtn.classList.add('border-primary', 'text-primary');
+                listeningBtn.classList.remove('border-transparent', 'text-on-surface-variant');
+                readingBtn.classList.remove('border-primary', 'text-primary');
+                readingBtn.classList.add('border-transparent', 'text-on-surface-variant');
+                
+                // Add a simple stagger effect when "switching"
+                grid.style.opacity = '0';
+                setTimeout(() => {
+                    grid.style.opacity = '1';
+                    grid.style.transition = 'opacity 0.3s ease';
+                }, 50);
+            } else {
+                readingBtn.classList.add('border-primary', 'text-primary');
+                readingBtn.classList.remove('border-transparent', 'text-on-surface-variant');
+                listeningBtn.classList.remove('border-primary', 'text-primary');
+                listeningBtn.classList.add('border-transparent', 'text-on-surface-variant');
+
+                grid.style.opacity = '0';
+                setTimeout(() => {
+                    grid.style.opacity = '1';
+                    grid.style.transition = 'opacity 0.3s ease';
+                }, 50);
+            }
+        }
+    </script>
+</body></html>

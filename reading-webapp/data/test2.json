@@ -1,0 +1,358 @@
+{
+  "testId": "test2",
+  "title": "TOEFL Reading Practice — Test 2",
+  "modules": [
+    {
+      "title": "Marine Microplastics and Food Webs",
+      "completeWords": {
+        "paragraph": "Microplastics are fragments smaller than five millim___ (1) that originate from degraded packaging, synthetic fibers, and industrial pellets. Because they are buoy___ (2) or neutrally dense, currents can trans___ (3) them across oceans. Laboratory studies show that some organisms ingest these particles, confusing them with prey, which can reduce feed___ (4) efficiency. Researchers also investigate whether microplastics act as vectors for adsor___ (5) pollutants that later des___ (6) in digestive fluids. However, estimating real-world risk is challenging: field samples can be contami___ (7) during collection, and particle concentrations vary widely by location and depth. To improve comparability, scientists now standardize filtration mesh size and report both particle count and mass-based metri___ (8). Long-term monitoring aims to detect trends and evaluate whether policy bans on microbeads have a measu___ (9) effect. Even so, uncertainty remains about how plastics interact with gut microb___ (10) and immune responses.",
+        "answers": [
+          "millimeters",
+          "buoyant",
+          "transport",
+          "feeding",
+          "adsorbed",
+          "desorb",
+          "contaminated",
+          "metrics",
+          "measurable",
+          "microbiome"
+        ],
+        "explanations": [
+          "Correct unit; microplastics definition uses millimeters.\nCommon wrong: millimetres (UK spelling may be marked wrong)",
+          "Meaning able to float; explains transport.\nCommon wrong: buyant (spelling)",
+          "Verb fits currents moving particles.\nCommon wrong: transpose (wrong meaning)",
+          "Modifies efficiency; about eating behavior.\nCommon wrong: feed (wrong form)",
+          "Particles can carry adsorbed pollutants on surfaces.\nCommon wrong: absorbed (different process)",
+          "Verb meaning release from a surface; pollutants can desorb.\nCommon wrong: dissolve (not same mechanism)",
+          "Field samples can be contaminated; fits method limitation.\nCommon wrong: contaminant (noun)",
+          "Plural noun for measurement units reported.\nCommon wrong: metrices (nonstandard)",
+          "Adjective meaning detectable effect.\nCommon wrong: measureful (nonword)",
+          "Term for gut microbial community.\nCommon wrong: microbe (too general)"
+        ]
+      },
+      "dailyLife": {
+        "notice": {
+          "label": "NOTICE",
+          "text": "To reduce laboratory contamination, the Coastal Research Lab is moving to a ‘no fleece’ policy. Starting next week, staff and visitors must avoid wearing synthetic-fiber outerwear in the clean sampling room. Cotton lab coats will be provided at the entrance. Samples arriving without sealed lids will be rejected and must be re-collected.",
+          "questions": [
+            {
+              "number": 11,
+              "question": "Why is the lab introducing the new policy?",
+              "choices": [
+                "To increase the number of visitors",
+                "To lower the price of lab coats",
+                "To reduce contamination of samples",
+                "To encourage fleece manufacturing"
+              ],
+              "answerIndex": 2,
+              "explanation": "The notice says the goal is to reduce laboratory contamination.\nWhy (A) is wrong: Visitors are not being recruited.\nWhy (B) is wrong: No pricing issue is mentioned.\nWhy (D) is wrong: It discourages synthetic fibers, not encourages them."
+            },
+            {
+              "number": 12,
+              "question": "What will happen to samples without sealed lids?",
+              "choices": [
+                "They will be stored for later analysis",
+                "They will be rejected and need to be collected again",
+                "They will be cleaned in the sampling room",
+                "They will be mailed back to the sender"
+              ],
+              "answerIndex": 1,
+              "explanation": "It explicitly states such samples will be rejected and must be re-collected.\nWhy (A) is wrong: Storage is not offered as an option.\nWhy (C) is wrong: Cleaning is not mentioned.\nWhy (D) is wrong: Mailing back is not stated."
+            }
+          ]
+        },
+        "post": {
+          "label": "POST",
+          "text": "@OceanFactsDaily: A reminder that ‘microplastics in fish’ headlines can be misleading. Detection depends on lab methods, and some studies count fibers that may come from clothing. Ask: How were samples collected? What blanks/controls were used?",
+          "questions": [
+            {
+              "number": 13,
+              "question": "What is the post mainly encouraging readers to do?",
+              "choices": [
+                "Evaluate study methods before accepting headlines",
+                "Buy synthetic clothing to test contamination",
+                "Assume all detected fibers come from fish",
+                "Ignore all research about microplastics"
+              ],
+              "answerIndex": 0,
+              "explanation": "It advises questioning methods and not taking headlines at face value.\nWhy (D) is wrong: It does not say to ignore all research.\nWhy (C) is wrong: It warns that some fibers may come from clothing contamination.\nWhy (B) is wrong: It does not promote buying synthetic clothing."
+            },
+            {
+              "number": 14,
+              "question": "Why does the post mention blanks/controls?",
+              "choices": [
+                "To highlight procedures that check for contamination",
+                "To argue that newspapers should be banned",
+                "To suggest controls make results less accurate",
+                "To explain how to feed fish in laboratories"
+              ],
+              "answerIndex": 0,
+              "explanation": "Blanks/controls help identify contamination introduced during sampling or analysis.\nWhy (C) is wrong: Controls improve, not reduce, reliability.\nWhy (D) is wrong: Feeding fish is unrelated.\nWhy (B) is wrong: No bans are proposed."
+            }
+          ]
+        },
+        "message": {
+          "label": "MESSAGE",
+          "text": "Team—please remember to run a procedural blank with every batch this week. We changed the filter brand, and I want to confirm the background fiber count hasn’t shifted. Log the blank results in the shared sheet before you process real samples.",
+          "questions": [
+            {
+              "number": 15,
+              "question": "Why does the writer want procedural blanks run this week?",
+              "choices": [
+                "To train new staff on spreadsheet design",
+                "To check whether a change in filters affects contamination levels",
+                "To speed up sample processing",
+                "To replace real samples with blanks"
+              ],
+              "answerIndex": 1,
+              "explanation": "They changed the filter brand and want to verify background fiber counts.\nWhy (C) is wrong: It may slow processing, not speed it up.\nWhy (D) is wrong: Real samples are still processed after blanks.\nWhy (A) is wrong: The spreadsheet is for logging, not training on design."
+            }
+          ]
+        }
+      },
+      "academicPassage": {
+        "title": "Interpreting Microplastic Exposure in Marine Food Webs",
+        "passage": "Reports of microplastics in seafood often imply a direct threat to human health, but the scientific picture is more nuanced. First, microplastics vary in polymer type, shape, and size, which affects how organisms encounter and retain them. Some particles pass through digestive systems quickly, while others may lodge in tissues, especially when they are extremely small.\n\nSecond, researchers debate whether microplastics meaningfully increase exposure to chemical pollutants. Although plastics can carry pollutants on their surfaces, an organism’s diet already contains many contaminant sources. In some cases, the quantity desorbed from plastics may be minor compared with background exposure. Consequently, laboratory experiments that use unrealistically high particle concentrations may overstate risk.\n\nFinally, measurement itself is difficult. Fibers shed from clothing or airborne dust can contaminate samples unless strict controls are used. For this reason, many scientists emphasize method transparency and replication. Rather than treating any detection as alarming, they argue that policymakers should focus on robust trends—such as whether concentrations are rising in particular regions—and on interventions that reduce plastic release at its source.",
+        "questions": [
+          {
+            "number": 16,
+            "question": "Why does the author say the scientific picture is ‘more nuanced’?",
+            "choices": [
+              "Because microplastics are harmless in all cases",
+              "Because scientists have stopped studying pollution",
+              "Because seafood contains no contaminants",
+              "Because microplastics differ in properties and their impacts vary"
+            ],
+            "answerIndex": 3,
+            "explanation": "The passage lists multiple factors—particle variability, pollutant debate, and measurement challenges—that complicate simple conclusions.\nWhy (A) is wrong: It does not claim harmlessness.\nWhy (B) is wrong: Research is ongoing.\nWhy (C) is wrong: It notes background contaminants exist."
+          },
+          {
+            "number": 17,
+            "question": "What point does the passage make about pollutants carried on plastics?",
+            "choices": [
+              "They may contribute less than background dietary exposure",
+              "They cannot desorb in digestive systems",
+              "They are always the dominant exposure source",
+              "They only matter for large plastic pieces"
+            ],
+            "answerIndex": 0,
+            "explanation": "It says desorbed pollutants may be minor compared with existing dietary exposure sources.\nWhy (C) is wrong: It explicitly questions dominance.\nWhy (B) is wrong: Desorption is discussed as possible.\nWhy (D) is wrong: Small particles are emphasized, not only large pieces."
+          },
+          {
+            "number": 18,
+            "question": "Why might some laboratory experiments overstate risk?",
+            "choices": [
+              "They include too many different polymer types",
+              "They avoid using strict controls",
+              "They use particle concentrations higher than typical real-world levels",
+              "They measure plastics only by mass"
+            ],
+            "answerIndex": 2,
+            "explanation": "The author notes experiments using unrealistically high concentrations may exaggerate risk.\nWhy (B) is wrong: Strict controls are recommended, not avoided.\nWhy (A) is wrong: Polymer variety is not the stated reason.\nWhy (D) is wrong: Mass-only measurement is not the main critique."
+          },
+          {
+            "number": 19,
+            "question": "In paragraph 3, ‘contaminate’ most nearly means",
+            "choices": [
+              "to preserve by sealing tightly",
+              "to make impure by introducing unwanted material",
+              "to measure using standardized tools",
+              "to reduce by filtering"
+            ],
+            "answerIndex": 1,
+            "explanation": "Contaminate means to introduce unwanted fibers or dust that distort results.\nWhy (A) is wrong: Sealing tightly is the opposite action.\nWhy (C) is wrong: Measurement standardization is separate.\nWhy (D) is wrong: Filtering reduces contamination; it is not the meaning."
+          },
+          {
+            "number": 20,
+            "question": "Which approach does the author favor for policy?",
+            "choices": [
+              "Banning seafood consumption",
+              "Responding to any detection as a crisis",
+              "Limiting research to laboratory studies",
+              "Focusing on robust trends and reducing plastic release at the source"
+            ],
+            "answerIndex": 3,
+            "explanation": "The final sentence supports trend-focused policy and source reduction rather than alarm over any detection.\nWhy (B) is wrong: The passage rejects treating any detection as automatically alarming.\nWhy (A) is wrong: No seafood ban is suggested.\nWhy (C) is wrong: It calls for transparency and replication, not lab-only limits."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Archaeological Dating and Evidence Chains",
+      "completeWords": {
+        "paragraph": "Archaeologists rarely rely on a single test; instead, they build an evid___ (1) chain from stratigraphy, artifacts, and absolute dating. Radiocarbon dating estimates age by measuring the decay of carbon-14, but results must be cali___ (2) using known atmospheric variations. Samples can yield misleading dates if they are contami___ (3) with modern carbon or if older material is redepo___ (4) into newer layers. For this reason, researchers prefer short-lived materials such as seeds, which reduce the ‘old wood’ eff___ (5). They also compare multiple samples and report a confidence interv___ (6) rather than a single point estimate. Beyond radiocarbon, thermoluminescence dating can be applied to heated minerals, and obsidian hydration can provide relative chron___ (7) when local rates are known. In all cases, interpretation depends on site context and on documenting the prove___ (8) of each specimen. When evidence sources converge, conclusions become more rob___ (9); when they diverge, archaeologists revise hypotheses or collect addit___ (10) data.",
+        "answers": [
+          "evidence",
+          "calibrated",
+          "contaminated",
+          "redeposited",
+          "effect",
+          "interval",
+          "chronology",
+          "provenance",
+          "robust",
+          "additional"
+        ],
+        "explanations": [
+          "Fits ‘evidence chain’ phrase.\nCommon wrong: evident (adj)",
+          "Radiocarbon dates are calibrated; standard term.\nCommon wrong: calculated (too general)",
+          "Modern carbon contamination is common issue.\nCommon wrong: contaminate (verb form)",
+          "Older material moved into newer layers.\nCommon wrong: reposted (wrong)",
+          "‘Old wood effect’ is standard phrasing.\nCommon wrong: affect (wrong usage)",
+          "Confidence interval is statistical range.\nCommon wrong: interview (wrong)",
+          "Relative chronology is timeline ordering.\nCommon wrong: chronicle (wrong nuance)",
+          "Origin/context of artifact; crucial in archaeology.\nCommon wrong: province (different word)",
+          "Means strong/reliable; used in research claims.\nCommon wrong: robot (spelling)",
+          "More data; fits ‘collect additional data’.\nCommon wrong: addictive (wrong)"
+        ]
+      },
+      "dailyLife": {
+        "notice": {
+          "label": "NOTICE",
+          "text": "Field School Participants: All soil samples must be labeled with trench number, depth, and date before leaving the site. Unlabeled bags cannot be processed in the lab because their stratigraphic context is unverifiable. If you make an error, cross it out with a single line and rewrite—do not use correction fluid. Submit your sample log at the end of each day.",
+          "questions": [
+            {
+              "number": 11,
+              "question": "Why can’t unlabeled soil samples be processed?",
+              "choices": [
+                "They are illegal to collect",
+                "They will damage lab equipment",
+                "Their stratigraphic context cannot be verified",
+                "They are too heavy to transport"
+              ],
+              "answerIndex": 2,
+              "explanation": "The notice says context is unverifiable without labels, so the lab cannot process them.\nWhy (D) is wrong: Weight is not mentioned.\nWhy (B) is wrong: Equipment damage is not stated.\nWhy (A) is wrong: Collection legality is not discussed."
+            },
+            {
+              "number": 12,
+              "question": "What should participants do if they make a labeling error?",
+              "choices": [
+                "Use correction fluid to erase it",
+                "Leave it blank and explain later",
+                "Throw away the sample",
+                "Cross it out and rewrite it"
+              ],
+              "answerIndex": 3,
+              "explanation": "It instructs participants to cross out with a single line and rewrite, and not to use correction fluid.\nWhy (C) is wrong: Discarding is not recommended.\nWhy (A) is wrong: Correction fluid is explicitly forbidden.\nWhy (B) is wrong: Leaving blank is not allowed."
+            }
+          ]
+        },
+        "post": {
+          "label": "POST",
+          "text": "@MuseumBehindScenes: Today we rejected a ‘rare’ pot offered by a seller because the paperwork didn’t show where it was excavated. Without provenance, an object tells us almost nothing about past behavior—and it might be stolen. Context matters more than rarity.",
+          "questions": [
+            {
+              "number": 13,
+              "question": "What is the main message of the post?",
+              "choices": [
+                "Rare objects are always authentic",
+                "Provenance is essential for scientific and ethical reasons",
+                "Museums should buy artifacts quickly",
+                "Paperwork is less important than appearance"
+              ],
+              "answerIndex": 1,
+              "explanation": "It emphasizes that without provenance, objects lose scientific value and may be unethical to acquire.\nWhy (A) is wrong: It does not guarantee authenticity.\nWhy (C) is wrong: It argues against buying without context.\nWhy (D) is wrong: It says context matters more than rarity."
+            },
+            {
+              "number": 14,
+              "question": "Why might a museum reject an artifact without provenance?",
+              "choices": [
+                "It provides little information and could be stolen",
+                "It always comes from a modern factory",
+                "It cannot be dated with radiocarbon methods",
+                "It is too fragile to display"
+              ],
+              "answerIndex": 0,
+              "explanation": "The post states it tells little about past behavior and might be stolen.\nWhy (C) is wrong: Radiocarbon is not the sole reason for rejection.\nWhy (D) is wrong: Fragility is not mentioned.\nWhy (B) is wrong: It does not claim all such objects are modern."
+            }
+          ]
+        },
+        "message": {
+          "label": "MESSAGE",
+          "text": "Dr. Patel—our charcoal samples from Layer IV produced dates older than the pottery style suggests. Could bioturbation have mixed material upward, or should we suspect redeposition during flooding? I’m attaching the stratigraphy photos for your thoughts.",
+          "questions": [
+            {
+              "number": 15,
+              "question": "Why is the writer contacting Dr. Patel?",
+              "choices": [
+                "To ask for an explanation for conflicting dating evidence",
+                "To complain about pottery styles",
+                "To announce that the site is closed",
+                "To request funding for a museum purchase"
+              ],
+              "answerIndex": 0,
+              "explanation": "They have conflicting dates and want help interpreting possible causes like mixing or redeposition.\nWhy (D) is wrong: Funding is not mentioned.\nWhy (C) is wrong: No closure is announced.\nWhy (B) is wrong: They are analyzing evidence, not complaining."
+            }
+          ]
+        }
+      },
+      "academicPassage": {
+        "title": "Why ‘Context’ Is a Form of Data",
+        "passage": "In archaeology, an artifact’s scientific value depends heavily on where it is found. A stone tool recovered from a sealed layer alongside animal bones and hearth ash can support inferences about diet and technology. The same tool, purchased from an unknown source, may be aesthetically interesting but scientifically opaque.\n\nThis distinction matters because archaeological claims are rarely built on a single object. Researchers instead assemble evidence chains: stratigraphic relationships indicate relative order, while absolute dating methods estimate calendar age. Each link, however, can be weakened. Flooding can redeposit older material into younger sediments; burrowing animals can move objects across layers; and samples can be contaminated during collection. Therefore, archaeologists prefer multiple, independent measurements and detailed recording protocols.\n\nSome critics argue that strict standards slow discovery, but proponents respond that speed is not the central aim. Without documentation, spectacular finds cannot be evaluated or replicated, and they may encourage looting by creating markets for unprovenanced objects. From this perspective, protecting context is not bureaucracy; it is how the discipline converts objects into knowledge.",
+        "questions": [
+          {
+            "number": 16,
+            "question": "What does the passage suggest about an artifact bought from an unknown source?",
+            "choices": [
+              "It can be dated more accurately than excavated artifacts",
+              "It is always fake",
+              "It has greater value because it is rare",
+              "It may be interesting but provides little scientific information"
+            ],
+            "answerIndex": 3,
+            "explanation": "The passage contrasts excavated vs unknown-source artifacts, saying the latter is scientifically opaque.\nWhy (B) is wrong: It does not claim it is always fake.\nWhy (C) is wrong: Rarity is not equated with scientific value.\nWhy (A) is wrong: Unknown context does not increase dating accuracy."
+          },
+          {
+            "number": 17,
+            "question": "Why does the author mention flooding and burrowing animals?",
+            "choices": [
+              "To show that stratigraphic context can be disturbed",
+              "To explain how to create markets for artifacts",
+              "To suggest archaeology should focus on aesthetics",
+              "To argue that absolute dating is unnecessary"
+            ],
+            "answerIndex": 0,
+            "explanation": "These examples illustrate processes that can mix or move materials, weakening context.\nWhy (D) is wrong: Absolute dating is still used; the point is limitations.\nWhy (B) is wrong: Markets are mentioned later, not as the purpose here.\nWhy (C) is wrong: Aesthetics is contrasted with scientific inference."
+          },
+          {
+            "number": 18,
+            "question": "In paragraph 2, ‘independent’ measurements are recommended mainly to",
+            "choices": [
+              "replace stratigraphy with radiocarbon dating",
+              "reduce reliance on any single potentially flawed link in the evidence chain",
+              "make reports longer",
+              "avoid recording protocols"
+            ],
+            "answerIndex": 1,
+            "explanation": "Multiple independent measures protect against error if one link (e.g., contamination) is compromised.\nWhy (C) is wrong: Length is irrelevant.\nWhy (A) is wrong: It argues for combining methods, not replacing stratigraphy.\nWhy (D) is wrong: Recording protocols are emphasized, not avoided."
+          },
+          {
+            "number": 19,
+            "question": "What is the likely position of proponents mentioned in paragraph 3?",
+            "choices": [
+              "They want to ban all absolute dating methods",
+              "They think documentation is essential for evaluation and to discourage looting",
+              "They oppose any museum displays",
+              "They believe speed matters more than documentation"
+            ],
+            "answerIndex": 1,
+            "explanation": "Proponents argue documentation is needed for evaluation/replication and to reduce looting incentives.\nWhy (D) is wrong: They explicitly reject speed as central aim.\nWhy (C) is wrong: They do not oppose displays; they oppose undocumented acquisition.\nWhy (A) is wrong: No ban on absolute dating is suggested."
+          },
+          {
+            "number": 20,
+            "question": "Which statement best captures the main idea?",
+            "choices": [
+              "Flooding is the main cause of dating errors",
+              "Radiocarbon dating is the only trustworthy method",
+              "Context and documentation are crucial because they turn artifacts into reliable evidence",
+              "Archaeology is primarily about buying rare objects"
+            ],
+            "answerIndex": 2,
+            "explanation": "Across paragraphs, the passage argues context/documentation make evidence reliable and ethically sourced.\nWhy (D) is wrong: Buying is portrayed as scientifically weak.\nWhy (A) is wrong: Flooding is one example, not main focus.\nWhy (B) is wrong: Radiocarbon is not the only method discussed."
+          }
+        ]
+      }
+    }
+  ]
+}
