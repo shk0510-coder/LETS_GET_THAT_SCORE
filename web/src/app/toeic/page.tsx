@@ -7,6 +7,7 @@ export default function ToeicHomePage() {
         title="Let's get that 990"
         subtitle="TOEIC practice, built like the real exam"
         href="/toeic"
+        backHref="/exam-select"
       />
       <main className="flex-grow flex items-center justify-center">
         <Container className="py-16">
