@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Badge, Container, Icon, SiteFooter } from "@/components/ui";
+import { BackLink, Badge, Container, Icon, SiteFooter } from "@/components/ui";
 
 const FEATURES = [
   {
@@ -34,6 +34,9 @@ export default function ExamSelectPage() {
         <section className="bg-surface-container-low py-16 md:py-24">
           <Container className="text-center">
             <div className="max-w-2xl mx-auto mb-12">
+              <div className="mb-6 flex justify-center">
+                <BackLink href="/" label="Home" />
+              </div>
               <Badge>Free • ETS-format practice</Badge>
               <h1 className="text-headline-lg-mobile md:text-headline-xl text-primary mt-6 mb-4">
                 Choose your exam
