@@ -23,6 +23,25 @@ export function toeflTestIdFor(section: SectionId, index: number) {
   return `test${index}`;
 }
 
+// YouTube video IDs for the Writing/Speaking prompt videos, keyed by test
+// number (1-5). The TestPlayer embeds these directly above the answer UI.
+export const TOEFL_PROMPT_VIDEO_IDS: Record<"writing" | "speaking", Record<number, string>> = {
+  writing: {
+    1: "zZ006I4Go8I",
+    2: "t2B_l2qcc78",
+    3: "cQIvEpbFz5Q",
+    4: "5ZwauG8qfD0",
+    5: "nLmBfLTwhdk",
+  },
+  speaking: {
+    1: "5o7ypb0f2jI",
+    2: "T229N1dzdks",
+    3: "KHpQxqA9BrY",
+    4: "o-NooSd6Pws",
+    5: "pGe74HaxyoQ",
+  },
+};
+
 export const TOEFL_PRACTICE_TYPES: Record<
   SectionId,
   { label: string; count: number }[]

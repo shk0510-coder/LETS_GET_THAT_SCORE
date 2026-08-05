@@ -1,5 +1,8 @@
 import Link from "next/link";
 import { BackLink, Container, Icon, SiteFooter } from "@/components/ui";
+import { TOEFL_PROMPT_VIDEO_IDS } from "@/lib/content";
+import { WritingAnswerBox } from "./WritingAnswerBox";
+import { SpeakingRecorder } from "./SpeakingRecorder";
 
 export function TestPlayer({
   skillLabel,
@@ -15,6 +18,11 @@ export function TestPlayer({
       ? "Watch the prompt, then record your own response."
       : "Watch the prompt, then write your own response.";
 
+  const skillKey = skillLabel.toLowerCase() as "writing" | "speaking";
+  const videoId =
+    TOEFL_PROMPT_VIDEO_IDS[skillKey][testNumber] ??
+    TOEFL_PROMPT_VIDEO_IDS[skillKey][1];
+
   return (
     <div className="flex flex-col flex-1">
       <header className="w-full bg-surface border-b border-outline-variant">
@@ -28,31 +36,14 @@ export function TestPlayer({
 
       <main className="flex-grow flex flex-col items-center justify-center px-4 md:px-10 py-16">
         <Container className="max-w-3xl">
-          <div
-            className="w-full relative aspect-video rounded-lg border-2 border-primary-container overflow-hidden"
-            style={{
-              background: "linear-gradient(135deg, #00113a 0%, #002366 100%)",
-            }}
-          >
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-20 h-20 bg-surface/10 backdrop-blur-md rounded-full border border-surface/30 flex items-center justify-center">
-                <Icon
-                  name="play_arrow"
-                  className="text-surface text-5xl"
-                />
-              </div>
-            </div>
-            <div className="absolute bottom-0 left-0 right-0 p-4">
-              <div className="flex items-center gap-4 text-surface">
-                <Icon name="play_circle" className="text-2xl" />
-                <div className="flex-grow h-1 bg-surface/30 rounded-full overflow-hidden">
-                  <div className="w-1/3 h-full bg-accent-gold" />
-                </div>
-                <span className="text-mono-md">01:24 / 04:00</span>
-                <Icon name="volume_up" className="text-2xl" />
-                <Icon name="fullscreen" className="text-2xl" />
-              </div>
-            </div>
+          <div className="w-full relative aspect-video rounded-lg border-2 border-primary-container overflow-hidden bg-primary">
+            <iframe
+              className="absolute inset-0 w-full h-full"
+              src={`https://www.youtube.com/embed/${videoId}`}
+              title={`${skillLabel} Test ${testNumber} prompt video`}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </div>
 
           <div className="mt-16 w-full flex flex-col items-center text-center">
@@ -67,7 +58,16 @@ export function TestPlayer({
               <span className="font-semibold text-primary">self-graded</span>{" "}
               — no automatic scoring.
             </p>
-            <div className="w-12 h-1 bg-accent-gold rounded-full my-8" />
+          </div>
+
+          {skillLabel === "Writing" ? (
+            <WritingAnswerBox testNumber={testNumber} />
+          ) : (
+            <SpeakingRecorder testNumber={testNumber} />
+          )}
+
+          <div className="mt-16 w-full flex flex-col items-center text-center">
+            <div className="w-12 h-1 bg-accent-gold rounded-full mb-8" />
             <Link
               href={sectionHref}
               className="group flex items-center gap-4 bg-primary text-on-primary px-10 py-4 rounded-lg text-headline-md transition-all hover:bg-primary-container active:scale-95"
