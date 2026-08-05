@@ -7,8 +7,8 @@ export function IntroScreen({ page, audio }: { page: PageDef; audio: UseToeicAud
   const directionsItem = getAudioItem(page.audioIds[0]);
 
   return (
-    <div className="flex flex-col">
-      <div className="flex flex-col items-center text-center gap-3 mb-8">
+    <div className="border border-black/25 px-6 py-6 sm:px-8 sm:py-8">
+      <div className="flex items-center gap-3 mb-4">
         {directionsItem && (
           <SpeakerButton item={directionsItem} audio={audio} label="Play Listening Test directions" />
         )}
@@ -32,23 +32,14 @@ export function IntroScreen({ page, audio }: { page: PageDef; audio: UseToeicAud
       </p>
 
       <p className="font-semibold mb-3">Example:</p>
-      <div className="flex flex-col items-center gap-3">
+      <div className="flex flex-col items-start gap-3">
         <ImagePlaceholder
           src="/toeic/test1/part1/example.jpg"
           alt="Example photograph"
           aspectClassName="aspect-[3/2]"
           className="w-full max-w-md"
         />
-        <div className="flex items-center gap-6 mt-1">
-          <span>(A)</span>
-          <span>(B)</span>
-          <span className="inline-flex items-center justify-center w-6 h-6 rounded-full border-2 border-black text-[13px] font-semibold">
-            C
-          </span>
-          <span>(D)</span>
-        </div>
-        <p className="text-xs text-[#888]">Sample Answer</p>
-        <p className="text-[15px] leading-relaxed max-w-lg text-center">
+        <p className="text-[15px] leading-relaxed">
           In the photograph, a man is typing at a desk. Statement (C) best describes this action, so (C) is
           the correct response.
         </p>

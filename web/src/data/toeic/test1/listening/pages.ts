@@ -62,12 +62,12 @@ const PAGE_SPECS: Omit<PageDef, "index">[] = [
   part1QuestionPage(1),
   part1QuestionPage(3),
   part1QuestionPage(5),
-  // P5
+  // P5 — one audio item covers directions + all of Q7-31 (real Part 2 track).
   {
     part: 2,
     layout: "part2",
     showDirections: true,
-    audioIds: Array.from({ length: 25 }, (_, i) => `p2-q${String(i + 7).padStart(3, "0")}`),
+    audioIds: ["p2-directions"],
     questionIds: Array.from({ length: 25 }, (_, i) => i + 7),
   },
   // P6-P9

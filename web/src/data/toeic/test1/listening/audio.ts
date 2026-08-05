@@ -15,13 +15,6 @@ function part1QuestionBlocks(): AudioBlock[] {
   });
 }
 
-function part2QuestionBlocks(): AudioBlock[] {
-  return Array.from({ length: 25 }, (_, i) => {
-    const q = i + 7;
-    return { id: `p2-q${String(q).padStart(3, "0")}`, questionIds: [q] };
-  });
-}
-
 function setBlocks(part: 3 | 4, starts: number[]): AudioBlock[] {
   return starts.map((start) => ({
     id: `p${part}-set${String(start).padStart(3, "0")}`,
@@ -29,12 +22,17 @@ function setBlocks(part: 3 | 4, starts: number[]): AudioBlock[] {
   }));
 }
 
-// Part 2/3/4 directions audio is bundled into the first item's file
-// (Q7 / each part's first set) — no standalone directions block for those parts.
+// Part 2's real audio track is one continuous recording: directions followed
+// by all of Q7-31, with no gaps to split on — so it's a single audio item
+// covering all 25 questions, not one item per question.
+const PART2_QUESTION_IDS = Array.from({ length: 25 }, (_, i) => i + 7);
+
+// Part 3/4 directions audio is bundled into the first set's file — no
+// standalone directions block for those parts either.
 const AUDIO_SEQUENCE: AudioBlock[] = [
   { id: "p1-directions", questionIds: [] },
   ...part1QuestionBlocks(),
-  ...part2QuestionBlocks(),
+  { id: "p2-directions", questionIds: PART2_QUESTION_IDS },
   ...setBlocks(3, PART3_SET_STARTS),
   ...setBlocks(4, PART4_SET_STARTS),
 ];

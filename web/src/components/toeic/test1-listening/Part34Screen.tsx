@@ -42,14 +42,14 @@ export function Part34Screen({
       )}
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10">
-        <div className="flex flex-col divide-y divide-black/10">
+        <div className="flex flex-col divide-y divide-dotted divide-black/30">
           {leftSets.map((set) => (
             <div key={set.audioId} className="py-6 first:pt-0">
               <SetBlock set={set} audio={audio} nav={nav} />
             </div>
           ))}
         </div>
-        <div className="flex flex-col divide-y divide-black/10">
+        <div className="flex flex-col divide-y divide-dotted divide-black/30">
           {rightSets.map((set) => (
             <div key={set.audioId} className="py-6 first:pt-0">
               <SetBlock set={set} audio={audio} nav={nav} />
@@ -111,18 +111,14 @@ function SetBlock({
                       key={letter}
                       type="button"
                       onClick={() => nav.setAnswer(questionId, letter)}
-                      className="flex items-start gap-2 rounded px-1.5 py-1 text-left text-[14px] transition-colors hover:bg-black/5"
+                      className={`flex items-start gap-1.5 rounded px-1.5 py-1 text-left text-[14px] transition-colors ${
+                        isSelected
+                          ? "bg-gold-container/60 text-[#1a1a1a] font-semibold"
+                          : "text-[#1a1a1a] hover:bg-black/5"
+                      }`}
                     >
-                      <span
-                        className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full border-2 text-[12px] font-semibold ${
-                          isSelected
-                            ? "border-gold bg-gold-container/60 text-[#1a1a1a]"
-                            : "border-transparent text-[#1a1a1a]"
-                        }`}
-                      >
-                        {letter}
-                      </span>
-                      <span className="pt-0.5">{optionText}</span>
+                      <span>({letter})</span>
+                      <span>{optionText}</span>
                     </button>
                   );
                 })}

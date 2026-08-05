@@ -15,7 +15,7 @@ export interface Question {
 }
 
 export interface AudioItem {
-  id: string; // 'p1-directions', 'p1-q001', 'p2-q007', 'p3-set032'
+  id: string; // 'p1-directions', 'p1-q001', 'p2-directions', 'p3-set032'
   src: string;
   order: number; // global sequential order, 1 ~ N
   questionIds: number[]; // questions this audio covers
