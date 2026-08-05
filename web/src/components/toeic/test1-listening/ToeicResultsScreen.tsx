@@ -148,7 +148,7 @@ export function ToeicResultsScreen({
       </div>
 
       <div className="grid md:grid-cols-[1fr_340px] gap-8">
-        <div className="grid grid-cols-10 gap-2">
+        <div className="grid grid-cols-6 sm:grid-cols-10 gap-2">
           {visibleIds.map((id) => {
             const status = statusFor(id, answers);
             const isSelected = selectedId === id;
