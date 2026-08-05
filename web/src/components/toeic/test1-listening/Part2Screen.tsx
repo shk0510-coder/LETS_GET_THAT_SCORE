@@ -64,10 +64,11 @@ export function Part2Screen({
         <div>
           <p className="font-bold text-sm mb-1">PART 2</p>
           <p className="text-[13px] leading-relaxed">
-            For each item in this part, you will hear a short question or statement, followed by three
-            spoken responses. Listen carefully and choose the response that best answers the question or
-            fits the statement, then select (A), (B), or (C). The question, statement, and responses are
-            spoken only once and are not printed in your test book.
+            <span className="font-semibold">Directions:</span> In this part, you will hear a question or
+            statement followed by three possible responses, all spoken in English. Neither the question nor
+            the responses will appear as text on your screen, and each will be played only once. Listen
+            carefully and click (A), (B), or (C) to select the response that best answers the question or
+            fits the statement.
           </p>
         </div>
       </div>

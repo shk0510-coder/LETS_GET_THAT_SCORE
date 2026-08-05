@@ -9,11 +9,11 @@ const CHOICE_LETTERS: Choice[] = ["A", "B", "C", "D"];
 const DIRECTIONS: Record<3 | 4, { title: string; body: string }> = {
   3: {
     title: "PART 3",
-    body: "For each conversation in this part, you will hear two or three people speaking about a topic. After the conversation, you will read a question and four possible answers. Choose the answer that best fits what you heard, based only on what is stated or implied in the conversation. Some conversations include a graphic — use both the audio and the graphic to answer the related question. Each conversation is spoken only once.",
+    body: "In this part, you will listen to a series of conversations involving two or more speakers. After each conversation, you will be asked three questions about what was discussed. Click (A), (B), (C), or (D) to select the best answer to each question. The conversations will not appear as text on your screen and will be played only once.",
   },
   4: {
     title: "PART 4",
-    body: "For each talk in this part, you will hear a short monologue given by a single speaker. After the talk, you will read a question and four possible answers. Choose the answer that best fits what you heard, based only on what is stated or implied in the talk. Some talks include a graphic — use both the audio and the graphic to answer the related question. Each talk is spoken only once.",
+    body: "In this part, you will listen to a series of short talks, each delivered by a single speaker. After each talk, you will be asked three questions about its content. Click (A), (B), (C), or (D) to select the best answer to each question. The talks will not appear as text on your screen and will be played only once.",
   },
 };
 
@@ -37,7 +37,9 @@ export function Part34Screen({
       {page.showDirections && directions && (
         <div className="border border-black/20 px-4 py-3 mb-6">
           <p className="font-bold text-sm mb-1">{directions.title}</p>
-          <p className="text-[13px] leading-relaxed">{directions.body}</p>
+          <p className="text-[13px] leading-relaxed">
+            <span className="font-semibold">Directions:</span> {directions.body}
+          </p>
         </div>
       )}
 

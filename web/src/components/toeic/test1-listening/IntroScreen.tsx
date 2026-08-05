@@ -16,19 +16,22 @@ export function IntroScreen({ page, audio }: { page: PageDef; audio: UseToeicAud
       </div>
 
       <p className="text-[15px] leading-relaxed mb-6">
-        In the Listening section, you will show how well you understand spoken English by answering four
-        types of questions. Each question is based on audio that plays only once. For every question, choose
-        the best answer from the choices given and mark it on your answer sheet. Except where noted below,
-        none of the questions or answer choices are printed in this section.
+        This test is designed to assess your ability to understand spoken English in a variety of everyday
+        and professional contexts. The Listening test consists of four parts and runs for approximately 45
+        minutes. Each part begins with its own set of directions. For all questions, select your answer by
+        clicking the choice that best matches what you hear — no separate answer sheet is required.
       </p>
 
       <hr className="border-t border-black/15 my-6" />
 
       <h3 className="text-lg font-bold mb-3">PART 1</h3>
       <p className="text-[15px] leading-relaxed mb-6">
-        For each item in this part, you will look at a photograph while you listen to four short statements
-        about it. Decide which statement best describes what is shown in the photograph, then select answer
-        (A), (B), (C), or (D). The statements are spoken only once and are not printed in your test book.
+        <span className="font-semibold">Directions:</span> Each question in this part features a photograph
+        displayed on your screen. You will hear four short statements, each describing the photograph in a
+        different way. Your task is to identify the statement that most accurately reflects what is shown in
+        the image, then click (A), (B), (C), or (D) to record your answer. Please note that the statements
+        are audio-only and will not appear as text on your screen. Each set of statements will be played
+        once.
       </p>
 
       <p className="font-semibold mb-3">Example:</p>
@@ -40,8 +43,8 @@ export function IntroScreen({ page, audio }: { page: PageDef; audio: UseToeicAud
           className="w-full max-w-md"
         />
         <p className="text-[15px] leading-relaxed">
-          In the photograph, a man is typing at a desk. Statement (C) best describes this action, so (C) is
-          the correct response.
+          In the example above, option (A) provides the most accurate description of the photograph and is
+          therefore the correct answer.
         </p>
       </div>
     </div>
