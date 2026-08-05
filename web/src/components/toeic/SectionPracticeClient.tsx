@@ -24,7 +24,7 @@ export function SectionPracticeClient() {
               key={n}
               number={n < 10 ? `0${n}` : `${n}`}
               label={`Test ${n}`}
-              href={`/toeic/section-practice/listening/test${n}`}
+              href={`/toeic/test${n}/listening`}
             />
           ) : (
             <TestTile
