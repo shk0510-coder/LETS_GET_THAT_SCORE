@@ -35,12 +35,12 @@ export function IntroScreen({ page, audio }: { page: PageDef; audio: UseToeicAud
       </p>
 
       <p className="font-semibold mb-3">Example:</p>
-      <div className="flex flex-col items-start gap-3">
+      <div className="flex flex-col items-center gap-3">
         <ImagePlaceholder
           src="/toeic/test1/part1/example.jpg"
           alt="Example photograph"
           aspectClassName="aspect-[3/2]"
-          className="w-full max-w-md"
+          className="w-full max-w-md mx-auto"
         />
         <p className="text-[15px] leading-relaxed">
           In the example above, option (A) provides the most accurate description of the photograph and is

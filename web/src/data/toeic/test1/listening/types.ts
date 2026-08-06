@@ -24,7 +24,6 @@ export interface AudioItem {
 export type PageLayout = "intro" | "part1" | "part2" | "set" | "end";
 
 export interface PageSet {
-  audioId: string;
   questionIds: number[];
   graphicSrc?: string;
 }

@@ -17,7 +17,8 @@ export function Part2Screen({
 }) {
   const leftIds = page.questionIds.filter((id) => id <= LEFT_COLUMN_END);
   const rightIds = page.questionIds.filter((id) => id > LEFT_COLUMN_END);
-  const audioItem = getAudioItem(page.audioIds[0]);
+  const directionsAudio = getAudioItem(page.audioIds[0]);
+  const questionsAudio = getAudioItem(page.audioIds[1]);
 
   function renderQuestion(questionId: number) {
     const selected = nav.answers[questionId];
@@ -53,15 +54,15 @@ export function Part2Screen({
   return (
     <div className="flex flex-col">
       <div className="border border-black/20 px-4 py-3 mb-6 flex items-start gap-4">
-        {audioItem && (
+        {directionsAudio && (
           <SpeakerButton
-            item={audioItem}
+            item={directionsAudio}
             audio={audio}
             size="sm"
-            label="Play Part 2 directions and questions 7 through 31"
+            label="Play Part 2 directions"
           />
         )}
-        <div>
+        <div className="flex-1">
           <p className="font-bold text-sm mb-1">PART 2</p>
           <p className="text-[13px] leading-relaxed">
             <span className="font-semibold">Directions:</span> In this part, you will hear a question or
@@ -71,6 +72,17 @@ export function Part2Screen({
             fits the statement.
           </p>
         </div>
+        {questionsAudio && (
+          <div className="flex flex-col items-center gap-1 shrink-0">
+            <SpeakerButton
+              item={questionsAudio}
+              audio={audio}
+              size="sm"
+              label="Play questions 7 through 31"
+            />
+            <span className="text-[10px] font-semibold text-[#666] text-center">Q7–31</span>
+          </div>
+        )}
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-7">

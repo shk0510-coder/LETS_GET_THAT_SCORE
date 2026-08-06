@@ -5,43 +5,38 @@ interface AudioBlock {
   questionIds: number[];
 }
 
+// Set start numbers within each page — used to lay out question groups
+// (dotted dividers, graphics) even though each page now plays as one track.
 export const PART3_SET_STARTS = [32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68];
 export const PART4_SET_STARTS = [71, 74, 77, 80, 83, 86, 89, 92, 95, 98];
 
-function part1QuestionBlocks(): AudioBlock[] {
-  return Array.from({ length: 6 }, (_, i) => {
-    const q = i + 1;
-    return { id: `p1-q${String(q).padStart(3, "0")}`, questionIds: [q] };
-  });
+function range(start: number, end: number): number[] {
+  return Array.from({ length: end - start + 1 }, (_, i) => start + i);
 }
 
-function setBlocks(part: 3 | 4, starts: number[]): AudioBlock[] {
-  return starts.map((start) => ({
-    id: `p${part}-set${String(start).padStart(3, "0")}`,
-    questionIds: [start, start + 1, start + 2],
-  }));
-}
-
-// Part 2's real audio track is one continuous recording: directions followed
-// by all of Q7-31, with no gaps to split on — so it's a single audio item
-// covering all 25 questions, not one item per question.
-const PART2_QUESTION_IDS = Array.from({ length: 25 }, (_, i) => i + 7);
-
-// Part 3/4 directions audio is bundled into the first set's file — no
-// standalone directions block for those parts either.
+// One audio file per page (directions pages get their own separate item) —
+// 15 files total, all under /toeic/test1/audio/. No per-question or
+// per-set audio anymore; playback advances one page-track at a time.
 const AUDIO_SEQUENCE: AudioBlock[] = [
-  { id: "p1-directions", questionIds: [] },
-  ...part1QuestionBlocks(),
-  { id: "p2-directions", questionIds: PART2_QUESTION_IDS },
-  ...setBlocks(3, PART3_SET_STARTS),
-  ...setBlocks(4, PART4_SET_STARTS),
+  { id: "directions", questionIds: [] }, // P1 — intro + Part 1 directions
+  { id: "p02", questionIds: [1, 2] },
+  { id: "p03", questionIds: [3, 4] },
+  { id: "p04", questionIds: [5, 6] },
+  { id: "p05-directions", questionIds: [] }, // Part 2 directions
+  { id: "p05", questionIds: range(7, 31) },
+  { id: "p06-directions", questionIds: [] }, // Part 3 directions
+  { id: "p06", questionIds: range(32, 43) },
+  { id: "p07", questionIds: range(44, 55) },
+  { id: "p08", questionIds: range(56, 64) },
+  { id: "p09", questionIds: range(65, 70) },
+  { id: "p10-directions", questionIds: [] }, // Part 4 directions
+  { id: "p10", questionIds: range(71, 82) },
+  { id: "p11", questionIds: range(83, 94) },
+  { id: "p12", questionIds: range(95, 100) },
 ];
 
 function audioSrcFor(id: string): string {
-  if (id === "p1-directions") return "/toeic/test1/audio/part1/directions.mp3";
-  const [partSegment, rest] = id.split("-");
-  const part = partSegment.replace("p", "");
-  return `/toeic/test1/audio/part${part}/${rest}.mp3`;
+  return `/toeic/test1/audio/${id}.mp3`;
 }
 
 export const AUDIO_ITEMS: AudioItem[] = AUDIO_SEQUENCE.map((block, i) => ({

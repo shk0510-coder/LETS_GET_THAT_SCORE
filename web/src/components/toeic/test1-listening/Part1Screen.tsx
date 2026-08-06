@@ -15,29 +15,36 @@ export function Part1Screen({
   audio: UseToeicAudioResult;
   nav: UseToeicNavResult;
 }) {
+  const audioItem = getAudioItem(page.audioIds[0]);
+  const firstId = page.questionIds[0];
+  const lastId = page.questionIds[page.questionIds.length - 1];
+
   return (
     <div className="flex flex-col gap-16">
-      {page.questionIds.map((questionId, i) => {
+      <div className="flex items-center gap-3">
+        {audioItem && (
+          <SpeakerButton
+            item={audioItem}
+            audio={audio}
+            size="sm"
+            label={`Play questions ${firstId} through ${lastId}`}
+          />
+        )}
+        <p className="text-xs font-semibold text-[#666]">
+          Questions {firstId}–{lastId}
+        </p>
+      </div>
+
+      {page.questionIds.map((questionId) => {
         const question = getQuestion(questionId);
-        const audioItem = getAudioItem(page.audioIds[i]);
         if (!question) return null;
         const selected = nav.answers[questionId];
 
         return (
-          <div key={questionId} className="flex flex-col gap-3">
-            <div className="flex items-center gap-3">
-              <p className="font-bold text-lg">{questionId}.</p>
-              {audioItem && (
-                <SpeakerButton
-                  item={audioItem}
-                  audio={audio}
-                  size="sm"
-                  label={`Play question ${questionId}`}
-                />
-              )}
-            </div>
+          <div key={questionId} className="flex flex-col items-center gap-3">
+            <p className="font-bold text-lg self-start">{questionId}.</p>
 
-            <div className="w-full sm:w-[54%]">
+            <div className="w-full sm:w-[54%] mx-auto">
               <ImagePlaceholder
                 src={question.photoSrc ?? ""}
                 alt={`Question ${questionId} photograph`}

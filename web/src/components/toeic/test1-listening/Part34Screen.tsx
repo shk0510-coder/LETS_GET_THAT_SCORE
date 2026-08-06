@@ -32,29 +32,70 @@ export function Part34Screen({
   const rightSets = sets.slice(half);
   const directions = page.part === 3 || page.part === 4 ? DIRECTIONS[page.part] : null;
 
+  const firstId = page.questionIds[0];
+  const lastId = page.questionIds[page.questionIds.length - 1];
+  const pageRangeLabel = `Questions ${firstId}–${lastId}`;
+  const directionsAudio = page.showDirections ? getAudioItem(page.audioIds[0]) : undefined;
+  const questionsAudio = getAudioItem(page.showDirections ? page.audioIds[1] : page.audioIds[0]);
+
   return (
     <div className="flex flex-col">
-      {page.showDirections && directions && (
-        <div className="border border-black/20 px-4 py-3 mb-6">
-          <p className="font-bold text-sm mb-1">{directions.title}</p>
-          <p className="text-[13px] leading-relaxed">
-            <span className="font-semibold">Directions:</span> {directions.body}
-          </p>
+      {page.showDirections && directions ? (
+        <div className="border border-black/20 px-4 py-3 mb-6 flex items-start gap-4">
+          {directionsAudio && (
+            <SpeakerButton
+              item={directionsAudio}
+              audio={audio}
+              size="sm"
+              label={`Play ${directions.title} directions`}
+            />
+          )}
+          <div className="flex-1">
+            <p className="font-bold text-sm mb-1">{directions.title}</p>
+            <p className="text-[13px] leading-relaxed">
+              <span className="font-semibold">Directions:</span> {directions.body}
+            </p>
+          </div>
+          {questionsAudio && (
+            <div className="flex flex-col items-center gap-1 shrink-0">
+              <SpeakerButton
+                item={questionsAudio}
+                audio={audio}
+                size="sm"
+                label={`Play ${pageRangeLabel}`}
+              />
+              <span className="text-[10px] font-semibold text-[#666] text-center">
+                Q{firstId}–{lastId}
+              </span>
+            </div>
+          )}
+        </div>
+      ) : (
+        <div className="flex items-center gap-3 mb-6">
+          {questionsAudio && (
+            <SpeakerButton
+              item={questionsAudio}
+              audio={audio}
+              size="sm"
+              label={`Play ${pageRangeLabel}`}
+            />
+          )}
+          <p className="text-xs font-semibold text-[#666]">{pageRangeLabel}</p>
         </div>
       )}
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10">
         <div className="flex flex-col divide-y divide-dotted divide-black/30">
           {leftSets.map((set) => (
-            <div key={set.audioId} className="py-6 first:pt-0">
-              <SetBlock set={set} audio={audio} nav={nav} />
+            <div key={set.questionIds[0]} className="py-6 first:pt-0">
+              <SetBlock set={set} nav={nav} />
             </div>
           ))}
         </div>
         <div className="flex flex-col divide-y divide-dotted divide-black/30">
           {rightSets.map((set) => (
-            <div key={set.audioId} className="py-6 first:pt-0">
-              <SetBlock set={set} audio={audio} nav={nav} />
+            <div key={set.questionIds[0]} className="py-6 first:pt-0">
+              <SetBlock set={set} nav={nav} />
             </div>
           ))}
         </div>
@@ -63,16 +104,7 @@ export function Part34Screen({
   );
 }
 
-function SetBlock({
-  set,
-  audio,
-  nav,
-}: {
-  set: PageSet;
-  audio: UseToeicAudioResult;
-  nav: UseToeicNavResult;
-}) {
-  const audioItem = getAudioItem(set.audioId);
+function SetBlock({ set, nav }: { set: PageSet; nav: UseToeicNavResult }) {
   const rangeLabel = `Questions ${set.questionIds[0]}–${set.questionIds[set.questionIds.length - 1]}`;
 
   return (
@@ -85,13 +117,6 @@ function SetBlock({
           className="w-full"
         />
       )}
-
-      <div className="flex items-center gap-3">
-        {audioItem && (
-          <SpeakerButton item={audioItem} audio={audio} size="sm" label={`Play ${rangeLabel}`} />
-        )}
-        <p className="text-xs font-semibold text-[#666]">{rangeLabel}</p>
-      </div>
 
       <div className="flex flex-col gap-5">
         {set.questionIds.map((questionId) => {

@@ -1,12 +1,11 @@
 # TOEIC Test 1 — Listening Asset Manifest
 
 Generated from the current `web/src/data/toeic/test1/listening/*` data files
-(`questions.ts`, `audio.ts`). If those files change, regenerate this list —
-don't hand-edit it out of sync with the code.
+(`questions.ts`, `audio.ts`, `pages.ts`). If those files change, regenerate
+this list — don't hand-edit it out of sync with the code.
 
 All paths below are relative to `web/public/toeic/test1/` (i.e. served at
-`/toeic/test1/...`). Folders already exist (empty, with a `.gitkeep`) —
-just drop files in with these exact names.
+`/toeic/test1/...`).
 
 Until a file exists, the UI shows a gray placeholder box (photos/graphics)
 printing the expected path, or falls back to a ~3s simulated playback
@@ -36,59 +35,37 @@ Only the 5 sets that include a graphic in the real ETS test need one.
 | `q095.png` | Questions 95–97 |
 | `q098.png` | Questions 98–100 |
 
-## `audio/part1/` — Part 1 directions + individual photo audio
+## `audio/` — one file per page (15 total)
 
-| File | Covers |
-|---|---|
-| `directions.mp3` | Part 1 directions (standalone, not bundled with Q1) |
-| `q001.mp3` | Question 1 |
-| `q002.mp3` | Question 2 |
-| `q003.mp3` | Question 3 |
-| `q004.mp3` | Question 4 |
-| `q005.mp3` | Question 5 |
-| `q006.mp3` | Question 6 |
+Audio plays one track per page, not per question or per set. Pages with
+their own Directions get a separate directions file, played before the
+question-track file. Global sequential lock + 2-play cap applies across all
+15, in the order listed below.
 
-## `audio/part2/` — one continuous track
+| Order | File | Page | Covers |
+|---|---|---|---|
+| 1 | `directions.mp3` | P1 | Intro + Part 1 directions |
+| 2 | `p02.mp3` | P2 | Q1–2 |
+| 3 | `p03.mp3` | P3 | Q3–4 |
+| 4 | `p04.mp3` | P4 | Q5–6 |
+| 5 | `p05-directions.mp3` | P5 | Part 2 directions |
+| 6 | `p05.mp3` | P5 | Q7–31 (one continuous ETS recording) |
+| 7 | `p06-directions.mp3` | P6 | Part 3 directions |
+| 8 | `p06.mp3` | P6 | Q32–43 (4 sets) |
+| 9 | `p07.mp3` | P7 | Q44–55 (4 sets) |
+| 10 | `p08.mp3` | P8 | Q56–64 (3 sets, has graphic `q062.png`) |
+| 11 | `p09.mp3` | P9 | Q65–70 (2 sets, has graphics `q065.png`, `q068.png`) |
+| 12 | `p10-directions.mp3` | P10 | Part 4 directions |
+| 13 | `p10.mp3` | P10 | Q71–82 (4 sets) |
+| 14 | `p11.mp3` | P11 | Q83–94 (4 sets) |
+| 15 | `p12.mp3` | P12 | Q95–100 (2 sets, has graphics `q095.png`, `q098.png`) |
 
-| File | Covers |
-|---|---|
-| `directions.mp3` | Part 2 directions + all of Q7–31 (one continuous ETS recording, one speaker button on the page) |
-
-## `audio/part3/` — one file per 3-question set (13 sets, Q32–70)
-
-| File | Covers |
-|---|---|
-| `set032.mp3` | Questions 32–34 (directions bundled into this file) |
-| `set035.mp3` | Questions 35–37 |
-| `set038.mp3` | Questions 38–40 |
-| `set041.mp3` | Questions 41–43 |
-| `set044.mp3` | Questions 44–46 |
-| `set047.mp3` | Questions 47–49 |
-| `set050.mp3` | Questions 50–52 |
-| `set053.mp3` | Questions 53–55 |
-| `set056.mp3` | Questions 56–58 |
-| `set059.mp3` | Questions 59–61 |
-| `set062.mp3` | Questions 62–64 (has graphic `q062.png`) |
-| `set065.mp3` | Questions 65–67 (has graphic `q065.png`) |
-| `set068.mp3` | Questions 68–70 (has graphic `q068.png`) |
-
-## `audio/part4/` — one file per 3-question set (10 sets, Q71–100)
-
-| File | Covers |
-|---|---|
-| `set071.mp3` | Questions 71–73 (directions bundled into this file) |
-| `set074.mp3` | Questions 74–76 |
-| `set077.mp3` | Questions 77–79 |
-| `set080.mp3` | Questions 80–82 |
-| `set083.mp3` | Questions 83–85 |
-| `set086.mp3` | Questions 86–88 |
-| `set089.mp3` | Questions 89–91 |
-| `set092.mp3` | Questions 92–94 |
-| `set095.mp3` | Questions 95–97 (has graphic `q095.png`) |
-| `set098.mp3` | Questions 98–100 (has graphic `q098.png`) |
+P13 (end screen) has no audio.
 
 ## Totals
 
 - Photos: 7 (6 questions + 1 example)
 - Graphics: 5
-- Audio files: 31 (1 directions + 6 Part 1 + 1 Part 2 + 13 Part 3 sets + 10 Part 4 sets)
+- Audio files: 15 (1 intro/Part 1 directions + 3 Part 1 pages + Part 2
+  directions + Part 2 questions + Part 3 directions + 4 Part 3 pages + Part
+  4 directions + 3 Part 4 pages)
