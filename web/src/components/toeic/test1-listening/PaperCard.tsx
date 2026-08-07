@@ -6,10 +6,16 @@
  * aspect-ratio only sets the *preferred* height — pages with more content
  * than one A4 sheet holds still grow taller instead of clipping.
  */
-export function PaperCard({ children }: { children: React.ReactNode }) {
+export function PaperCard({
+  children,
+  className = "mx-auto w-full max-w-[960px]",
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) {
   return (
     <div
-      className="mx-auto w-full max-w-[960px] aspect-[210/297] bg-white text-[#1a1a1a] border border-[#d0d0d0] px-6 py-10 sm:px-10 md:px-16 md:py-14"
+      className={`aspect-[210/297] bg-white text-[#1a1a1a] border border-[#d0d0d0] px-6 py-10 sm:px-10 md:px-16 md:py-14 ${className}`}
       style={{ fontFamily: "Arial, Helvetica, 'Helvetica Neue', sans-serif" }}
     >
       {children}

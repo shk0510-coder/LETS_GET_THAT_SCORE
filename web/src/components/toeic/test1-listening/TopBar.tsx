@@ -4,12 +4,14 @@ import Link from "next/link";
 import { Container, Icon } from "@/components/ui";
 
 export function TopBar({
+  title = "TOEIC Listening Test 1",
   pageIndex,
   totalPages,
   sectionHref,
   onJump,
   isNavLocked,
 }: {
+  title?: string;
   pageIndex: number;
   totalPages: number;
   sectionHref: string;
@@ -27,7 +29,7 @@ export function TopBar({
           <span className="hidden sm:inline">Exit</span>
         </Link>
 
-        <h1 className="text-body-md font-bold truncate hidden md:block">TOEIC Listening Test 1</h1>
+        <h1 className="text-body-md font-bold truncate hidden md:block">{title}</h1>
 
         <div className="flex items-center gap-3 shrink-0">
           <span className="text-body-sm">

@@ -24,7 +24,7 @@ export function ToeicListeningPlayer({
 }) {
   const router = useRouter();
   const audio = useToeicAudio(testId);
-  const nav = useToeicNav(testId, TOTAL_PAGES, audio.isNavLocked);
+  const nav = useToeicNav(testId, "listening", TOTAL_PAGES, audio.isNavLocked);
   const [showConfirm, setShowConfirm] = useState(false);
 
   const page = useMemo(

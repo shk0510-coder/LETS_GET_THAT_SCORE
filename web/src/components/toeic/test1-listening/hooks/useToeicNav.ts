@@ -8,14 +8,14 @@ interface StoredNavState {
   answers: Record<number, Choice>;
 }
 
-function storageKey(testId: string) {
-  return `toeic-${testId}-listening-nav`;
+function storageKey(testId: string, sectionId: string) {
+  return `toeic-${testId}-${sectionId}-nav`;
 }
 
-function loadStoredState(testId: string, totalPages: number): StoredNavState {
+function loadStoredState(testId: string, sectionId: string, totalPages: number): StoredNavState {
   if (typeof window === "undefined") return { pageIndex: 1, answers: {} };
   try {
-    const raw = window.sessionStorage.getItem(storageKey(testId));
+    const raw = window.sessionStorage.getItem(storageKey(testId, sectionId));
     if (!raw) return { pageIndex: 1, answers: {} };
     const parsed = JSON.parse(raw) as Partial<StoredNavState>;
     const pageIndex =
@@ -47,19 +47,22 @@ export interface UseToeicNavResult {
  */
 export function useToeicNav(
   testId: string,
+  sectionId: string,
   totalPages: number,
   isLocked: boolean,
 ): UseToeicNavResult {
-  const [pageIndex, setPageIndex] = useState(() => loadStoredState(testId, totalPages).pageIndex);
+  const [pageIndex, setPageIndex] = useState(
+    () => loadStoredState(testId, sectionId, totalPages).pageIndex,
+  );
   const [answers, setAnswers] = useState<Record<number, Choice>>(
-    () => loadStoredState(testId, totalPages).answers,
+    () => loadStoredState(testId, sectionId, totalPages).answers,
   );
 
   useEffect(() => {
     if (typeof window === "undefined") return;
     const payload: StoredNavState = { pageIndex, answers };
-    window.sessionStorage.setItem(storageKey(testId), JSON.stringify(payload));
-  }, [testId, pageIndex, answers]);
+    window.sessionStorage.setItem(storageKey(testId, sectionId), JSON.stringify(payload));
+  }, [testId, sectionId, pageIndex, answers]);
 
   const goTo = useCallback(
     (index: number) => {
