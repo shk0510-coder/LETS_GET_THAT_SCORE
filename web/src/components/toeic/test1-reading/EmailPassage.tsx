@@ -1,4 +1,5 @@
 import { ReadingPassage } from "@/data/toeic/test1/reading";
+import { PassageBody } from "./PassageBody";
 
 /**
  * The source passages are plain prose ("Dear X, ... Best regards, Y"), not
@@ -39,7 +40,7 @@ function parseEmail(content: string): { to?: string; from?: string; body: string
   return { to, from, body: body.trim() };
 }
 
-export function EmailPassage({ passage }: { passage: ReadingPassage }) {
+export function EmailPassage({ passage, blankIds }: { passage: ReadingPassage; blankIds?: number[] }) {
   const { to, from, body } = parseEmail(passage.content);
 
   return (
@@ -64,7 +65,11 @@ export function EmailPassage({ passage }: { passage: ReadingPassage }) {
           E-mail
         </p>
       )}
-      <div className="p-4 text-[13px] leading-relaxed whitespace-pre-line">{body}</div>
+      <PassageBody
+        text={body}
+        blankIds={blankIds}
+        className="p-4 text-[13px] leading-relaxed whitespace-pre-line"
+      />
     </div>
   );
 }

@@ -1,7 +1,8 @@
-import { getQuestion, ReadingPageDef } from "@/data/toeic/test1/reading";
+import { ReadingPageDef } from "@/data/toeic/test1/reading";
 import { UseToeicNavResult } from "../test1-listening/hooks/useToeicNav";
 import { PassagePane } from "./PassagePane";
-import { ReadingQuestionBlock } from "./ReadingQuestionBlock";
+import { QuestionColumns } from "./QuestionColumns";
+import { setReferenceLabel } from "./setReferenceLabel";
 
 export function Part7SingleScreen({ page, nav }: { page: ReadingPageDef; nav: UseToeicNavResult }) {
   const set = page.set!;
@@ -21,25 +22,10 @@ export function Part7SingleScreen({ page, nav }: { page: ReadingPageDef; nav: Us
         </div>
       )}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <PassagePane passage={passage} className="md:max-h-[520px] md:overflow-y-auto" />
+      <p className="text-[12px] font-semibold text-[#444] mb-2">{setReferenceLabel(set)}</p>
+      <PassagePane passage={passage} className="mb-6 w-full" />
 
-        <div className="flex flex-col gap-6">
-          {set.questionIds.map((questionId) => {
-            const question = getQuestion(questionId);
-            if (!question) return null;
-            return (
-              <ReadingQuestionBlock
-                key={questionId}
-                questionId={questionId}
-                question={question}
-                selected={nav.answers[questionId]}
-                onSelect={(choice) => nav.setAnswer(questionId, choice)}
-              />
-            );
-          })}
-        </div>
-      </div>
+      <QuestionColumns questionIds={set.questionIds} nav={nav} />
     </div>
   );
 }

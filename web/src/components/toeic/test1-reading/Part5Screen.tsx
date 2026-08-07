@@ -1,25 +1,8 @@
-import { getQuestion, ReadingPageDef } from "@/data/toeic/test1/reading";
+import { ReadingPageDef } from "@/data/toeic/test1/reading";
 import { UseToeicNavResult } from "../test1-listening/hooks/useToeicNav";
-import { splitIntoColumns } from "./columnSplit";
-import { ReadingQuestionBlock } from "./ReadingQuestionBlock";
+import { QuestionColumns } from "./QuestionColumns";
 
 export function Part5Screen({ page, nav }: { page: ReadingPageDef; nav: UseToeicNavResult }) {
-  const [leftIds, rightIds] = splitIntoColumns(page.questionIds);
-
-  function renderQuestion(questionId: number) {
-    const question = getQuestion(questionId);
-    if (!question) return null;
-    return (
-      <ReadingQuestionBlock
-        key={questionId}
-        questionId={questionId}
-        question={question}
-        selected={nav.answers[questionId]}
-        onSelect={(choice) => nav.setAnswer(questionId, choice)}
-      />
-    );
-  }
-
   return (
     <div className="flex flex-col">
       {page.showDirections && (
@@ -44,10 +27,7 @@ export function Part5Screen({ page, nav }: { page: ReadingPageDef; nav: UseToeic
         </>
       )}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-6">
-        <div className="flex flex-col gap-6">{leftIds.map(renderQuestion)}</div>
-        <div className="flex flex-col gap-6">{rightIds.map(renderQuestion)}</div>
-      </div>
+      <QuestionColumns questionIds={page.questionIds} nav={nav} />
     </div>
   );
 }

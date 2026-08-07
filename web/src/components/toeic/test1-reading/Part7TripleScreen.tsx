@@ -1,8 +1,9 @@
-import { getQuestion, ReadingPageDef } from "@/data/toeic/test1/reading";
+import { ReadingPageDef } from "@/data/toeic/test1/reading";
 import { PaperCard } from "../test1-listening/PaperCard";
 import { UseToeicNavResult } from "../test1-listening/hooks/useToeicNav";
 import { PassagePane } from "./PassagePane";
-import { ReadingQuestionBlock } from "./ReadingQuestionBlock";
+import { QuestionColumns } from "./QuestionColumns";
+import { setReferenceLabel } from "./setReferenceLabel";
 
 const CARD_CLASSNAME = "w-full md:flex-1 md:max-h-[85vh] md:overflow-y-auto";
 
@@ -13,6 +14,7 @@ export function Part7TripleScreen({ page, nav }: { page: ReadingPageDef; nav: Us
   return (
     <div className="flex flex-col md:flex-row gap-6 max-w-[1400px] mx-auto">
       <PaperCard className={CARD_CLASSNAME}>
+        <p className="text-[12px] font-semibold text-[#444] mb-3">{setReferenceLabel(set)}</p>
         <PassagePane passage={passage1} />
         <hr className="border-t border-black/15 my-6" />
         <PassagePane passage={passage2} />
@@ -21,21 +23,11 @@ export function Part7TripleScreen({ page, nav }: { page: ReadingPageDef; nav: Us
       <PaperCard className={CARD_CLASSNAME}>
         <PassagePane passage={passage3} />
         <hr className="border-t border-black/15 my-6" />
-        <div className="flex flex-col gap-6">
-          {set.questionIds.map((questionId) => {
-            const question = getQuestion(questionId);
-            if (!question) return null;
-            return (
-              <ReadingQuestionBlock
-                key={questionId}
-                questionId={questionId}
-                question={question}
-                selected={nav.answers[questionId]}
-                onSelect={(choice) => nav.setAnswer(questionId, choice)}
-              />
-            );
-          })}
-        </div>
+        <QuestionColumns
+          questionIds={set.questionIds}
+          nav={nav}
+          className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-6"
+        />
       </PaperCard>
     </div>
   );
