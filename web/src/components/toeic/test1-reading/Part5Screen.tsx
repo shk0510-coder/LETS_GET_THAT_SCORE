@@ -1,8 +1,16 @@
-import { ReadingPageDef } from "@/data/toeic/test1/reading";
+import { ReadingPageDef, ReadingQuestion } from "@/data/toeic/test1/reading";
 import { UseToeicNavResult } from "../test1-listening/hooks/useToeicNav";
 import { QuestionColumns } from "./QuestionColumns";
 
-export function Part5Screen({ page, nav }: { page: ReadingPageDef; nav: UseToeicNavResult }) {
+export function Part5Screen({
+  page,
+  nav,
+  getQuestion,
+}: {
+  page: ReadingPageDef;
+  nav: UseToeicNavResult;
+  getQuestion?: (id: number) => ReadingQuestion | undefined;
+}) {
   return (
     <div className="flex flex-col">
       {page.showDirections && (
@@ -27,7 +35,7 @@ export function Part5Screen({ page, nav }: { page: ReadingPageDef; nav: UseToeic
         </>
       )}
 
-      <QuestionColumns questionIds={page.questionIds} nav={nav} />
+      <QuestionColumns questionIds={page.questionIds} nav={nav} getQuestion={getQuestion} />
     </div>
   );
 }

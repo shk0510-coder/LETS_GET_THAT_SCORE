@@ -1,0 +1,2852 @@
+[
+  {
+    "id": "PT5_TEMP_1_101",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "전치사 vs 접속사",
+    "sentence": "The new fitness center will open ------- the renovation is completed.",
+    "choices": {
+      "A": "during",
+      "B": "once",
+      "C": "among",
+      "D": "toward"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "빈칸 뒤에 완전한 절(the renovation is completed)이 왔으므로 접속사가 필요하다. ‘일단 ~하면’을 뜻하는 (B) once가 정답이다. (A), (C), (D)는 모두 전치사로 명사(구)를 목적어로 취하므로 절을 이끌 수 없다.",
+      "translation": "리노베이션이 완료되면 새 피트니스 센터가 문을 열 것이다.",
+      "vocab": "renovation 보수공사 · complete 완료하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_102",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "형용사 자리 _ 명사 수식",
+    "sentence": "Employees are required to attend the ------- orientation session next Monday.",
+    "choices": {
+      "A": "mandatory",
+      "B": "mandate",
+      "C": "mandates",
+      "D": "mandating"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "빈칸 뒤 명사 session을 수식하는 형용사 자리이므로 ‘의무적인’을 뜻하는 (A) mandatory가 정답이다.",
+      "translation": "직원들은 다음 주 월요일 의무 오리엔테이션 세션에 참석해야 한다.",
+      "vocab": "mandatory 의무적인 · orientation 예비교육"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_103",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "명사 어휘",
+    "sentence": "The manager sent an e-mail with an ------- about the office relocation schedule.",
+    "choices": {
+      "A": "update",
+      "B": "improvement",
+      "C": "alteration",
+      "D": "instruction"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "문맥상 ‘사무실 이전 일정에 대한 최신 정보’라는 의미가 되어야 자연스러우므로 ‘새 소식, 최신 정보’를 뜻하는 (A) update가 정답이다. (B) improvement는 ‘개선’, (C) alteration은 ‘변경’, (D) instruction은 ‘지시’라는 의미로 문맥에 부적절하다.",
+      "translation": "부장은 사무실 이전 일정에 대한 소식이 담긴 이메일을 보냈다.",
+      "vocab": "relocation 이전 · schedule 일정"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_104",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "인칭대명사의 격 _ 소유격",
+    "sentence": "Ms. Tanaka submitted ------- expense report a day before the deadline.",
+    "choices": {
+      "A": "she",
+      "B": "her",
+      "C": "hers",
+      "D": "herself"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "빈칸 뒤 명사구 expense report를 수식하는 소유격 인칭대명사가 필요하므로 (B) her가 정답이다.",
+      "translation": "다나카 씨는 마감일 하루 전에 자신의 경비 보고서를 제출했다.",
+      "vocab": "expense report 경비 보고서 · deadline 마감일"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_105",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "동사 어휘 _ to부정사의 목적어",
+    "sentence": "To ------- unauthorized access, all staff must change their passwords monthly.",
+    "choices": {
+      "A": "prevent",
+      "B": "allow",
+      "C": "increase",
+      "D": "delay"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘승인되지 않은 접근을 막기 위해’라는 의미가 되어야 자연스러우므로 ‘막다, 예방하다’를 뜻하는 (A) prevent가 정답이다.",
+      "translation": "승인되지 않은 접근을 막기 위해, 모든 직원은 매달 비밀번호를 변경해야 한다.",
+      "vocab": "unauthorized 승인되지 않은 · access 접근"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_106",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "부사 자리 _ 동사 수식",
+    "sentence": "The technician ------- inspected the printer before returning it to the office.",
+    "choices": {
+      "A": "careful",
+      "B": "care",
+      "C": "carefully",
+      "D": "carefulness"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "주어 The technician과 동사 inspected 사이에서 동사를 수식하는 부사 자리이므로 ‘꼼꼼히’를 뜻하는 (C) carefully가 정답이다.",
+      "translation": "기술자는 프린터를 사무실로 돌려보내기 전에 꼼꼼히 점검했다.",
+      "vocab": "inspect 점검하다 · technician 기술자"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_107",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "접속사 자리 _ 등위접속사",
+    "sentence": "Mr. Diaz will lead the training session, ------- Ms. Park will handle the Q&A portion.",
+    "choices": {
+      "A": "so",
+      "B": "but",
+      "C": "and",
+      "D": "although"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "빈칸 앞뒤로 완전한 절이 대등하게 연결되며 두 사람이 각각 맡은 역할을 나열하는 내용이므로 등위접속사 (C) and가 정답이다. (A) so는 인과관계, (B) but은 대조, (D) although는 종속접속사로 문맥상 적절하지 않다.",
+      "translation": "디아즈 씨가 교육 세션을 진행하고, 박 씨가 질의응답 부분을 담당할 것이다.",
+      "vocab": "handle 담당하다 · portion 부분"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_108",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "명사 자리 _ 복합명사",
+    "sentence": "The company’s ------- policy was revised to include remote work options.",
+    "choices": {
+      "A": "employ",
+      "B": "employer",
+      "C": "employment",
+      "D": "employed"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "빈칸은 명사 policy와 함께 복합명사를 이루는 명사 자리이므로 ‘고용’을 뜻하는 (C) employment가 정답이다.",
+      "translation": "회사의 고용 정책은 재택근무 옵션을 포함하도록 개정되었다.",
+      "vocab": "revise 개정하다 · remote work 재택근무"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_109",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "동사 자리 _ 수 일치",
+    "sentence": "Each department ------- its own budget report by the end of the quarter.",
+    "choices": {
+      "A": "submit",
+      "B": "submits",
+      "C": "submitting",
+      "D": "to submit"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "문장에 동사가 보이지 않으므로 빈칸은 동사 자리이며, 주어 Each department가 단수이므로 단수동사 (B) submits가 정답이다.",
+      "translation": "각 부서는 분기 말까지 자체 예산 보고서를 제출한다.",
+      "vocab": "budget 예산 · quarter 분기"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_110",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "동사 자리 _ 수동태",
+    "sentence": "All visitors ------- to sign in at the front desk before entering the facility.",
+    "choices": {
+      "A": "require",
+      "B": "required",
+      "C": "are required",
+      "D": "requiring"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "주어 All visitors가 서명하도록 ‘요구받는’ 대상이므로 수동태가 필요하고, 문장에 동사가 없으므로 동사 자리인 (C) are required가 정답이다.",
+      "translation": "모든 방문객은 시설에 들어가기 전에 안내 데스크에서 서명해야 한다.",
+      "vocab": "facility 시설 · sign in 서명하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_111",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "부사 자리 _ 조동사와 동사원형 사이",
+    "sentence": "The proposal can ------- be finalized once the board approves the budget.",
+    "choices": {
+      "A": "only",
+      "B": "most",
+      "C": "very",
+      "D": "quite"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "조동사 can과 동사원형 be 사이에서 동사구를 수식하는 부사 자리로, ‘오직 ~해야만’이라는 의미의 (A) only가 정답이다.",
+      "translation": "이사회가 예산을 승인해야만 제안서가 최종 확정될 수 있다.",
+      "vocab": "finalize 확정하다 · approve 승인하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_112",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "부사 자리 _ 형용사 수식",
+    "sentence": "The revised contract terms are ------- favorable to both parties.",
+    "choices": {
+      "A": "equal",
+      "B": "equally",
+      "C": "equality",
+      "D": "equalize"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "빈칸 뒤 형용사 favorable을 수식하는 부사 자리이므로 (B) equally가 정답이다.",
+      "translation": "개정된 계약 조건은 양측 모두에게 동등하게 유리하다.",
+      "vocab": "favorable 유리한 · party (계약) 당사자"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_113",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "명사 어휘",
+    "sentence": "Analysts expressed ------- about the company’s ability to meet its sales targets.",
+    "choices": {
+      "A": "doubt",
+      "B": "generosity",
+      "C": "admiration",
+      "D": "curiosity"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "문맥상 ‘회사가 매출 목표를 달성할 수 있을지에 대한 의구심’이라는 의미가 되어야 자연스러우므로 (A) doubt가 정답이다.",
+      "translation": "분석가들은 회사가 매출 목표를 달성할 수 있을지에 대해 의구심을 표했다.",
+      "vocab": "analyst 분석가 · sales target 매출 목표"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_114",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "부사 어휘",
+    "sentence": "The marketing team is ------- preparing for the product launch next month.",
+    "choices": {
+      "A": "lightly",
+      "B": "actively",
+      "C": "rarely",
+      "D": "barely"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "‘활발하게 준비하고 있다’는 의미가 되어야 자연스러우므로 (B) actively가 정답이다.",
+      "translation": "마케팅팀은 다음 달 제품 출시를 위해 활발히 준비하고 있다.",
+      "vocab": "launch 출시 · prepare 준비하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_115",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "동사 어휘",
+    "sentence": "The new packaging is designed to ------- shipping costs by reducing overall weight.",
+    "choices": {
+      "A": "absorb",
+      "B": "lower",
+      "C": "undergo",
+      "D": "engage"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "‘전체 무게를 줄여 배송비를 낮추다’라는 의미가 되어야 자연스러우므로 (B) lower가 정답이다.",
+      "translation": "새 포장은 전체 무게를 줄여 배송비를 낮추도록 설계되었다.",
+      "vocab": "packaging 포장 · overall 전반적인"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_116",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "명사 자리 _ 전치사의 목적어",
+    "sentence": "The workshop aims to improve employees’ ------- of workplace safety procedures.",
+    "choices": {
+      "A": "understand",
+      "B": "understanding",
+      "C": "understood",
+      "D": "understandably"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "전치사 of의 목적어 역할을 하는 명사 자리이므로 (B) understanding이 정답이다.",
+      "translation": "이 워크숍은 직원들의 직장 안전 절차에 대한 이해를 향상시키는 것을 목표로 한다.",
+      "vocab": "procedure 절차 · workplace 직장"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_117",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "전치사 자리 _ 어휘",
+    "sentence": "The survey results will be shared with the team ------- the weekly meeting.",
+    "choices": {
+      "A": "during",
+      "B": "between",
+      "C": "among",
+      "D": "besides"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘주간 회의 중에’라는 의미가 되어야 자연스러우므로 특정 기간 동안을 뜻하는 (A) during이 정답이다.",
+      "translation": "설문조사 결과는 주간 회의 중에 팀과 공유될 것이다.",
+      "vocab": "survey 설문조사 · share 공유하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_118",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "접속사 자리 _ 부사절 접속사",
+    "sentence": "------- the budget was limited, the event still attracted a large crowd.",
+    "choices": {
+      "A": "Despite",
+      "B": "Although",
+      "C": "Because",
+      "D": "Unless"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "빈칸 뒤에 완전한 절이 오고, 문맥상 ‘예산이 제한적이었음에도 불구하고’라는 양보의 의미가 되어야 하므로 부사절 접속사 (B) Although가 정답이다. (A) Despite는 전치사로 절을 이끌 수 없다.",
+      "translation": "예산이 제한적이었음에도 불구하고, 그 행사에는 여전히 많은 인파가 몰렸다.",
+      "vocab": "budget 예산 · attract 끌어모으다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_119",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "동사 어휘",
+    "sentence": "The HR guidelines describe how managers can ------- staff for exceptional performance.",
+    "choices": {
+      "A": "recognize",
+      "B": "reply",
+      "C": "capture",
+      "D": "accumulate"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘뛰어난 성과에 대해 직원을 인정하다’라는 문맥에 적합한 (A) recognize가 정답이다.",
+      "translation": "인사 지침은 관리자가 뛰어난 성과를 보인 직원을 어떻게 인정할 수 있는지 설명한다.",
+      "vocab": "exceptional 뛰어난 · performance 성과"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_120",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "부정대명사",
+    "sentence": "Both candidates were well qualified, but ------- was selected for the position.",
+    "choices": {
+      "A": "myself",
+      "B": "neither",
+      "C": "anybody",
+      "D": "whoever"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "등위접속사 but 이하 절에서 ‘둘 다 아니다’라는 의미의 부정대명사가 주어 자리에 필요하므로 (B) neither가 정답이다.",
+      "translation": "두 후보 모두 자격이 충분했지만, 둘 다 그 직책을 얻지 못했다.",
+      "vocab": "candidate 후보자 · qualified 자격을 갖춘"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_121",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "전치사 자리 _ 어휘",
+    "sentence": "Ridley Consulting purchased new office furniture ------- the high cost.",
+    "choices": {
+      "A": "even though",
+      "B": "however",
+      "C": "until",
+      "D": "despite"
+    },
+    "answer": "D",
+    "explanation": {
+      "note": "빈칸 뒤에 명사구(the high cost)가 왔으므로 전치사가 필요하고, ‘높은 비용에도 불구하고’라는 양보의 의미가 되어야 자연스러우므로 (D) despite가 정답이다.",
+      "translation": "리들리 컨설팅은 높은 비용에도 불구하고 새 사무용 가구를 구입했다.",
+      "vocab": "furniture 가구 · cost 비용"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_122",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "to부정사 _ 동사의 목적어",
+    "sentence": "The board members wish to ------- the merger before the fiscal year ends.",
+    "choices": {
+      "A": "finalize",
+      "B": "finalized",
+      "C": "finalizing",
+      "D": "finalization"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "동사 wish의 목적어 역할을 하는 to부정사의 동사원형이 필요하므로 (A) finalize가 정답이다.",
+      "translation": "이사회 구성원들은 회계연도가 끝나기 전에 합병을 마무리 짓고 싶어 한다.",
+      "vocab": "merger 합병 · fiscal year 회계연도"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_123",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "형용사 어휘",
+    "sentence": "Bramfield Grocers began a ------- partnership with local farmers to supply fresh produce.",
+    "choices": {
+      "A": "disruptive",
+      "B": "cooperative",
+      "C": "concerned",
+      "D": "grateful"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "‘지역 농민들과 협력적인 파트너십’이라는 의미가 자연스러우므로 (B) cooperative가 정답이다.",
+      "translation": "브램필드 식료품점은 신선한 농산물을 공급받기 위해 지역 농민들과 협력적인 파트너십을 시작했다.",
+      "vocab": "partnership 제휴 · produce 농산물"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_124",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "명사 자리 _ 복합명사",
+    "sentence": "New parking ------- have been introduced to reduce congestion near the stadium.",
+    "choices": {
+      "A": "restrict",
+      "B": "restricted",
+      "C": "restrictions",
+      "D": "restricting"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "빈칸은 동사 have been introduced의 주어 자리이자 명사 parking과 함께 복합명사를 이루는 명사 자리이므로 (C) restrictions가 정답이다.",
+      "translation": "경기장 근처의 혼잡을 줄이기 위해 새로운 주차 제한이 도입되었다.",
+      "vocab": "congestion 혼잡 · introduce 도입하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_125",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "부사 어휘",
+    "sentence": "Applicants who studied ------- abroad are encouraged to mention it in their cover letter.",
+    "choices": {
+      "A": "diligently",
+      "B": "scientifically",
+      "C": "objectively",
+      "D": "decidedly"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘해외에서 성실히 공부한 지원자’라는 의미가 자연스러우므로 (A) diligently가 정답이다.",
+      "translation": "해외에서 성실히 공부한 지원자는 자기소개서에 이를 언급하는 것이 권장된다.",
+      "vocab": "applicant 지원자 · cover letter 자기소개서"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_126",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "명사 자리 _ 복합명사",
+    "sentence": "With its fixed ------- guarantee, Solora Energy promises no rate increases for two years.",
+    "choices": {
+      "A": "price",
+      "B": "priced",
+      "C": "pricing",
+      "D": "prices"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "빈칸은 전치사 With의 목적어인 명사 guarantee와 함께 복합명사를 이루는 명사 자리이므로 ‘가격’을 뜻하는 (A) price가 정답이다.",
+      "translation": "고정 가격 보장으로, 솔로라 에너지는 2년 동안 요금 인상이 없음을 약속한다.",
+      "vocab": "guarantee 보장 · rate 요금"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_127",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "명사 어휘",
+    "sentence": "As chief operations officer, Mr. Reyes has worked at Kellborn Ltd. with great ------- for over fifteen years.",
+    "choices": {
+      "A": "deduction",
+      "B": "duplication",
+      "C": "declaration",
+      "D": "dedication"
+    },
+    "answer": "D",
+    "explanation": {
+      "note": "‘헌신, 전념’이라는 뜻이 되어야 자연스러우므로 (D) dedication이 정답이다.",
+      "translation": "최고운영책임자인 레예스 씨는 15년 넘게 켈본사에서 큰 헌신으로 근무해왔다.",
+      "vocab": "chief operations officer 최고운영책임자 · dedication 헌신"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_128",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "접속사 자리 _ 부사절 접속사",
+    "sentence": "The gym offers 24-hour access ------- the front desk is staffed only during business hours.",
+    "choices": {
+      "A": "up to",
+      "B": "as though",
+      "C": "each time",
+      "D": "even though"
+    },
+    "answer": "D",
+    "explanation": {
+      "note": "빈칸 뒤에 완전한 절이 오고, ‘프런트 데스크는 영업시간에만 사람이 있지만 24시간 이용 가능하다’는 양보의 의미가 되어야 하므로 (D) even though가 정답이다.",
+      "translation": "프런트 데스크는 영업시간에만 사람이 있지만, 체육관은 24시간 이용이 가능하다.",
+      "vocab": "staffed 직원이 배치된 · business hours 영업시간"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_129",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "형용사 어휘",
+    "sentence": "The warehouse’s entire inventory of lumber comes from a nearby ------- supplier.",
+    "choices": {
+      "A": "financial",
+      "B": "promotional",
+      "C": "chemical",
+      "D": "commercial"
+    },
+    "answer": "D",
+    "explanation": {
+      "note": "‘상업적인 공급업체’라는 의미가 자연스러우므로 (D) commercial이 정답이다.",
+      "translation": "창고의 목재 재고 전체는 인근의 한 상업적인 공급업체에서 온다.",
+      "vocab": "inventory 재고 · lumber 목재"
+    }
+  },
+  {
+    "id": "PT5_TEMP_1_130",
+    "set": "TEST 1",
+    "theme": "일반 비즈니스 / 사내 공지",
+    "type": "형용사 자리 _ 명사 수식",
+    "sentence": "For a $75 ------- fee, our technicians will assess what repairs are needed.",
+    "choices": {
+      "A": "diagnosed",
+      "B": "diagnostic",
+      "C": "diagnosable",
+      "D": "diagnose"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "숫자 표현과 함께 명사 fee를 수식하는 형용사 자리이므로 ‘진단의’를 뜻하는 (B) diagnostic이 정답이다.",
+      "translation": "75달러의 진단 수수료를 내면, 저희 기술자들이 어떤 수리가 필요한지 파악합니다.",
+      "vocab": "assess 평가하다 · repair 수리"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_101",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "전치사 vs 접속사",
+    "sentence": "The store will remain open late ------- inventory is being restocked.",
+    "choices": {
+      "A": "while",
+      "B": "during",
+      "C": "for",
+      "D": "despite"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "빈칸 뒤에 완전한 절이 왔으므로 접속사가 필요하며, ‘재고가 보충되는 동안’이라는 의미의 (A) while이 정답이다.",
+      "translation": "재고가 보충되는 동안 매장은 늦게까지 영업을 계속할 것이다.",
+      "vocab": "restock 재입고하다 · inventory 재고"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_102",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "형용사 자리 _ 명사 수식",
+    "sentence": "Customers can take advantage of ------- discounts during the holiday sale.",
+    "choices": {
+      "A": "significant",
+      "B": "significance",
+      "C": "significantly",
+      "D": "signify"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "명사 discounts를 수식하는 형용사 자리이므로 (A) significant가 정답이다.",
+      "translation": "고객들은 연휴 세일 기간 동안 상당한 할인 혜택을 누릴 수 있다.",
+      "vocab": "take advantage of ~을 활용하다 · discount 할인"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_103",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "명사 어휘",
+    "sentence": "The retailer issued a public ------- after customers reported defective items.",
+    "choices": {
+      "A": "apology",
+      "B": "invitation",
+      "C": "donation",
+      "D": "prediction"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘결함이 있는 제품에 대한 공개 사과’라는 문맥이 자연스러우므로 (A) apology가 정답이다.",
+      "translation": "고객들이 결함 있는 제품을 신고한 후 그 소매업체는 공개 사과를 발표했다.",
+      "vocab": "defective 결함이 있는 · issue 발표하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_104",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "인칭대명사의 격 _ 소유격",
+    "sentence": "Store managers must submit ------- monthly sales figures by the fifth of each month.",
+    "choices": {
+      "A": "they",
+      "B": "them",
+      "C": "their",
+      "D": "theirs"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "명사구 monthly sales figures를 수식하는 소유격이 필요하므로 (C) their가 정답이다.",
+      "translation": "매장 관리자들은 매달 5일까지 그들의 월간 매출 수치를 제출해야 한다.",
+      "vocab": "figures 수치 · submit 제출하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_105",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "동사 어휘 _ to부정사의 목적어",
+    "sentence": "To ------- customer loyalty, the chain introduced a new rewards program.",
+    "choices": {
+      "A": "strengthen",
+      "B": "release",
+      "C": "postpone",
+      "D": "resign"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘고객 충성도를 강화하기 위해’라는 문맥에 맞는 (A) strengthen이 정답이다.",
+      "translation": "고객 충성도를 강화하기 위해, 그 체인점은 새로운 리워드 프로그램을 도입했다.",
+      "vocab": "loyalty 충성도 · chain 체인점"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_106",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "부사 자리 _ 동사 수식",
+    "sentence": "Sales representatives should ------- respond to customer inquiries within 24 hours.",
+    "choices": {
+      "A": "prompt",
+      "B": "promptness",
+      "C": "promptly",
+      "D": "prompted"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "조동사 should와 동사원형 respond 사이에서 동사를 수식하는 부사 자리이므로 (C) promptly가 정답이다.",
+      "translation": "영업 담당자는 24시간 이내에 고객 문의에 신속하게 응답해야 한다.",
+      "vocab": "inquiry 문의 · representative 담당자"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_107",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "접속사 자리 _ 등위접속사",
+    "sentence": "The flagship store carries the full product line, ------- smaller branches stock only bestsellers.",
+    "choices": {
+      "A": "but",
+      "B": "so",
+      "C": "or",
+      "D": "for"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "대조되는 두 절을 연결하는 등위접속사가 필요하고, ‘전체 제품군을 갖춘 반면 작은 지점은 베스트셀러만 취급한다’는 대조의 의미이므로 (A) but이 정답이다.",
+      "translation": "플래그십 매장은 전체 제품 라인을 갖추고 있지만, 작은 지점들은 베스트셀러만 취급한다.",
+      "vocab": "flagship store 플래그십 매장 · branch 지점"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_108",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "명사 자리 _ 복합명사",
+    "sentence": "The new ------- strategy focuses on social media engagement.",
+    "choices": {
+      "A": "market",
+      "B": "marketed",
+      "C": "marketing",
+      "D": "markets"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "빈칸은 명사 strategy와 함께 복합명사를 이루므로 (C) marketing이 정답이다.",
+      "translation": "새로운 마케팅 전략은 소셜 미디어 참여에 중점을 둔다.",
+      "vocab": "engagement 참여 · strategy 전략"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_109",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "동사 자리 _ 수 일치",
+    "sentence": "Each promotional campaign ------- a distinct target audience.",
+    "choices": {
+      "A": "target",
+      "B": "targets",
+      "C": "targeting",
+      "D": "to target"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "문장에 동사가 보이지 않고 주어 Each promotional campaign이 단수이므로 (B) targets가 정답이다.",
+      "translation": "각 홍보 캠페인은 뚜렷한 목표 고객층을 대상으로 한다.",
+      "vocab": "distinct 뚜렷한 · target audience 목표 고객층"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_110",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "동사 자리 _ 수동태",
+    "sentence": "All returned merchandise ------- within seven business days of purchase.",
+    "choices": {
+      "A": "accept",
+      "B": "accepted",
+      "C": "is accepted",
+      "D": "accepting"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "주어 merchandise가 수용되는 대상이므로 수동태가 필요하고, 문장에 동사가 없으므로 (C) is accepted가 정답이다.",
+      "translation": "반품된 모든 상품은 구매 후 영업일 기준 7일 이내에 접수된다.",
+      "vocab": "merchandise 상품 · purchase 구매"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_111",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "부사 자리 _ 동사 수식",
+    "sentence": "The revised pricing policy applies ------- to all online and in-store purchases.",
+    "choices": {
+      "A": "equal",
+      "B": "equally",
+      "C": "equality",
+      "D": "equalized"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "동사 applies를 수식하는 부사 자리이므로 (B) equally가 정답이다.",
+      "translation": "개정된 가격 정책은 온라인과 매장 구매 모두에 동일하게 적용된다.",
+      "vocab": "pricing policy 가격 정책 · purchase 구매"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_112",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "부사 자리 _ 형용사 수식",
+    "sentence": "The new packaging design is ------- popular among younger shoppers.",
+    "choices": {
+      "A": "particular",
+      "B": "particularly",
+      "C": "particularity",
+      "D": "particularize"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "형용사 popular를 수식하는 부사 자리이므로 (B) particularly가 정답이다.",
+      "translation": "새로운 포장 디자인은 젊은 쇼핑객들 사이에서 특히 인기가 있다.",
+      "vocab": "packaging 포장 · popular 인기 있는"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_113",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "명사 어휘",
+    "sentence": "Market ------- suggests that demand for eco-friendly products will continue to rise.",
+    "choices": {
+      "A": "research",
+      "B": "reception",
+      "C": "donation",
+      "D": "permission"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘시장 조사에 따르면’이라는 문맥이 자연스러우므로 (A) research가 정답이다.",
+      "translation": "시장 조사에 따르면 친환경 제품에 대한 수요는 계속 증가할 것으로 보인다.",
+      "vocab": "demand 수요 · eco-friendly 친환경적인"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_114",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "부사 어휘",
+    "sentence": "The design team ------- redesigned the packaging based on customer feedback.",
+    "choices": {
+      "A": "barely",
+      "B": "hardly",
+      "C": "extensively",
+      "D": "rarely"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "‘광범위하게 다시 디자인했다’는 의미가 자연스러우므로 (C) extensively가 정답이다.",
+      "translation": "디자인팀은 고객 피드백을 바탕으로 포장을 광범위하게 다시 디자인했다.",
+      "vocab": "feedback 피드백 · redesign 재설계하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_115",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "동사 어휘",
+    "sentence": "The loyalty program is intended to ------- repeat purchases among regular customers.",
+    "choices": {
+      "A": "absorb",
+      "B": "encourage",
+      "C": "undergo",
+      "D": "overwhelm"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "‘재구매를 장려하기 위해 고안되었다’는 의미가 자연스러우므로 (B) encourage가 정답이다.",
+      "translation": "그 리워드 프로그램은 단골 고객들 사이에서 재구매를 장려하기 위해 고안되었다.",
+      "vocab": "repeat purchase 재구매 · regular customer 단골 고객"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_116",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "명사 자리 _ 전치사의 목적어",
+    "sentence": "The company is investing in the ------- of its distribution network.",
+    "choices": {
+      "A": "expand",
+      "B": "expansion",
+      "C": "expanded",
+      "D": "expansively"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "전치사 of의 목적어 역할을 하는 명사 자리이므로 (B) expansion이 정답이다.",
+      "translation": "그 회사는 유통망 확장에 투자하고 있다.",
+      "vocab": "distribution network 유통망 · invest 투자하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_117",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "전치사 자리 _ 어휘",
+    "sentence": "The seasonal catalog will be distributed ------- major retail partners next week.",
+    "choices": {
+      "A": "through",
+      "B": "between",
+      "C": "except",
+      "D": "apart"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘주요 소매 파트너를 통해 배포될 것’이라는 문맥이 자연스러우므로 수단을 나타내는 (A) through가 정답이다.",
+      "translation": "계절 카탈로그는 다음 주 주요 소매 파트너를 통해 배포될 것이다.",
+      "vocab": "distribute 배포하다 · retail partner 소매 파트너"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_118",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "접속사 자리 _ 부사절 접속사",
+    "sentence": "------- the promotion ends this weekend, customers are rushing to make purchases.",
+    "choices": {
+      "A": "So that",
+      "B": "Since",
+      "C": "Because",
+      "D": "So"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "빈칸 뒤에 완전한 절이 오고, ‘프로모션이 이번 주말에 끝나기 때문에’라는 이유의 의미가 되어야 하므로 (C) Because가 정답이다. (D) So는 부사로 절 앞에서 이유를 이끌 수 없다.",
+      "translation": "프로모션이 이번 주말에 끝나기 때문에, 고객들은 서둘러 구매하고 있다.",
+      "vocab": "promotion 판촉 행사 · rush 서두르다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_119",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "동사 어휘",
+    "sentence": "Store employees are trained to ------- complaints in a courteous manner.",
+    "choices": {
+      "A": "resolve",
+      "B": "capture",
+      "C": "accumulate",
+      "D": "reply"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘불만을 정중하게 해결하도록 훈련받는다’는 의미가 자연스러우므로 (A) resolve가 정답이다.",
+      "translation": "매장 직원들은 불만을 정중하게 해결하도록 훈련받는다.",
+      "vocab": "complaint 불만 · courteous 정중한"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_120",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "부정대명사",
+    "sentence": "Two suppliers submitted bids, but ------- met the delivery deadline.",
+    "choices": {
+      "A": "myself",
+      "B": "neither",
+      "C": "anybody",
+      "D": "whoever"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "‘두 공급업체 모두 마감을 지키지 못했다’는 부정의 의미가 필요하므로 (B) neither가 정답이다.",
+      "translation": "두 공급업체가 입찰서를 제출했지만, 둘 다 배송 마감일을 지키지 못했다.",
+      "vocab": "bid 입찰 · delivery deadline 배송 마감일"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_121",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "전치사 자리 _ 어휘",
+    "sentence": "The store extended its hours ------- the heavy holiday traffic.",
+    "choices": {
+      "A": "even though",
+      "B": "however",
+      "C": "until",
+      "D": "due to"
+    },
+    "answer": "D",
+    "explanation": {
+      "note": "빈칸 뒤 명사구(the heavy holiday traffic)가 왔으므로 전치사가 필요하고, ‘많은 연휴 인파로 인해’라는 이유의 의미이므로 (D) due to가 정답이다.",
+      "translation": "매장은 많은 연휴 인파로 인해 영업시간을 연장했다.",
+      "vocab": "extend 연장하다 · traffic 유동인구"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_122",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "to부정사 _ 동사의 목적어",
+    "sentence": "The board decided to ------- the underperforming branches by the end of the year.",
+    "choices": {
+      "A": "close",
+      "B": "closed",
+      "C": "closing",
+      "D": "closure"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "동사 decided의 목적어인 to부정사의 동사원형 자리이므로 (A) close가 정답이다.",
+      "translation": "이사회는 연말까지 실적이 저조한 지점들을 폐점하기로 결정했다.",
+      "vocab": "underperforming 실적이 저조한 · branch 지점"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_123",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "형용사 어휘",
+    "sentence": "The retailer’s ------- return policy has boosted customer satisfaction.",
+    "choices": {
+      "A": "disruptive",
+      "B": "flexible",
+      "C": "concerned",
+      "D": "reluctant"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "‘유연한 반품 정책’이라는 의미가 자연스러우므로 (B) flexible이 정답이다.",
+      "translation": "그 소매업체의 유연한 반품 정책은 고객 만족도를 높였다.",
+      "vocab": "return policy 반품 정책 · boost 향상시키다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_124",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "명사 자리 _ 복합명사",
+    "sentence": "New checkout ------- have been installed to reduce customer wait times.",
+    "choices": {
+      "A": "counter",
+      "B": "counters",
+      "C": "countered",
+      "D": "countering"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "문장에 동사(have been installed)가 이미 있으므로 빈칸은 주어 자리이며, 명사 checkout과 복합명사를 이루는 복수명사 (B) counters가 정답이다.",
+      "translation": "고객 대기 시간을 줄이기 위해 새로운 계산대가 설치되었다.",
+      "vocab": "checkout counter 계산대 · install 설치하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_125",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "부사 어휘",
+    "sentence": "Employees who handle customer complaints ------- are eligible for a performance bonus.",
+    "choices": {
+      "A": "diligently",
+      "B": "scientifically",
+      "C": "objectively",
+      "D": "narrowly"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘고객 불만을 성실히 처리하는 직원’이라는 의미가 자연스러우므로 (A) diligently가 정답이다.",
+      "translation": "고객 불만을 성실히 처리하는 직원은 성과급을 받을 자격이 있다.",
+      "vocab": "eligible for ~할 자격이 있는 · performance bonus 성과급"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_126",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "명사 자리 _ 복합명사",
+    "sentence": "With its price-match ------- , Vantage Electronics guarantees the lowest prices in town.",
+    "choices": {
+      "A": "guarantee",
+      "B": "guaranteed",
+      "C": "guaranteeing",
+      "D": "guarantor"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "전치사 With의 목적어이며 앞의 명사 price-match와 함께 복합명사를 이루는 (A) guarantee가 정답이다.",
+      "translation": "가격 일치 보장으로, 밴티지 일렉트로닉스는 시내 최저가를 약속한다.",
+      "vocab": "price-match guarantee 가격 일치 보장 · guarantee 보장(하다)"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_127",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "명사 어휘",
+    "sentence": "As head of merchandising, Ms. Cole has shown great ------- in selecting seasonal products.",
+    "choices": {
+      "A": "deduction",
+      "B": "duplication",
+      "C": "insight",
+      "D": "declaration"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "‘계절 상품을 선정하는 데 있어 뛰어난 통찰력’이라는 의미가 자연스러우므로 (C) insight가 정답이다.",
+      "translation": "상품기획 책임자인 콜 씨는 계절 상품 선정에 뛰어난 통찰력을 보여주었다.",
+      "vocab": "merchandising 상품기획 · insight 통찰력"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_128",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "접속사 자리 _ 부사절 접속사",
+    "sentence": "The outlet remains busy ------- it is located far from the city center.",
+    "choices": {
+      "A": "up to",
+      "B": "as though",
+      "C": "each time",
+      "D": "even though"
+    },
+    "answer": "D",
+    "explanation": {
+      "note": "빈칸 뒤에 완전한 절이 오고, ‘도심에서 멀리 떨어져 있음에도 불구하고 붐빈다’는 양보의 의미이므로 (D) even though가 정답이다.",
+      "translation": "그 아울렛은 도심에서 멀리 떨어져 있음에도 불구하고 여전히 붐빈다.",
+      "vocab": "outlet 아울렛 · located ~에 위치한"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_129",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "형용사 어휘",
+    "sentence": "The boutique’s entire clothing line comes from a single ------- manufacturer.",
+    "choices": {
+      "A": "financial",
+      "B": "promotional",
+      "C": "domestic",
+      "D": "chemical"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "‘국내 제조업체’라는 의미가 자연스러우므로 (C) domestic이 정답이다.",
+      "translation": "그 부티크의 전체 의류 라인은 단일 국내 제조업체에서 나온다.",
+      "vocab": "manufacturer 제조업체 · entire 전체의"
+    }
+  },
+  {
+    "id": "PT5_TEMP_2_130",
+    "set": "TEST 2",
+    "theme": "유통 / 마케팅",
+    "type": "형용사 자리 _ 명사 수식",
+    "sentence": "For a $10 ------- fee, shoppers can have purchased items gift-wrapped.",
+    "choices": {
+      "A": "added",
+      "B": "add",
+      "C": "addition",
+      "D": "adding"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "숫자 표현과 함께 명사 fee를 수식하는 형용사(과거분사) 자리이므로 ‘추가된’을 뜻하는 (A) added가 정답이다.",
+      "translation": "10달러의 추가 요금을 내면, 쇼핑객들은 구매한 상품을 선물 포장할 수 있다.",
+      "vocab": "gift-wrap 선물 포장하다 · fee 요금"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_101",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "전치사 vs 접속사",
+    "sentence": "The shipment will be delayed ------- customs clearance is completed.",
+    "choices": {
+      "A": "until",
+      "B": "during",
+      "C": "for",
+      "D": "among"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "빈칸 뒤에 완전한 절이 왔으므로 접속사가 필요하며 ‘통관이 완료될 때까지’라는 의미의 (A) until이 정답이다.",
+      "translation": "통관이 완료될 때까지 선적이 지연될 것이다.",
+      "vocab": "shipment 선적 · customs clearance 통관"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_102",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "형용사 자리 _ 명사 수식",
+    "sentence": "The factory installed ------- machinery to increase production efficiency.",
+    "choices": {
+      "A": "advanced",
+      "B": "advance",
+      "C": "advancement",
+      "D": "advancing"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "명사 machinery를 수식하는 형용사 자리이므로 ‘첨단의’를 뜻하는 (A) advanced가 정답이다.",
+      "translation": "그 공장은 생산 효율성을 높이기 위해 첨단 기계를 설치했다.",
+      "vocab": "machinery 기계(류) · efficiency 효율성"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_103",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "명사 어휘",
+    "sentence": "Quality control inspectors issued an ------- about a defect in the assembly line.",
+    "choices": {
+      "A": "alert",
+      "B": "invitation",
+      "C": "donation",
+      "D": "prediction"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘조립 라인의 결함에 대한 경보’라는 문맥이 자연스러우므로 (A) alert가 정답이다.",
+      "translation": "품질관리 검사관들은 조립 라인의 결함에 대해 경보를 발령했다.",
+      "vocab": "defect 결함 · assembly line 조립 라인"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_104",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "인칭대명사의 격 _ 소유격",
+    "sentence": "Supervisors must review ------- team’s output figures at the end of each shift.",
+    "choices": {
+      "A": "they",
+      "B": "them",
+      "C": "their",
+      "D": "theirs"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "명사구 team’s output figures를 수식하는 소유격 (C) their가 정답이다.",
+      "translation": "감독관들은 각 교대 근무가 끝날 때 그들의 팀 생산량 수치를 검토해야 한다.",
+      "vocab": "output 생산량 · shift 교대 근무"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_105",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "동사 어휘 _ to부정사의 목적어",
+    "sentence": "To ------- downtime, the plant scheduled maintenance during off-peak hours.",
+    "choices": {
+      "A": "minimize",
+      "B": "release",
+      "C": "postpone",
+      "D": "resign"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘가동 중단 시간을 최소화하기 위해’라는 문맥에 맞는 (A) minimize가 정답이다.",
+      "translation": "가동 중단 시간을 최소화하기 위해, 공장은 비수기 시간에 정비 일정을 잡았다.",
+      "vocab": "downtime 가동 중단 시간 · maintenance 정비"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_106",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "부사 자리 _ 동사 수식",
+    "sentence": "Warehouse staff should ------- report any damaged goods to their supervisor.",
+    "choices": {
+      "A": "immediate",
+      "B": "immediacy",
+      "C": "immediately",
+      "D": "immediateness"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "조동사 should와 동사원형 report 사이의 부사 자리이므로 (C) immediately가 정답이다.",
+      "translation": "창고 직원들은 파손된 물품이 있으면 즉시 감독관에게 보고해야 한다.",
+      "vocab": "damaged goods 파손된 물품 · supervisor 감독관"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_107",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "접속사 자리 _ 등위접속사",
+    "sentence": "The night shift handles packaging, ------- the day shift focuses on assembly.",
+    "choices": {
+      "A": "but",
+      "B": "so",
+      "C": "or",
+      "D": "for"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "대조되는 두 절을 연결하는 등위접속사 (A) but이 정답이다.",
+      "translation": "야간 근무조는 포장을 담당하고, 주간 근무조는 조립에 집중한다.",
+      "vocab": "packaging 포장 · assembly 조립"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_108",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "명사 자리 _ 복합명사",
+    "sentence": "The plant’s new ------- schedule reduced overtime costs significantly.",
+    "choices": {
+      "A": "produce",
+      "B": "produced",
+      "C": "production",
+      "D": "producer"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "명사 schedule과 함께 복합명사를 이루는 (C) production이 정답이다.",
+      "translation": "공장의 새로운 생산 일정은 초과 근무 비용을 크게 줄였다.",
+      "vocab": "overtime 초과 근무 · significantly 상당히"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_109",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "동사 자리 _ 수 일치",
+    "sentence": "Each shipment ------- a tracking number for customer reference.",
+    "choices": {
+      "A": "include",
+      "B": "includes",
+      "C": "including",
+      "D": "to include"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "주어 Each shipment가 단수이므로 (B) includes가 정답이다.",
+      "translation": "각 선적에는 고객 참조용 추적 번호가 포함되어 있다.",
+      "vocab": "tracking number 추적 번호 · reference 참조"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_110",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "동사 자리 _ 수동태",
+    "sentence": "All incoming materials ------- for quality before being placed into storage.",
+    "choices": {
+      "A": "inspect",
+      "B": "inspected",
+      "C": "are inspected",
+      "D": "inspecting"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "materials가 검사받는 대상이므로 수동태 (C) are inspected가 정답이다.",
+      "translation": "들어오는 모든 자재는 보관되기 전에 품질 검사를 받는다.",
+      "vocab": "incoming 들어오는 · storage 보관"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_111",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "부사 자리 _ 비교급 수식",
+    "sentence": "The new conveyor system operates ------- faster than the previous model.",
+    "choices": {
+      "A": "significant",
+      "B": "significantly",
+      "C": "significance",
+      "D": "signify"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "비교급 faster를 수식하는 부사 자리이므로 (B) significantly가 정답이다.",
+      "translation": "새 컨베이어 시스템은 이전 모델보다 상당히 빠르게 작동한다.",
+      "vocab": "conveyor 컨베이어 · previous 이전의"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_112",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "부사 자리 _ 형용사 수식",
+    "sentence": "The revised safety guidelines are ------- important for new hires.",
+    "choices": {
+      "A": "especial",
+      "B": "especially",
+      "C": "especialness",
+      "D": "especialize"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "형용사 important를 수식하는 (B) especially가 정답이다.",
+      "translation": "개정된 안전 지침은 신입 직원들에게 특히 중요하다.",
+      "vocab": "guideline 지침 · new hire 신입 직원"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_113",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "명사 어휘",
+    "sentence": "Supply chain ------- indicates that raw material costs will rise next quarter.",
+    "choices": {
+      "A": "analysis",
+      "B": "reception",
+      "C": "donation",
+      "D": "permission"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘공급망 분석에 따르면’이라는 문맥이 자연스러우므로 (A) analysis가 정답이다.",
+      "translation": "공급망 분석에 따르면 다음 분기 원자재 비용이 상승할 것으로 보인다.",
+      "vocab": "raw material 원자재 · quarter 분기"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_114",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "부사 어휘",
+    "sentence": "Machine operators ------- follow the maintenance checklist before each shift.",
+    "choices": {
+      "A": "barely",
+      "B": "hardly",
+      "C": "consistently",
+      "D": "rarely"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "‘항상 꾸준히 따른다’는 의미가 자연스러우므로 (C) consistently가 정답이다.",
+      "translation": "기계 작업자들은 각 교대 근무 전에 정비 점검표를 꾸준히 따른다.",
+      "vocab": "checklist 점검표 · operator 작업자"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_115",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "동사 어휘",
+    "sentence": "The upgraded software is designed to ------- errors in the ordering process.",
+    "choices": {
+      "A": "absorb",
+      "B": "reduce",
+      "C": "undergo",
+      "D": "overwhelm"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "‘주문 과정의 오류를 줄이도록 설계되었다’는 의미가 자연스러우므로 (B) reduce가 정답이다.",
+      "translation": "업그레이드된 소프트웨어는 주문 과정의 오류를 줄이도록 설계되었다.",
+      "vocab": "ordering process 주문 과정 · upgrade 업그레이드하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_116",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "명사 자리 _ 전치사의 목적어",
+    "sentence": "The company invested heavily in the ------- of its warehouse facilities.",
+    "choices": {
+      "A": "modernize",
+      "B": "modernization",
+      "C": "modernized",
+      "D": "modernly"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "전치사 of의 목적어 역할을 하는 명사 자리이므로 (B) modernization이 정답이다.",
+      "translation": "그 회사는 창고 시설 현대화에 막대한 투자를 했다.",
+      "vocab": "warehouse 창고 · facility 시설"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_117",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "전치사 자리 _ 어휘",
+    "sentence": "Replacement parts can be ordered ------- the online supplier portal.",
+    "choices": {
+      "A": "through",
+      "B": "between",
+      "C": "except",
+      "D": "apart"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘공급업체 온라인 포털을 통해’라는 수단의 의미이므로 (A) through가 정답이다.",
+      "translation": "교체 부품은 온라인 공급업체 포털을 통해 주문할 수 있다.",
+      "vocab": "replacement part 교체 부품 · supplier 공급업체"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_118",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "접속사 자리 _ 부사절 접속사",
+    "sentence": "------- the delivery truck broke down, the shipment arrived a day late.",
+    "choices": {
+      "A": "So that",
+      "B": "Since",
+      "C": "Because",
+      "D": "So"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "빈칸 뒤에 완전한 절이 오고 이유를 나타내야 하므로 (C) Because가 정답이다.",
+      "translation": "배송 트럭이 고장 났기 때문에, 화물이 하루 늦게 도착했다.",
+      "vocab": "broke down 고장 나다 · shipment 화물"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_119",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "동사 어휘",
+    "sentence": "Line supervisors are trained to ------- minor equipment issues on the spot.",
+    "choices": {
+      "A": "resolve",
+      "B": "capture",
+      "C": "accumulate",
+      "D": "reply"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘현장에서 사소한 장비 문제를 해결하도록 훈련받는다’는 의미이므로 (A) resolve가 정답이다.",
+      "translation": "라인 감독관들은 현장에서 사소한 장비 문제를 해결하도록 훈련받는다.",
+      "vocab": "on the spot 현장에서 · minor 사소한"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_120",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "부정대명사",
+    "sentence": "Two vendors bid on the contract, but ------- offered the required certification.",
+    "choices": {
+      "A": "myself",
+      "B": "neither",
+      "C": "anybody",
+      "D": "whoever"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "‘둘 다 아니다’라는 의미의 부정대명사가 필요하므로 (B) neither가 정답이다.",
+      "translation": "두 업체가 계약에 입찰했지만, 둘 다 요구되는 인증을 제공하지 못했다.",
+      "vocab": "certification 인증 · contract 계약"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_121",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "전치사 자리 _ 어휘",
+    "sentence": "Production continued ------- the temporary power outage last week.",
+    "choices": {
+      "A": "even though",
+      "B": "however",
+      "C": "despite",
+      "D": "because"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "빈칸 뒤 명사구(the temporary power outage)가 왔으므로 전치사가 필요하고 ‘~에도 불구하고’라는 양보의 의미이므로 (C) despite가 정답이다.",
+      "translation": "지난주 일시적인 정전에도 불구하고 생산은 계속되었다.",
+      "vocab": "power outage 정전 · temporary 일시적인"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_122",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "to부정사 _ 동사의 목적어",
+    "sentence": "Management plans to ------- the outdated equipment within the next fiscal year.",
+    "choices": {
+      "A": "replace",
+      "B": "replaced",
+      "C": "replacing",
+      "D": "replacement"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "동사 plans의 목적어인 to부정사의 동사원형 자리이므로 (A) replace가 정답이다.",
+      "translation": "경영진은 다음 회계연도 내에 노후 장비를 교체할 계획이다.",
+      "vocab": "outdated 노후한 · fiscal year 회계연도"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_123",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "형용사 어휘",
+    "sentence": "The factory adopted a more ------- approach to waste management.",
+    "choices": {
+      "A": "disruptive",
+      "B": "sustainable",
+      "C": "concerned",
+      "D": "reluctant"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "‘지속 가능한 폐기물 관리 방식’이라는 의미가 자연스러우므로 (B) sustainable이 정답이다.",
+      "translation": "그 공장은 폐기물 관리에 있어 더 지속 가능한 방식을 채택했다.",
+      "vocab": "waste management 폐기물 관리 · adopt 채택하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_124",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "명사 자리 _ 복합명사",
+    "sentence": "New safety ------- have been posted throughout the production floor.",
+    "choices": {
+      "A": "sign",
+      "B": "signs",
+      "C": "signed",
+      "D": "signing"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "문장의 동사(have been posted)가 이미 있으므로 빈칸은 주어이자 복합명사를 이루는 복수명사 (B) signs가 정답이다.",
+      "translation": "생산 현장 곳곳에 새로운 안전 표지판이 부착되었다.",
+      "vocab": "production floor 생산 현장 · post 게시하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_125",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "부사 어휘",
+    "sentence": "Technicians who calibrate the equipment ------- help maintain product quality.",
+    "choices": {
+      "A": "diligently",
+      "B": "scientifically",
+      "C": "objectively",
+      "D": "narrowly"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘성실하게 장비를 조정하는 기술자’라는 의미가 자연스러우므로 (A) diligently가 정답이다.",
+      "translation": "장비를 성실히 조정하는 기술자들은 제품 품질 유지에 도움을 준다.",
+      "vocab": "calibrate 조정하다 · maintain 유지하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_126",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "명사 자리 _ 복합명사",
+    "sentence": "With its just-in-time ------- system, Renard Manufacturing minimizes storage costs.",
+    "choices": {
+      "A": "deliver",
+      "B": "delivery",
+      "C": "delivered",
+      "D": "deliverable"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "명사 system과 함께 복합명사를 이루는 (B) delivery가 정답이다.",
+      "translation": "즉시 배송 시스템으로, 르나르 제조사는 보관 비용을 최소화한다.",
+      "vocab": "minimize 최소화하다 · storage 보관"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_127",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "명사 어휘",
+    "sentence": "As plant manager, Mr. Okafor has demonstrated great ------- in streamlining operations.",
+    "choices": {
+      "A": "deduction",
+      "B": "duplication",
+      "C": "expertise",
+      "D": "declaration"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "‘운영을 간소화하는 데 있어 뛰어난 전문성’이라는 의미이므로 (C) expertise가 정답이다.",
+      "translation": "공장장인 오카포 씨는 운영을 간소화하는 데 뛰어난 전문성을 보여주었다.",
+      "vocab": "streamline 간소화하다 · operations 운영"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_128",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "접속사 자리 _ 부사절 접속사",
+    "sentence": "Output remained high ------- two machines were offline for repairs.",
+    "choices": {
+      "A": "up to",
+      "B": "as though",
+      "C": "each time",
+      "D": "even though"
+    },
+    "answer": "D",
+    "explanation": {
+      "note": "빈칸 뒤에 완전한 절이 오고 양보의 의미이므로 (D) even though가 정답이다.",
+      "translation": "두 대의 기계가 수리로 가동 중지되었음에도 불구하고 생산량은 높게 유지되었다.",
+      "vocab": "offline 가동 중지된 · output 생산량"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_129",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "형용사 어휘",
+    "sentence": "The plant sources its steel from a single ------- supplier.",
+    "choices": {
+      "A": "financial",
+      "B": "promotional",
+      "C": "domestic",
+      "D": "chemical"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "‘국내 공급업체’라는 의미이므로 (C) domestic이 정답이다.",
+      "translation": "그 공장은 철강을 단일 국내 공급업체로부터 조달한다.",
+      "vocab": "source 조달하다 · supplier 공급업체"
+    }
+  },
+  {
+    "id": "PT5_TEMP_3_130",
+    "set": "TEST 3",
+    "theme": "제조 / 물류",
+    "type": "형용사 자리 _ 명사 수식",
+    "sentence": "For a $50 ------- fee, technicians will perform a full equipment checkup.",
+    "choices": {
+      "A": "added",
+      "B": "add",
+      "C": "addition",
+      "D": "adding"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "숫자 표현과 함께 명사 fee를 수식하는 (A) added가 정답이다.",
+      "translation": "50달러의 추가 요금을 내면, 기술자들이 전체 장비 점검을 수행한다.",
+      "vocab": "checkup 점검 · perform 수행하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_101",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "전치사 vs 접속사",
+    "sentence": "The pool area will remain closed ------- the repairs are finished.",
+    "choices": {
+      "A": "during",
+      "B": "once",
+      "C": "among",
+      "D": "toward"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "빈칸 뒤에 완전한 절이 왔으므로 접속사가 필요하며, ‘수리가 끝나면’이라는 의미의 (B) once가 정답이다.",
+      "translation": "수리가 끝나면 수영장 구역이 다시 개방될 것이다.",
+      "vocab": "repair 수리 · pool area 수영장 구역"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_102",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "형용사 자리 _ 명사 수식",
+    "sentence": "Guests praised the hotel’s ------- staff during their stay.",
+    "choices": {
+      "A": "attentive",
+      "B": "attention",
+      "C": "attentively",
+      "D": "attentiveness"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "명사 staff를 수식하는 형용사 자리이므로 (A) attentive가 정답이다.",
+      "translation": "투숙객들은 숙박 기간 동안 호텔의 세심한 직원들을 칭찬했다.",
+      "vocab": "praise 칭찬하다 · stay 숙박"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_103",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "명사 어휘",
+    "sentence": "The property manager sent tenants an ------- about the upcoming elevator maintenance.",
+    "choices": {
+      "A": "advisory",
+      "B": "invitation",
+      "C": "donation",
+      "D": "prediction"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘엘리베이터 정비에 대한 공지’라는 문맥이 자연스러우므로 (A) advisory가 정답이다.",
+      "translation": "관리인은 세입자들에게 다가오는 엘리베이터 정비에 대한 공지를 보냈다.",
+      "vocab": "tenant 세입자 · maintenance 정비"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_104",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "인칭대명사의 격 _ 소유격",
+    "sentence": "Homeowners should keep ------- property records for tax purposes.",
+    "choices": {
+      "A": "they",
+      "B": "them",
+      "C": "their",
+      "D": "theirs"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "명사구 property records를 수식하는 소유격 (C) their가 정답이다.",
+      "translation": "주택 소유자들은 세금 목적으로 그들의 부동산 기록을 보관해야 한다.",
+      "vocab": "property record 부동산 기록 · tax purposes 세금 목적"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_105",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "동사 어휘 _ to부정사의 목적어",
+    "sentence": "To ------- guest satisfaction, the resort added a 24-hour concierge service.",
+    "choices": {
+      "A": "enhance",
+      "B": "release",
+      "C": "postpone",
+      "D": "resign"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘투숙객 만족도를 향상시키기 위해’라는 문맥이므로 (A) enhance가 정답이다.",
+      "translation": "투숙객 만족도를 향상시키기 위해, 그 리조트는 24시간 컨시어지 서비스를 추가했다.",
+      "vocab": "concierge 컨시어지 · satisfaction 만족도"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_106",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "부사 자리 _ 동사 수식",
+    "sentence": "The listing agent ------- responded to all buyer inquiries within the day.",
+    "choices": {
+      "A": "prompt",
+      "B": "promptness",
+      "C": "promptly",
+      "D": "prompted"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "주어와 동사 사이에서 동사를 수식하는 부사 자리이므로 (C) promptly가 정답이다.",
+      "translation": "중개인은 그날 안에 모든 매수자 문의에 신속히 응답했다.",
+      "vocab": "listing agent 중개인 · inquiry 문의"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_107",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "접속사 자리 _ 등위접속사",
+    "sentence": "The suite includes a kitchenette, ------- the standard room does not.",
+    "choices": {
+      "A": "but",
+      "B": "so",
+      "C": "or",
+      "D": "for"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "대조되는 두 절을 연결하는 등위접속사 (A) but이 정답이다.",
+      "translation": "스위트룸에는 간이 주방이 포함되어 있지만, 일반 객실에는 없다.",
+      "vocab": "kitchenette 간이 주방 · suite 스위트룸"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_108",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "명사 자리 _ 복합명사",
+    "sentence": "The new ------- complex will include over two hundred residential units.",
+    "choices": {
+      "A": "build",
+      "B": "built",
+      "C": "building",
+      "D": "builder"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "명사 complex와 함께 복합명사를 이루는 (C) building이 정답이다.",
+      "translation": "새 건물 단지에는 200채가 넘는 주거 세대가 포함될 것이다.",
+      "vocab": "residential unit 주거 세대 · complex 단지"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_109",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "동사 자리 _ 수 일치",
+    "sentence": "Each unit ------- a private balcony overlooking the courtyard.",
+    "choices": {
+      "A": "feature",
+      "B": "features",
+      "C": "featuring",
+      "D": "to feature"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "주어 Each unit이 단수이므로 (B) features가 정답이다.",
+      "translation": "각 세대에는 안뜰이 내려다보이는 개인 발코니가 있다.",
+      "vocab": "balcony 발코니 · courtyard 안뜰"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_110",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "동사 자리 _ 수동태",
+    "sentence": "All rooms ------- thoroughly before new guests check in.",
+    "choices": {
+      "A": "clean",
+      "B": "cleaned",
+      "C": "are cleaned",
+      "D": "cleaning"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "rooms가 청소되는 대상이므로 수동태 (C) are cleaned가 정답이다.",
+      "translation": "새 투숙객이 체크인하기 전에 모든 객실이 철저히 청소된다.",
+      "vocab": "thoroughly 철저히 · check in 체크인하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_111",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "부사 자리 _ 동사 수식",
+    "sentence": "Occupancy rates have grown ------- since the renovation was completed.",
+    "choices": {
+      "A": "steady",
+      "B": "steadily",
+      "C": "steadiness",
+      "D": "steadied"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "동사 have grown을 수식하는 부사 자리이므로 (B) steadily가 정답이다.",
+      "translation": "리노베이션이 완료된 이후 객실 점유율이 꾸준히 증가해왔다.",
+      "vocab": "occupancy rate 객실 점유율 · renovation 리노베이션"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_112",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "부사 자리 _ 형용사 수식",
+    "sentence": "The location is ------- convenient for guests attending the convention center.",
+    "choices": {
+      "A": "especial",
+      "B": "especially",
+      "C": "especialness",
+      "D": "especialize"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "형용사 convenient를 수식하는 (B) especially가 정답이다.",
+      "translation": "그 위치는 컨벤션 센터에 참석하는 투숙객들에게 특히 편리하다.",
+      "vocab": "convenient 편리한 · attend 참석하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_113",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "명사 어휘",
+    "sentence": "Neighborhood ------- shows that home prices have risen steadily this year.",
+    "choices": {
+      "A": "data",
+      "B": "reception",
+      "C": "donation",
+      "D": "permission"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘동네 데이터에 따르면’이라는 문맥이 자연스러우므로 (A) data가 정답이다.",
+      "translation": "동네 데이터에 따르면 올해 주택 가격이 꾸준히 상승했다.",
+      "vocab": "home price 주택 가격 · steadily 꾸준히"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_114",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "부사 어휘",
+    "sentence": "The front desk staff ------- greeted every guest with a smile.",
+    "choices": {
+      "A": "barely",
+      "B": "hardly",
+      "C": "warmly",
+      "D": "rarely"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "‘따뜻하게 맞이했다’는 의미가 자연스러우므로 (C) warmly가 정답이다.",
+      "translation": "프런트 데스크 직원들은 모든 투숙객을 따뜻하게 맞이했다.",
+      "vocab": "greet 맞이하다 · front desk 프런트 데스크"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_115",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "동사 어휘",
+    "sentence": "The renovation is intended to ------- the building’s energy consumption.",
+    "choices": {
+      "A": "absorb",
+      "B": "lower",
+      "C": "undergo",
+      "D": "overwhelm"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "‘건물의 에너지 소비를 낮추기 위해’라는 의미이므로 (B) lower가 정답이다.",
+      "translation": "그 리노베이션은 건물의 에너지 소비를 낮추기 위해 계획되었다.",
+      "vocab": "energy consumption 에너지 소비 · renovation 리노베이션"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_116",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "명사 자리 _ 전치사의 목적어",
+    "sentence": "The developer is responsible for the ------- of the shared amenities.",
+    "choices": {
+      "A": "maintain",
+      "B": "maintenance",
+      "C": "maintained",
+      "D": "maintainable"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "전치사 for의 목적어 역할을 하는 명사 자리이므로 (B) maintenance가 정답이다.",
+      "translation": "개발업체는 공용 편의시설의 유지 관리를 책임진다.",
+      "vocab": "shared amenities 공용 편의시설 · developer 개발업체"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_117",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "전치사 자리 _ 어휘",
+    "sentence": "Reservations can be modified ------- the hotel’s mobile app.",
+    "choices": {
+      "A": "through",
+      "B": "between",
+      "C": "except",
+      "D": "apart"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘호텔 모바일 앱을 통해’라는 수단의 의미이므로 (A) through가 정답이다.",
+      "translation": "예약은 호텔의 모바일 앱을 통해 변경할 수 있다.",
+      "vocab": "reservation 예약 · modify 변경하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_118",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "접속사 자리 _ 부사절 접속사",
+    "sentence": "------- the property is close to the airport, it remains fully booked.",
+    "choices": {
+      "A": "So that",
+      "B": "Since",
+      "C": "Because",
+      "D": "So"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "빈칸 뒤에 완전한 절이 오고 이유를 나타내야 하므로 (C) Because가 정답이다.",
+      "translation": "그 숙소는 공항과 가깝기 때문에 계속 만실이다.",
+      "vocab": "fully booked 만실인 · property 부동산, 숙소"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_119",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "동사 어휘",
+    "sentence": "Concierge staff are trained to ------- special requests from VIP guests.",
+    "choices": {
+      "A": "accommodate",
+      "B": "capture",
+      "C": "accumulate",
+      "D": "reply"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘VIP 투숙객의 특별 요청을 수용하도록 훈련받는다’는 의미이므로 (A) accommodate가 정답이다.",
+      "translation": "컨시어지 직원들은 VIP 투숙객의 특별 요청을 수용하도록 훈련받는다.",
+      "vocab": "request 요청 · accommodate 수용하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_120",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "부정대명사",
+    "sentence": "Two applicants toured the apartment, but ------- submitted an offer.",
+    "choices": {
+      "A": "myself",
+      "B": "neither",
+      "C": "anybody",
+      "D": "whoever"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "‘둘 다 제안서를 제출하지 않았다’는 부정의 의미이므로 (B) neither가 정답이다.",
+      "translation": "두 명의 지원자가 아파트를 둘러봤지만, 둘 다 제안서를 제출하지 않았다.",
+      "vocab": "submit an offer 제안서를 제출하다 · tour 둘러보다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_121",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "전치사 자리 _ 어휘",
+    "sentence": "The wedding proceeded outdoors ------- the light rain.",
+    "choices": {
+      "A": "even though",
+      "B": "however",
+      "C": "despite",
+      "D": "because"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "빈칸 뒤 명사구(the light rain)가 왔으므로 전치사가 필요하고 양보의 의미이므로 (C) despite가 정답이다.",
+      "translation": "가벼운 비에도 불구하고 결혼식은 야외에서 진행되었다.",
+      "vocab": "proceed 진행되다 · outdoors 야외에서"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_122",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "to부정사 _ 동사의 목적어",
+    "sentence": "The board voted to ------- the community center by next spring.",
+    "choices": {
+      "A": "renovate",
+      "B": "renovated",
+      "C": "renovating",
+      "D": "renovation"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "동사 voted의 목적어인 to부정사의 동사원형 자리이므로 (A) renovate가 정답이다.",
+      "translation": "이사회는 내년 봄까지 커뮤니티 센터를 리노베이션하기로 투표했다.",
+      "vocab": "community center 커뮤니티 센터 · vote 투표하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_123",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "형용사 어휘",
+    "sentence": "The realty firm takes a ------- approach to helping first-time buyers.",
+    "choices": {
+      "A": "disruptive",
+      "B": "supportive",
+      "C": "concerned",
+      "D": "reluctant"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "‘지원적인, 도와주는 방식’이라는 의미이므로 (B) supportive가 정답이다.",
+      "translation": "그 부동산 회사는 첫 주택 구매자를 돕는 데 있어 지원적인 방식을 취한다.",
+      "vocab": "first-time buyer 첫 주택 구매자 · approach 방식"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_124",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "명사 자리 _ 복합명사",
+    "sentence": "New parking ------- were added to accommodate residents’ vehicles.",
+    "choices": {
+      "A": "space",
+      "B": "spaces",
+      "C": "spaced",
+      "D": "spacing"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "문장에 동사(were added)가 있으므로 빈칸은 주어이자 복합명사인 복수명사 (B) spaces가 정답이다.",
+      "translation": "입주민들의 차량을 수용하기 위해 새로운 주차 공간이 추가되었다.",
+      "vocab": "resident 입주민 · vehicle 차량"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_125",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "부사 어휘",
+    "sentence": "Agents who follow up ------- with clients tend to close more deals.",
+    "choices": {
+      "A": "diligently",
+      "B": "scientifically",
+      "C": "objectively",
+      "D": "narrowly"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘고객과 성실하게 후속 연락을 하는 중개인’이라는 의미이므로 (A) diligently가 정답이다.",
+      "translation": "고객과 성실하게 후속 연락을 하는 중개인은 더 많은 거래를 성사시키는 경향이 있다.",
+      "vocab": "follow up 후속 연락을 하다 · close a deal 거래를 성사시키다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_126",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "명사 자리 _ 복합명사",
+    "sentence": "With its money-back ------- , Harlow Realty stands behind every transaction.",
+    "choices": {
+      "A": "guarantee",
+      "B": "guaranteed",
+      "C": "guaranteeing",
+      "D": "guarantor"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "전치사 With의 목적어이며 복합명사를 이루는 (A) guarantee가 정답이다.",
+      "translation": "환불 보장으로, 할로우 부동산은 모든 거래를 책임진다.",
+      "vocab": "transaction 거래 · stand behind 책임지다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_127",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "명사 어휘",
+    "sentence": "As senior property manager, Ms. Alvarez has earned great ------- among tenants.",
+    "choices": {
+      "A": "deduction",
+      "B": "duplication",
+      "C": "respect",
+      "D": "declaration"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "‘세입자들 사이에서 큰 존경을 받아왔다’는 의미이므로 (C) respect가 정답이다.",
+      "translation": "수석 관리인인 알바레즈 씨는 세입자들 사이에서 큰 존경을 받아왔다.",
+      "vocab": "senior property manager 수석 관리인 · earn 얻다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_128",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "접속사 자리 _ 부사절 접속사",
+    "sentence": "The inn stays fully booked ------- it is located outside the city center.",
+    "choices": {
+      "A": "up to",
+      "B": "as though",
+      "C": "each time",
+      "D": "even though"
+    },
+    "answer": "D",
+    "explanation": {
+      "note": "빈칸 뒤에 완전한 절이 오고 양보의 의미이므로 (D) even though가 정답이다.",
+      "translation": "그 여관은 도심 밖에 위치해 있음에도 불구하고 계속 만실이다.",
+      "vocab": "inn 여관 · located ~에 위치한"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_129",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "형용사 어휘",
+    "sentence": "The building’s cleaning supplies come from a single ------- vendor.",
+    "choices": {
+      "A": "financial",
+      "B": "promotional",
+      "C": "local",
+      "D": "chemical"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "‘지역 업체’라는 의미이므로 (C) local이 정답이다.",
+      "translation": "그 건물의 청소 용품은 단일 지역 업체에서 공급받는다.",
+      "vocab": "cleaning supplies 청소 용품 · vendor 업체"
+    }
+  },
+  {
+    "id": "PT5_TEMP_4_130",
+    "set": "TEST 4",
+    "theme": "부동산 / 호텔·숙박",
+    "type": "형용사 자리 _ 명사 수식",
+    "sentence": "For a $30 ------- fee, guests may request early check-in.",
+    "choices": {
+      "A": "added",
+      "B": "add",
+      "C": "addition",
+      "D": "adding"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "숫자 표현과 함께 명사 fee를 수식하는 (A) added가 정답이다.",
+      "translation": "30달러의 추가 요금을 내면, 투숙객은 조기 체크인을 요청할 수 있다.",
+      "vocab": "early check-in 조기 체크인 · request 요청하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_101",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "전치사 vs 접속사",
+    "sentence": "The system will remain offline ------- the update is installed.",
+    "choices": {
+      "A": "during",
+      "B": "until",
+      "C": "among",
+      "D": "toward"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "빈칸 뒤에 완전한 절이 왔으므로 접속사가 필요하며 ‘업데이트가 설치될 때까지’라는 의미의 (B) until이 정답이다.",
+      "translation": "업데이트가 설치될 때까지 시스템은 오프라인 상태로 유지될 것이다.",
+      "vocab": "offline 오프라인의 · install 설치하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_102",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "형용사 자리 _ 명사 수식",
+    "sentence": "The clinic adopted a ------- scheduling system to reduce patient wait times.",
+    "choices": {
+      "A": "digital",
+      "B": "digitize",
+      "C": "digitally",
+      "D": "digitization"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "명사 scheduling system을 수식하는 형용사 자리이므로 (A) digital이 정답이다.",
+      "translation": "그 병원은 환자 대기 시간을 줄이기 위해 디지털 예약 시스템을 도입했다.",
+      "vocab": "scheduling system 예약 시스템 · patient 환자"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_103",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "명사 어휘",
+    "sentence": "The IT department issued an ------- about the upcoming server outage.",
+    "choices": {
+      "A": "advisory",
+      "B": "invitation",
+      "C": "donation",
+      "D": "prediction"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘서버 중단에 대한 공지’라는 문맥이 자연스러우므로 (A) advisory가 정답이다.",
+      "translation": "IT 부서는 다가오는 서버 중단에 대해 공지를 발표했다.",
+      "vocab": "server outage 서버 중단 · upcoming 다가오는"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_104",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "인칭대명사의 격 _ 소유격",
+    "sentence": "Patients should bring ------- insurance card to every appointment.",
+    "choices": {
+      "A": "they",
+      "B": "them",
+      "C": "their",
+      "D": "theirs"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "명사구 insurance card를 수식하는 소유격 (C) their가 정답이다.",
+      "translation": "환자들은 모든 예약 진료에 그들의 보험 카드를 지참해야 한다.",
+      "vocab": "insurance card 보험 카드 · appointment 예약 진료"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_105",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "동사 어휘 _ to부정사의 목적어",
+    "sentence": "To ------- data breaches, the firm upgraded its encryption protocols.",
+    "choices": {
+      "A": "prevent",
+      "B": "release",
+      "C": "postpone",
+      "D": "resign"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘데이터 유출을 막기 위해’라는 문맥에 맞는 (A) prevent가 정답이다.",
+      "translation": "데이터 유출을 막기 위해, 그 회사는 암호화 프로토콜을 업그레이드했다.",
+      "vocab": "data breach 데이터 유출 · encryption 암호화"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_106",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "부사 자리 _ 동사 수식",
+    "sentence": "The nurse ------- explained the procedure to the anxious patient.",
+    "choices": {
+      "A": "patient",
+      "B": "patience",
+      "C": "patiently",
+      "D": "patiented"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "주어와 동사 사이에서 동사를 수식하는 부사 자리이므로 (C) patiently가 정답이다.",
+      "translation": "간호사는 불안해하는 환자에게 인내심을 가지고 절차를 설명했다.",
+      "vocab": "procedure 절차 · anxious 불안해하는"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_107",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "접속사 자리 _ 등위접속사",
+    "sentence": "The app tracks daily steps, ------- it does not monitor sleep patterns.",
+    "choices": {
+      "A": "but",
+      "B": "so",
+      "C": "or",
+      "D": "for"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "대조되는 두 절을 연결하는 등위접속사 (A) but이 정답이다.",
+      "translation": "그 앱은 일일 걸음 수를 추적하지만, 수면 패턴은 모니터링하지 않는다.",
+      "vocab": "track 추적하다 · monitor 모니터링하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_108",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "명사 자리 _ 복합명사",
+    "sentence": "The hospital’s new ------- policy allows patients to review their own charts online.",
+    "choices": {
+      "A": "transparent",
+      "B": "transparency",
+      "C": "transparently",
+      "D": "transparencies"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "빈칸은 명사 policy와 함께 복합명사를 이루는 명사 자리이므로 (B) transparency가 정답이다.",
+      "translation": "병원의 새로운 투명성 정책은 환자들이 온라인으로 자신의 차트를 열람할 수 있게 한다.",
+      "vocab": "chart 차트(진료기록) · review 검토하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_109",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "동사 자리 _ 수 일치",
+    "sentence": "Each application ------- extensive testing before release.",
+    "choices": {
+      "A": "undergo",
+      "B": "undergoes",
+      "C": "undergoing",
+      "D": "to undergo"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "주어 Each application이 단수이므로 (B) undergoes가 정답이다.",
+      "translation": "각 애플리케이션은 출시 전에 광범위한 테스트를 거친다.",
+      "vocab": "extensive 광범위한 · release 출시"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_110",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "동사 자리 _ 수동태",
+    "sentence": "All patient records ------- confidentially in accordance with privacy regulations.",
+    "choices": {
+      "A": "store",
+      "B": "stored",
+      "C": "are stored",
+      "D": "storing"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "records가 저장되는 대상이므로 수동태 (C) are stored가 정답이다.",
+      "translation": "모든 환자 기록은 개인정보 보호 규정에 따라 기밀로 보관된다.",
+      "vocab": "confidentially 기밀로 · in accordance with ~에 따라"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_111",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "부사 자리 _ 동사 수식",
+    "sentence": "User engagement has increased ------- since the app redesign.",
+    "choices": {
+      "A": "sharp",
+      "B": "sharply",
+      "C": "sharpness",
+      "D": "sharpened"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "동사 has increased를 수식하는 부사 자리이므로 (B) sharply가 정답이다.",
+      "translation": "앱 재설계 이후 사용자 참여도가 급격히 증가했다.",
+      "vocab": "engagement 참여도 · redesign 재설계"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_112",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "부사 자리 _ 형용사 수식",
+    "sentence": "The new interface is ------- intuitive for first-time users.",
+    "choices": {
+      "A": "especial",
+      "B": "especially",
+      "C": "especialness",
+      "D": "especialize"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "형용사 intuitive를 수식하는 (B) especially가 정답이다.",
+      "translation": "새 인터페이스는 처음 사용하는 사람들에게 특히 직관적이다.",
+      "vocab": "intuitive 직관적인 · interface 인터페이스"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_113",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "명사 어휘",
+    "sentence": "Clinical ------- shows that the new treatment reduces recovery time.",
+    "choices": {
+      "A": "evidence",
+      "B": "reception",
+      "C": "donation",
+      "D": "permission"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘임상 증거에 따르면’이라는 문맥이 자연스러우므로 (A) evidence가 정답이다.",
+      "translation": "임상 증거에 따르면 새로운 치료법은 회복 시간을 줄여준다.",
+      "vocab": "recovery time 회복 시간 · treatment 치료법"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_114",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "부사 어휘",
+    "sentence": "The security team ------- monitors the network for unusual activity.",
+    "choices": {
+      "A": "barely",
+      "B": "hardly",
+      "C": "continuously",
+      "D": "rarely"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "‘지속적으로 모니터링한다’는 의미가 자연스러우므로 (C) continuously가 정답이다.",
+      "translation": "보안팀은 비정상적인 활동이 있는지 네트워크를 지속적으로 모니터링한다.",
+      "vocab": "unusual activity 비정상적인 활동 · monitor 모니터링하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_115",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "동사 어휘",
+    "sentence": "The new algorithm is designed to ------- loading times by half.",
+    "choices": {
+      "A": "absorb",
+      "B": "cut",
+      "C": "undergo",
+      "D": "overwhelm"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "‘로딩 시간을 절반으로 줄이도록 설계되었다’는 의미이므로 (B) cut이 정답이다.",
+      "translation": "새 알고리즘은 로딩 시간을 절반으로 줄이도록 설계되었다.",
+      "vocab": "loading time 로딩 시간 · algorithm 알고리즘"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_116",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "명사 자리 _ 전치사의 목적어",
+    "sentence": "The startup is focused on the ------- of its mobile platform.",
+    "choices": {
+      "A": "optimize",
+      "B": "optimization",
+      "C": "optimized",
+      "D": "optimally"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "전치사 of의 목적어 역할을 하는 명사 자리이므로 (B) optimization이 정답이다.",
+      "translation": "그 스타트업은 모바일 플랫폼 최적화에 집중하고 있다.",
+      "vocab": "platform 플랫폼 · startup 스타트업"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_117",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "전치사 자리 _ 어휘",
+    "sentence": "Patients can access their test results ------- the hospital’s patient portal.",
+    "choices": {
+      "A": "through",
+      "B": "between",
+      "C": "except",
+      "D": "apart"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘병원 환자 포털을 통해’라는 수단의 의미이므로 (A) through가 정답이다.",
+      "translation": "환자들은 병원의 환자 포털을 통해 검사 결과를 확인할 수 있다.",
+      "vocab": "patient portal 환자 포털 · access 접근하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_118",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "접속사 자리 _ 부사절 접속사",
+    "sentence": "------- the clinic added evening hours, patient satisfaction has improved.",
+    "choices": {
+      "A": "So that",
+      "B": "Since",
+      "C": "Because",
+      "D": "So"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "빈칸 뒤에 완전한 절이 오고 ‘~한 이후로’라는 의미가 되어야 하므로 (B) Since가 정답이다.",
+      "translation": "병원이 저녁 진료 시간을 추가한 이후로, 환자 만족도가 개선되었다.",
+      "vocab": "evening hours 저녁 진료 시간 · satisfaction 만족도"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_119",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "동사 어휘",
+    "sentence": "IT support staff are trained to ------- technical issues quickly.",
+    "choices": {
+      "A": "resolve",
+      "B": "capture",
+      "C": "accumulate",
+      "D": "reply"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘기술적 문제를 신속하게 해결하도록 훈련받는다’는 의미이므로 (A) resolve가 정답이다.",
+      "translation": "IT 지원 직원들은 기술적 문제를 신속하게 해결하도록 훈련받는다.",
+      "vocab": "technical issue 기술적 문제 · support staff 지원 직원"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_120",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "부정대명사",
+    "sentence": "Two vendors proposed software solutions, but ------- met the budget requirements.",
+    "choices": {
+      "A": "myself",
+      "B": "neither",
+      "C": "anybody",
+      "D": "whoever"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "‘둘 다 예산 요건을 충족하지 못했다’는 부정의 의미이므로 (B) neither가 정답이다.",
+      "translation": "두 업체가 소프트웨어 솔루션을 제안했지만, 둘 다 예산 요건을 충족하지 못했다.",
+      "vocab": "budget requirement 예산 요건 · propose 제안하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_121",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "전치사 자리 _ 어휘",
+    "sentence": "The clinical trial proceeded on schedule ------- the funding delay.",
+    "choices": {
+      "A": "even though",
+      "B": "however",
+      "C": "despite",
+      "D": "because"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "빈칸 뒤 명사구(the funding delay)가 왔으므로 전치사가 필요하고 양보의 의미이므로 (C) despite가 정답이다.",
+      "translation": "자금 지원 지연에도 불구하고 임상시험은 예정대로 진행되었다.",
+      "vocab": "clinical trial 임상시험 · funding 자금 지원"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_122",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "to부정사 _ 동사의 목적어",
+    "sentence": "The company plans to ------- its cybersecurity infrastructure this year.",
+    "choices": {
+      "A": "strengthen",
+      "B": "strengthened",
+      "C": "strengthening",
+      "D": "strength"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "동사 plans의 목적어인 to부정사의 동사원형 자리이므로 (A) strengthen이 정답이다.",
+      "translation": "그 회사는 올해 사이버보안 인프라를 강화할 계획이다.",
+      "vocab": "cybersecurity 사이버보안 · infrastructure 인프라"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_123",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "형용사 어휘",
+    "sentence": "The hospital adopted a more ------- approach to patient care.",
+    "choices": {
+      "A": "disruptive",
+      "B": "personalized",
+      "C": "concerned",
+      "D": "reluctant"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "‘환자 케어에 있어 더 개인 맞춤화된 방식’이라는 의미이므로 (B) personalized가 정답이다.",
+      "translation": "그 병원은 환자 케어에 있어 더 개인 맞춤화된 방식을 채택했다.",
+      "vocab": "patient care 환자 케어 · adopt 채택하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_124",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "명사 자리 _ 복합명사",
+    "sentence": "New security ------- were implemented following the data breach.",
+    "choices": {
+      "A": "measure",
+      "B": "measures",
+      "C": "measured",
+      "D": "measuring"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "문장에 동사(were implemented)가 있으므로 빈칸은 주어이자 복합명사인 복수명사 (B) measures가 정답이다.",
+      "translation": "데이터 유출 이후 새로운 보안 조치가 시행되었다.",
+      "vocab": "implement 시행하다 · data breach 데이터 유출"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_125",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "부사 어휘",
+    "sentence": "Developers who test their code ------- catch fewer bugs in production.",
+    "choices": {
+      "A": "diligently",
+      "B": "scientifically",
+      "C": "objectively",
+      "D": "narrowly"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "‘성실하게 코드를 테스트하는 개발자’라는 의미이므로 (A) diligently가 정답이다.",
+      "translation": "자신의 코드를 성실하게 테스트하는 개발자는 실제 운영 환경에서 더 적은 버그를 발견한다.",
+      "vocab": "bug 버그 · production 실제 운영 환경"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_126",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "명사 자리 _ 복합명사",
+    "sentence": "With its round-the-clock ------- system, Verita Health monitors patients remotely.",
+    "choices": {
+      "A": "monitor",
+      "B": "monitoring",
+      "C": "monitored",
+      "D": "monitors"
+    },
+    "answer": "B",
+    "explanation": {
+      "note": "명사 system과 함께 복합명사를 이루는 (B) monitoring이 정답이다.",
+      "translation": "24시간 모니터링 시스템으로, 베리타 헬스는 환자들을 원격으로 관찰한다.",
+      "vocab": "remotely 원격으로 · round-the-clock 24시간 계속되는"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_127",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "명사 어휘",
+    "sentence": "As chief technology officer, Mr. Nakamura has earned great ------- for his innovative solutions.",
+    "choices": {
+      "A": "deduction",
+      "B": "duplication",
+      "C": "recognition",
+      "D": "declaration"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "‘혁신적인 해결책으로 큰 인정을 받아왔다’는 의미이므로 (C) recognition이 정답이다.",
+      "translation": "최고기술책임자인 나카무라 씨는 혁신적인 해결책으로 큰 인정을 받아왔다.",
+      "vocab": "chief technology officer 최고기술책임자 · innovative 혁신적인"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_128",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "접속사 자리 _ 부사절 접속사",
+    "sentence": "The clinic remains short-staffed ------- it recently hired three new nurses.",
+    "choices": {
+      "A": "up to",
+      "B": "as though",
+      "C": "each time",
+      "D": "even though"
+    },
+    "answer": "D",
+    "explanation": {
+      "note": "빈칸 뒤에 완전한 절이 오고 ‘최근 간호사 세 명을 새로 고용했음에도 불구하고’라는 양보의 의미이므로 (D) even though가 정답이다.",
+      "translation": "최근 간호사 세 명을 새로 고용했음에도 불구하고, 그 병원은 여전히 인력이 부족하다.",
+      "vocab": "short-staffed 인력이 부족한 · hire 고용하다"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_129",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "형용사 어휘",
+    "sentence": "The lab’s testing equipment comes from a single ------- manufacturer.",
+    "choices": {
+      "A": "financial",
+      "B": "promotional",
+      "C": "domestic",
+      "D": "chemical"
+    },
+    "answer": "C",
+    "explanation": {
+      "note": "‘국내 제조업체’라는 의미이므로 (C) domestic이 정답이다.",
+      "translation": "그 실험실의 검사 장비는 단일 국내 제조업체에서 나온다.",
+      "vocab": "testing equipment 검사 장비 · manufacturer 제조업체"
+    }
+  },
+  {
+    "id": "PT5_TEMP_5_130",
+    "set": "TEST 5",
+    "theme": "IT / 금융 / 헬스케어",
+    "type": "형용사 자리 _ 명사 수식",
+    "sentence": "For a $20 ------- fee, patients may request expedited lab results.",
+    "choices": {
+      "A": "added",
+      "B": "add",
+      "C": "addition",
+      "D": "adding"
+    },
+    "answer": "A",
+    "explanation": {
+      "note": "숫자 표현과 함께 명사 fee를 수식하는 (A) added가 정답이다.",
+      "translation": "20달러의 추가 요금을 내면, 환자는 신속한 검사 결과를 요청할 수 있다.",
+      "vocab": "expedited 신속히 처리된 · lab result 검사 결과"
+    }
+  }
+]

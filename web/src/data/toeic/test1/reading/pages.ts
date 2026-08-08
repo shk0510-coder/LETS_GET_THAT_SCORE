@@ -1,3 +1,4 @@
+import { standardPart5Pages } from "@/data/toeic/readingPart5Layout";
 import { PART6_SETS, PART7_DOUBLE_SETS, PART7_SINGLE_SETS, PART7_TRIPLE_SETS } from "./passages";
 import { ReadingPageDef } from "./types";
 
@@ -7,9 +8,11 @@ function range(start: number, end: number): number[] {
 
 const PAGES_RAW: Omit<ReadingPageDef, "index">[] = [
   // Part 5 — Incomplete Sentences (intro + directions on P1)
-  { part: 5, layout: "part5", showDirections: true, questionIds: range(101, 108) },
-  { part: 5, layout: "part5", showDirections: false, questionIds: range(109, 120) },
-  { part: 5, layout: "part5", showDirections: false, questionIds: range(121, 130) },
+  ...standardPart5Pages(range(101, 130)).map((p) => ({
+    ...p,
+    part: 5 as const,
+    layout: "part5" as const,
+  })),
 
   // Part 6 — Text Completion (directions on P4), one set per page
   { part: 6, layout: "part6", showDirections: true, questionIds: PART6_SETS[0].questionIds, set: PART6_SETS[0] },
