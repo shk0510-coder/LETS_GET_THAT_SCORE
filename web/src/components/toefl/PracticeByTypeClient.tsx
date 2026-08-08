@@ -36,13 +36,18 @@ export function PracticeByTypeClient() {
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
         {Array.from({ length: activeType.count }, (_, i) => i + 1).map((n) => {
-          const isReady = activeSection === "reading" && activeTypeIndex === 0 && n <= 5;
+          const isCompleteWords = activeSection === "reading" && activeTypeIndex === 0 && n <= 5;
+          const isDailyLife = activeSection === "reading" && activeTypeIndex === 1 && n <= 5;
+          const isReady = isCompleteWords || isDailyLife;
+          const href = isCompleteWords
+            ? `/toefl/practice/reading/complete-the-words/${n}`
+            : `/toefl/practice/reading/daily-life/${n}`;
           return isReady ? (
             <TestTile
               key={n}
               number={n < 10 ? `0${n}` : `${n}`}
               label={`Practice ${n}`}
-              href={`/toefl/practice/reading/complete-the-words/${n}`}
+              href={href}
             />
           ) : (
             <TestTile

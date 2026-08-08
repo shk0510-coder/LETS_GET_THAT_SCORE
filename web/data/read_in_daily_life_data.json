@@ -1,0 +1,372 @@
+[
+  {
+    "id": "RIDL_TEMP_1",
+    "docType": "Email",
+    "title": "PulseFit Membership Cancellation",
+    "passage": "Subject: Your PulseFit Membership Cancellation\n\nDear Ms. Alvarez,\n\nThank you for contacting our support team regarding your recent request to cancel your PulseFit Premium membership. We're sorry to see you go, but we want to make sure the process is as smooth as possible.\n\nYour cancellation has been processed and will take effect at the end of your current billing cycle on March 15. Until then, you will continue to have full access to all premium features, including personalized workout plans and live coaching sessions. Please note that under our refund policy, partial refunds are only issued if a request is submitted within seven days of the most recent charge; since your last payment was made twenty-two days ago, we are unable to offer a refund for this period.\n\nIf you change your mind before March 15, simply log into your account and select \"Reactivate Membership,\" and no further action will be required. We hope to welcome you back in the future.\n\nBest regards,\nCustomer Support Team, PulseFit",
+    "translation": "제목: PulseFit 회원 해지 안내\n\n알바레즈 님께,\n\nPulseFit 프리미엄 멤버십 해지 요청과 관련해 저희 고객지원팀에 연락 주셔서 감사합니다. 떠나신다니 아쉽지만, 절차가 최대한 매끄럽게 진행되도록 안내해 드리겠습니다.\n\n고객님의 해지 요청은 처리되었으며, 현재 결제 주기가 끝나는 3월 15일부터 효력이 발생합니다. 그때까지는 맞춤 운동 계획과 실시간 코칭 세션을 포함한 모든 프리미엄 기능을 계속 이용하실 수 있습니다. 저희 환불 정책상, 부분 환불은 가장 최근 결제일로부터 7일 이내에 요청이 접수된 경우에만 제공되는데, 고객님의 마지막 결제는 22일 전에 이루어졌으므로 이번 기간에 대한 환불은 제공해 드릴 수 없습니다.\n\n3월 15일 이전에 마음이 바뀌시면, 계정에 로그인하여 '멤버십 재활성화'를 선택하시기만 하면 되며 별도 절차는 필요 없습니다. 앞으로 다시 뵐 수 있기를 바랍니다.\n\nPulseFit 고객지원팀 드림",
+    "questions": [
+      {
+        "no": 1,
+        "qtype": "Main Purpose",
+        "q": "Why did the Customer Support Team send this email to Ms. Alvarez?",
+        "choices": [
+          "To offer her a discount on renewing her membership",
+          "To confirm that her cancellation request has been processed",
+          "To notify her about a new refund policy",
+          "To ask her to verify her billing information"
+        ],
+        "answer": "B",
+        "note": "지문 초반에 해지 요청이 접수되어 처리되었음을 안내하는 내용이 나오므로, 이메일의 주된 목적은 '해지 처리를 확인해주는 것'이다."
+      },
+      {
+        "no": 2,
+        "qtype": "Detail",
+        "q": "According to the email, what will happen on March 15?",
+        "choices": [
+          "Ms. Alvarez will be charged for another billing cycle.",
+          "Ms. Alvarez's premium access will end.",
+          "Ms. Alvarez will receive a partial refund.",
+          "Ms. Alvarez's account will be permanently deleted."
+        ],
+        "answer": "B",
+        "note": "'will take effect at the end of your current billing cycle on March 15'라고 언급되어, 3월 15일에 해지가 발효되어 프리미엄 기능 이용이 종료됨을 알 수 있다."
+      },
+      {
+        "no": 3,
+        "qtype": "Negative Fact",
+        "q": "All of the following are mentioned in the email EXCEPT:",
+        "choices": [
+          "A way to reactivate the membership",
+          "The reason a refund cannot be issued",
+          "The exact date the cancellation takes effect",
+          "A discount available for early cancellation"
+        ],
+        "answer": "D",
+        "note": "재활성화 방법, 환불 불가 사유, 해지 발효일은 모두 지문에 언급되지만, 조기 해지 할인에 대한 언급은 없다."
+      },
+      {
+        "no": 4,
+        "qtype": "Vocabulary",
+        "q": "The word \"issued\" in the passage is closest in meaning to",
+        "choices": [
+          "requested",
+          "provided",
+          "delayed",
+          "canceled"
+        ],
+        "answer": "B",
+        "note": "'partial refunds are only issued if...'는 '환불이 제공되다'라는 의미이므로 provided(제공되다)가 가장 가깝다."
+      },
+      {
+        "no": 5,
+        "qtype": "Inference",
+        "q": "What can be inferred about Ms. Alvarez's last payment?",
+        "choices": [
+          "It was made more than a week before she requested cancellation.",
+          "It was refunded in full.",
+          "It occurred after she contacted customer support.",
+          "It was charged in error."
+        ],
+        "answer": "A",
+        "note": "환불은 최근 결제 후 7일 이내 요청 시에만 가능한데, 마지막 결제가 22일 전이라 환불이 불가하다고 했으므로 결제가 요청 시점보다 훨씬 이전에 이루어졌음을 추론할 수 있다."
+      }
+    ]
+  },
+  {
+    "id": "RIDL_TEMP_2",
+    "docType": "Notice",
+    "title": "Annual Parking Garage Maintenance",
+    "passage": "NOTICE: Annual Parking Garage Maintenance\n\nTo All Residents of Willowbrook Apartments,\n\nManagement would like to inform residents that the underground parking garage will undergo its annual maintenance and repainting from Monday, June 9 to Friday, June 13. During this period, the garage will be closed each day from 9:00 A.M. to 4:00 P.M., though residents may still enter and exit outside these hours.\n\nResidents who need daytime parking during the closure are encouraged to use the temporary lot located behind Building C, which will be available free of charge for the duration of the project. Please note that street parking near the main entrance is prohibited under city regulations and may result in a fine.\n\nVehicles remaining in the garage during working hours on any of these days must be moved by 8:45 A.M. or they may be temporarily relocated by the maintenance crew. We apologize for any inconvenience and appreciate your cooperation in keeping our facilities well maintained.\n\nManagement Office, Willowbrook Apartments",
+    "translation": "공지: 연례 주차장 정비\n\n윌로우브룩 아파트 전체 입주민께,\n\n관리사무소는 지하 주차장이 6월 9일 월요일부터 6월 13일 금요일까지 연례 정비 및 도색 작업을 진행할 예정임을 안내드립니다. 이 기간 동안 주차장은 매일 오전 9시부터 오후 4시까지 폐쇄되며, 그 외 시간에는 입주민들이 계속 출입하실 수 있습니다.\n\n폐쇄 기간 동안 낮 시간 주차가 필요하신 분들은 C동 뒤편에 마련된 임시 주차장을 이용하실 것을 권장드리며, 공사 기간 동안 무료로 이용하실 수 있습니다. 정문 근처 노상 주차는 시 규정상 금지되어 있으며 벌금이 부과될 수 있으니 유의해 주시기 바랍니다.\n\n해당 기간 근무 시간 중 주차장에 남아 있는 차량은 오전 8시 45분까지 이동해 주셔야 하며, 그렇지 않을 경우 정비팀에 의해 일시적으로 이동 조치될 수 있습니다. 불편을 드려 죄송하며, 시설을 잘 관리할 수 있도록 협조해 주셔서 감사합니다.\n\n윌로우브룩 아파트 관리사무소",
+    "questions": [
+      {
+        "no": 1,
+        "qtype": "Main Topic",
+        "q": "What is the notice mainly about?",
+        "choices": [
+          "A change in monthly parking fees",
+          "A temporary closure of the parking garage for maintenance",
+          "New parking regulations for street parking",
+          "The construction of a new parking building"
+        ],
+        "answer": "B",
+        "note": "지문 전체가 주차장이 정비를 위해 특정 기간 동안 일시적으로 폐쇄된다는 내용을 안내하고 있다."
+      },
+      {
+        "no": 2,
+        "qtype": "Detail",
+        "q": "According to the notice, what will happen if a resident's car remains in the garage during working hours?",
+        "choices": [
+          "The resident will be charged a fine.",
+          "The car may be moved by the maintenance crew.",
+          "The resident will lose their parking spot permanently.",
+          "The car will be towed to the temporary lot."
+        ],
+        "answer": "B",
+        "note": "'they may be temporarily relocated by the maintenance crew'라고 명시되어 있어, 정비팀이 차량을 일시적으로 이동시킬 수 있음을 알 수 있다."
+      },
+      {
+        "no": 3,
+        "qtype": "Negative Fact",
+        "q": "All of the following are true about the temporary parking lot EXCEPT:",
+        "choices": [
+          "It is located behind Building C.",
+          "It will be free of charge.",
+          "It requires prior reservation.",
+          "It is available for the duration of the maintenance project."
+        ],
+        "answer": "C",
+        "note": "위치, 무료 이용, 공사 기간 동안 이용 가능하다는 점은 모두 언급되었지만, 사전 예약이 필요하다는 내용은 지문에 없다."
+      },
+      {
+        "no": 4,
+        "qtype": "Vocabulary",
+        "q": "The word \"prohibited\" in the passage is closest in meaning to",
+        "choices": [
+          "permitted",
+          "monitored",
+          "banned",
+          "recommended"
+        ],
+        "answer": "C",
+        "note": "'street parking... is prohibited under city regulations'는 '금지되다'라는 의미이므로 banned(금지된)가 가장 가깝다."
+      },
+      {
+        "no": 5,
+        "qtype": "Inference",
+        "q": "What can be inferred about residents who park in the garage before 9:00 A.M.?",
+        "choices": [
+          "They must move their cars by 8:45 A.M.",
+          "They will not be affected by the maintenance schedule during that time.",
+          "They will be charged an extra fee.",
+          "They must use the temporary lot instead."
+        ],
+        "answer": "B",
+        "note": "주차장은 매일 오전 9시부터 오후 4시까지만 폐쇄되므로, 그 이전 시간에는 정비 일정의 영향을 받지 않는다고 추론할 수 있다."
+      }
+    ]
+  },
+  {
+    "id": "RIDL_TEMP_3",
+    "docType": "Advertisement",
+    "title": "Cedar & Page Bookstore Anniversary Sale",
+    "passage": "CEDAR & PAGE BOOKSTORE — 10TH ANNIVERSARY SALE\n\nTo celebrate ten years of serving book lovers in the community, Cedar & Page Bookstore is hosting a special anniversary sale from Saturday, October 4 to Sunday, October 12. All hardcover fiction titles will be discounted by 30 percent, and select paperback classics will be available at half price.\n\nCustomers who join our new Reader's Circle loyalty program during the sale will receive a complimentary tote bag and begin earning points immediately on all future purchases, redeemable for store credit once they reach 500 points. Membership is free and can be activated at checkout with a valid email address.\n\nOn both weekends of the sale, local authors will host book signings and short readings in the café area starting at 2:00 P.M. Seating is limited, so early arrival is recommended. Additionally, any customer who spends over $75 in a single visit will receive a $10 gift card toward their next purchase, valid through the end of the year.\n\nWe look forward to celebrating this milestone with our loyal readers.",
+    "translation": "시더 앤 페이지 서점 — 10주년 기념 세일\n\n지역 독자들과 함께한 10년을 기념하여, 시더 앤 페이지 서점은 10월 4일 토요일부터 10월 12일 일요일까지 특별 기념 세일을 진행합니다. 모든 하드커버 소설은 30퍼센트 할인되며, 일부 페이퍼백 고전 도서는 반값에 구매하실 수 있습니다.\n\n세일 기간 중 신설된 '리더스 서클' 멤버십에 가입하시는 고객께는 무료 토트백을 증정하며, 이후 모든 구매에 대해 즉시 포인트가 적립되어 500포인트가 되면 매장 적립금으로 전환하실 수 있습니다. 멤버십은 무료이며 계산대에서 유효한 이메일 주소로 즉시 가입하실 수 있습니다.\n\n세일 기간의 두 주말 모두, 지역 작가들이 오후 2시부터 카페 구역에서 사인회와 짧은 낭독회를 진행합니다. 좌석이 한정되어 있으니 일찍 도착하시는 것을 권장드립니다. 또한 한 번의 방문에서 75달러 이상 구매하시는 고객께는 연말까지 사용 가능한 10달러 상품권을 드립니다.\n\n소중한 독자 여러분과 이 뜻깊은 순간을 함께하기를 기대합니다.",
+    "questions": [
+      {
+        "no": 1,
+        "qtype": "Main Purpose",
+        "q": "What is the main purpose of this advertisement?",
+        "choices": [
+          "To announce the opening of a new bookstore location",
+          "To promote a sale celebrating the store's anniversary",
+          "To recruit local authors for future events",
+          "To explain changes to the store's return policy"
+        ],
+        "answer": "B",
+        "note": "지문 전체가 서점 10주년을 기념하는 세일 행사를 홍보하는 내용으로 구성되어 있다."
+      },
+      {
+        "no": 2,
+        "qtype": "Detail",
+        "q": "According to the advertisement, what happens when a customer earns 500 points?",
+        "choices": [
+          "They receive a free tote bag.",
+          "They can redeem the points for store credit.",
+          "They are invited to a private book signing.",
+          "They receive a $10 gift card automatically."
+        ],
+        "answer": "B",
+        "note": "'redeemable for store credit once they reach 500 points'라고 언급되어, 500포인트를 모으면 매장 적립금으로 전환할 수 있음을 알 수 있다."
+      },
+      {
+        "no": 3,
+        "qtype": "Negative Fact",
+        "q": "All of the following are mentioned as part of the anniversary sale EXCEPT:",
+        "choices": [
+          "A discount on hardcover fiction titles",
+          "A free loyalty program membership",
+          "Book signings with local authors",
+          "Free shipping on all online orders"
+        ],
+        "answer": "D",
+        "note": "하드커버 할인, 무료 멤버십, 작가 사인회는 모두 언급되지만, 온라인 주문 무료 배송에 대한 내용은 없다."
+      },
+      {
+        "no": 4,
+        "qtype": "Vocabulary",
+        "q": "The word \"redeemable\" in the passage is closest in meaning to",
+        "choices": [
+          "exchangeable",
+          "refundable",
+          "valuable",
+          "applicable"
+        ],
+        "answer": "A",
+        "note": "'redeemable for store credit'는 포인트를 다른 가치(적립금)로 '교환할 수 있는'이라는 의미이므로 exchangeable이 가장 가깝다."
+      },
+      {
+        "no": 5,
+        "qtype": "Inference",
+        "q": "What can be inferred about customers who arrive late to the book signing events?",
+        "choices": [
+          "They will not be permitted to enter the café area.",
+          "They may not be able to find a seat.",
+          "They will receive a discount as compensation.",
+          "They will be added to a waiting list automatically."
+        ],
+        "answer": "B",
+        "note": "'Seating is limited, so early arrival is recommended'라는 문구를 통해, 늦게 도착하면 좌석을 구하지 못할 수 있음을 추론할 수 있다."
+      }
+    ]
+  },
+  {
+    "id": "RIDL_TEMP_4",
+    "docType": "Product Review",
+    "title": "Sona Air Wireless Earbuds Review",
+    "passage": "Product Review: Sona Air Wireless Earbuds\n★★★☆☆ Solid Sound, Frustrating App\nby Marcus Whitfield\n\nI've used these earbuds daily for about a month now, and the sound quality genuinely impressed me — the bass is rich without overpowering the vocals, and the noise cancellation works well on crowded trains. Battery life is also excellent, lasting a full workday on a single charge.\n\nMy main frustration is with the companion app, which is required to customize the sound settings. It frequently fails to connect, and even when it does, adjustments I make often don't save properly. I've had to reset the earbuds to factory settings twice just to fix this issue. Customer support acknowledged the problem exists in a firmware update they promised for last month, but as of today, it still hasn't been released.\n\nIf the company fixes the app, this product would easily earn five stars. As it stands, I'd recommend waiting for the software issues to be resolved before purchasing, unless you don't mind occasionally troubleshooting a stubborn app.",
+    "translation": "제품 리뷰: 소나 에어 무선 이어버드\n★★★☆☆ 훌륭한 음질, 답답한 앱\n마커스 휘트필드 작성\n\n한 달 정도 매일 이 이어버드를 사용해봤는데, 음질에는 정말 감명받았습니다 — 베이스가 풍부하면서도 보컬을 압도하지 않고, 사람 많은 지하철에서도 노이즈 캔슬링이 잘 작동합니다. 배터리 수명도 훌륭해서 한 번 충전으로 하루 종일 사용할 수 있습니다.\n\n가장 불만스러운 부분은 음향 설정을 커스터마이징하는 데 필요한 전용 앱입니다. 연결이 자주 끊기고, 연결이 되더라도 제가 조정한 설정이 제대로 저장되지 않는 경우가 많습니다. 이 문제를 해결하기 위해 이어버드를 공장 초기화한 것도 두 번이나 됩니다. 고객지원팀은 이 문제가 존재한다는 것을 인정하며 지난달 펌웨어 업데이트를 약속했지만, 오늘까지도 출시되지 않았습니다.\n\n회사가 앱 문제를 고친다면 이 제품은 별 다섯 개를 받아 마땅합니다. 현재로서는, 가끔 말썽 부리는 앱을 다루는 게 괜찮으신 게 아니라면 소프트웨어 문제가 해결될 때까지 구매를 미루시길 추천합니다.",
+    "questions": [
+      {
+        "no": 1,
+        "qtype": "Main Purpose",
+        "q": "What is the main point of Mr. Whitfield's review?",
+        "choices": [
+          "The earbuds have excellent sound but a problematic companion app.",
+          "The earbuds are not worth the price due to poor sound quality.",
+          "The company has stopped offering customer support for this product.",
+          "The earbuds are only suitable for use during workouts."
+        ],
+        "answer": "A",
+        "note": "리뷰 전반에서 음질은 훌륭하지만 전용 앱에 문제가 있다는 상반된 평가가 핵심 내용으로 제시된다."
+      },
+      {
+        "no": 2,
+        "qtype": "Detail",
+        "q": "According to the review, what did customer support say about the app issue?",
+        "choices": [
+          "It cannot be fixed with a firmware update.",
+          "A firmware update was promised but has not been released.",
+          "The issue only affects certain models.",
+          "The issue has already been resolved."
+        ],
+        "answer": "B",
+        "note": "'they promised for last month, but as of today, it still hasn't been released'라고 언급되어, 펌웨어 업데이트가 약속되었지만 아직 출시되지 않았음을 알 수 있다."
+      },
+      {
+        "no": 3,
+        "qtype": "Negative Fact",
+        "q": "All of the following are mentioned as strengths of the earbuds EXCEPT:",
+        "choices": [
+          "Battery life",
+          "Noise cancellation",
+          "Companion app reliability",
+          "Sound quality"
+        ],
+        "answer": "C",
+        "note": "배터리, 노이즈 캔슬링, 음질은 모두 장점으로 언급되지만, 전용 앱은 오히려 단점으로 지적된다."
+      },
+      {
+        "no": 4,
+        "qtype": "Vocabulary",
+        "q": "The word \"stubborn\" in the passage is closest in meaning to",
+        "choices": [
+          "outdated",
+          "persistent",
+          "expensive",
+          "simple"
+        ],
+        "answer": "B",
+        "note": "'troubleshooting a stubborn app'은 계속 문제를 일으키는, 즉 '끈질긴/고집스러운' 앱이라는 의미이므로 persistent가 가장 가깝다."
+      },
+      {
+        "no": 5,
+        "qtype": "Inference",
+        "q": "What can be inferred about the reviewer's rating of the product?",
+        "choices": [
+          "He would raise his rating if the app problems were fixed.",
+          "He believes the sound quality needs significant improvement.",
+          "He does not plan to continue using the earbuds.",
+          "He thinks the price is too high for the features offered."
+        ],
+        "answer": "A",
+        "note": "'If the company fixes the app, this product would easily earn five stars'라는 문장을 통해, 앱 문제만 해결되면 평점을 올릴 의향이 있음을 추론할 수 있다."
+      }
+    ]
+  },
+  {
+    "id": "RIDL_TEMP_5",
+    "docType": "Webpage (FAQ)",
+    "title": "New E-Book Lending Policy FAQ",
+    "passage": "Frequently Asked Questions: New E-Book Lending Policy\n\nStarting next month, Fairview Public Library will update how digital lending works for e-books and audiobooks. Under the new system, patrons will be able to borrow up to eight digital titles at once, an increase from the previous limit of four. Loan periods will remain fourteen days for e-books and twenty-one days for audiobooks.\n\nA new feature allows patrons to place items on hold directly from their phones through the library's mobile app, with notifications sent automatically once a title becomes available. Holds will be reserved for 48 hours before being released to the next patron in line.\n\nPatrons who accumulate more than three overdue digital items will temporarily lose borrowing privileges until the items are returned or expire automatically. This policy does not apply to physical books, which will continue to follow existing overdue procedures.\n\nFor questions about setting up the mobile app or troubleshooting download issues, patrons may visit the help desk on the second floor or contact support through the library's website.",
+    "translation": "자주 묻는 질문: 새로운 전자책 대출 정책\n\n다음 달부터 페어뷰 공공도서관은 전자책과 오디오북의 디지털 대출 방식을 개편합니다. 새 시스템에서는 이용자가 한 번에 최대 8권의 디지털 도서를 대출할 수 있으며, 이는 기존 4권에서 늘어난 것입니다. 대출 기간은 전자책 14일, 오디오북 21일로 그대로 유지됩니다.\n\n새로운 기능으로, 이용자는 도서관 모바일 앱을 통해 휴대폰에서 바로 도서를 예약할 수 있으며, 예약한 도서가 이용 가능해지면 자동으로 알림이 전송됩니다. 예약 도서는 48시간 동안 보관된 후 대기 중인 다음 이용자에게 넘어갑니다.\n\n디지털 대출 연체 도서가 3권을 초과하는 이용자는 해당 도서가 반납되거나 자동 만료될 때까지 일시적으로 대출 권한을 잃게 됩니다. 이 정책은 종이책에는 적용되지 않으며, 종이책은 기존 연체 절차를 그대로 따릅니다.\n\n모바일 앱 설정이나 다운로드 문제에 대한 문의는 2층 안내데스크를 방문하시거나 도서관 웹사이트를 통해 문의하실 수 있습니다.",
+    "questions": [
+      {
+        "no": 1,
+        "qtype": "Main Purpose",
+        "q": "What is the main purpose of this webpage?",
+        "choices": [
+          "To announce the closure of the library's help desk",
+          "To explain changes to the library's digital lending policy",
+          "To promote a new mobile app for browsing physical books",
+          "To describe how to renew an overdue physical book"
+        ],
+        "answer": "B",
+        "note": "지문 전체가 새로운 디지털(전자책·오디오북) 대출 정책의 변경 사항을 설명하고 있다."
+      },
+      {
+        "no": 2,
+        "qtype": "Detail",
+        "q": "According to the webpage, how long will a hold be reserved before being released?",
+        "choices": [
+          "14 days",
+          "21 days",
+          "48 hours",
+          "8 days"
+        ],
+        "answer": "C",
+        "note": "'Holds will be reserved for 48 hours before being released to the next patron in line'라고 명시되어 있다."
+      },
+      {
+        "no": 3,
+        "qtype": "Negative Fact",
+        "q": "All of the following are true about the new lending policy EXCEPT:",
+        "choices": [
+          "Patrons can borrow up to eight digital titles at once.",
+          "The loan period for audiobooks is longer than for e-books.",
+          "Overdue physical books will follow the new digital overdue policy.",
+          "Notifications are sent when a held title becomes available."
+        ],
+        "answer": "C",
+        "note": "'This policy does not apply to physical books, which will continue to follow existing overdue procedures'라고 명시되어, 종이책은 기존 절차를 그대로 따른다고 했으므로 C는 사실과 반대된다."
+      },
+      {
+        "no": 4,
+        "qtype": "Reference",
+        "q": "In the sentence \"This policy does not apply to physical books,\" what does the word \"This\" refer to?",
+        "choices": [
+          "The mobile app notification system",
+          "The overdue digital item policy",
+          "The fourteen-day loan period",
+          "The hold reservation system"
+        ],
+        "answer": "B",
+        "note": "바로 앞 문장에서 연체 디지털 도서 3권 초과 시 대출 권한이 제한된다는 정책을 설명한 뒤 'This policy'로 받고 있으므로, 연체 디지털 도서 정책을 가리킨다."
+      },
+      {
+        "no": 5,
+        "qtype": "Inference",
+        "q": "What can be inferred about a patron who currently borrows only physical books?",
+        "choices": [
+          "They will not be affected by the changes described on this page.",
+          "They will be required to download the mobile app.",
+          "They will lose borrowing privileges under the new system.",
+          "They must switch to digital lending within 48 hours."
+        ],
+        "answer": "A",
+        "note": "새 정책은 디지털 대출에만 적용되고 종이책은 기존 절차를 유지하므로, 종이책만 이용하는 사람은 이번 변경의 영향을 받지 않는다고 추론할 수 있다."
+      }
+    ]
+  }
+]
